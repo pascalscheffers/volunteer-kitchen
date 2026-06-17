@@ -1,0 +1,20 @@
+# Recipes
+
+Reusable, year-agnostic recipe cards — one `.md` per dish. A year's meal plan
+links to these with a relative link (e.g. `../recipes/focaccia.md`); recipes
+themselves stay free of any single event's specifics so they can be cooked
+again next year.
+
+## Index
+
+| Recipe | Cuisine | Course | Notes |
+|---|---|---|---|
+| _(none yet — add your first below)_ | | | |
+
+## Adding a recipe
+
+1. Copy [`TEMPLATE.md`](TEMPLATE.md) to `recipes/<slug>.md` (lowercase,
+   hyphenated — e.g. `garlic-focaccia.md`).
+2. Fill it in. Drop any photo into [`images/`](images/) and reference it by
+   relative path inside the card (`![dish](images/<slug>.jpg)`).
+3. Add a row to the index table above.
