@@ -3,6 +3,25 @@
 Planning and a reusable recipe archive for the volunteer kitchen (read on
 GitHub; plain Markdown, no build). Structure is in the [README](README.md).
 
+## Sourcing recipes — critical
+
+**Never write a recipe from memory alone.** A model's recollection of a recipe
+is a plausible guess, not a tested formula — ratios and techniques drift, and a
+wrong ratio cooked for 80 people is a real failure. Every recipe must be
+validated against trusted external sources before it enters the archive, the way
+we did for [hummus](recipes/hummus.md) (Solomonov/Zahav, Ottolenghi, Serious
+Eats, ATK).
+
+- **Cross-check against 2+ independent trusted sources** wherever possible —
+  agreement between separate cooks is the signal. Prefer recognised cooks, test
+  kitchens, and established food sites over content farms.
+- **Note what changed** versus the from-memory draft, so the reasoning stays
+  visible (see the hummus history).
+- **Some sites block crawlers.** Use [`scripts/fetch-page.sh`](scripts/), which
+  fetches like a real browser (platform-correct User-Agent, accepts cookies,
+  follows redirects). If a JavaScript bot-wall still defeats it, open the page in
+  a real browser and save the HTML — do **not** fall back to memory.
+
 ## Writing recipes
 
 House style for everything under `recipes/`. Full version, with examples and
