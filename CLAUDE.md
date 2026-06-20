@@ -22,7 +22,7 @@ Eats, ATK).
   follows redirects). If a JavaScript bot-wall still defeats it, open the page in
   a real browser and save the HTML — do **not** fall back to memory.
 - **Hard rule: don't crawl.** The circumvention scripts are only ever used
-  **in connection with a real human session** — Pascal present, looking up a
+  **in connection with a real human session** — a person present, looking up a
   page or two at human pace. Never in a loop, never bulk, never scheduled,
   automated, or background. One page, on demand, as a person would. If there's
   no human in the loop, don't fetch.
