@@ -30,3 +30,42 @@ in the planning notes, not here.
   freeze-ahead vac-packing needs.
 - **Breville Smart Grinder Pro** — coffee grinder; ~2.4 kg/day capacity, ~1 h of
   grinding per morning for ~75 person-days.
+
+## Things we'd like to have (rent or borrow)
+
+Not confirmed — gear we'd source if we can borrow free or rent cheap. Listed by
+how much it unlocks. Full cost/ROI reasoning lives in the kryten planning notes;
+this is the short version of *what* and *why*.
+
+**Worth chasing:**
+
+- **Pressure cookers (2× ~12 L)** — cook dried chickpeas/beans/lentils from
+  scratch (roughly half the price of canned) and pull restaurant-grade stock
+  from yesterday's carcasses in ~1.5 h. Buys back burner time and forgives a
+  missed overnight soak. Soak-and-boil still works as the fallback.
+- **Commercial rice cooker (10–20 L)** — rice for ~75 without tying up one of
+  only four burners for 30–40 min on the rice-heavy nights. Set and forget, no
+  scorched bottom. Borrow first, buy used if not.
+- **Cambros / Camchillers (4–6)** — finish dinner early and hold it hot to the
+  service window, so the kitchen stays calm at 19:00; also double as cold-chain
+  transport for prep driven in from home.
+
+**Nice to have:**
+
+- **Mandoline / V-slicer (commercial)** — turns bulk slicing (slaws, gratins,
+  tray-bake potatoes) from a 90-min job into 20. Cheap; bring a cut glove.
+- **Pizza oven (gas or wood-fired)** — a low-cost-per-head pizza night, and it
+  doubles for naan/flatbread on an Indian or Levantine night. Bakes in ~90 s.
+- **Large crepe griddle** — cheap, theatrical 4 o'clock crepes (sweet or
+  savoury) from a tiny ingredient list; also dosas / galettes.
+- **Coffee urns (2× 20–40 L)** — one coffee, one hot water for tea. Easy borrow
+  from any Danish church or scout association.
+
+**Situational / luxury:**
+
+- **Tilt skillet (Bratt pan)** — transformative for big-batch stews and frying
+  onions for 100, but rarely worth renting unless it turns up cheap.
+- **Ice cream maker (batch freezer)** — one splurge night; high impact, probably
+  overkill.
+- **Dehydrator** — snack-station fare (dried fruit, jerky), but poor return over
+  a few days.
