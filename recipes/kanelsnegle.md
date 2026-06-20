@@ -30,11 +30,15 @@ forgiving. A warmer spot speeds both rises; see the warm-spot note in the method
 ## Yields & scaling
 
 - **Base batch:** 1 kg flour → **~24 generous buns** (afternoon-break size).
-- **Scaling:** scales cleanly — multiply every ingredient. The limits are
-  mixing-bowl/mixer capacity and oven space, not the recipe. For 50–100 people,
-  run the dough in batches a mixer can actually knead (≈1–1.5 kg flour at a
-  time) rather than one giant mass, and bake in relays — they bake in ~15–20 min,
-  so one oven turns over several trays inside the break.
+- **Scaling:** scales cleanly — multiply every ingredient. On the **Ankarsrum**
+  (rated for ~5 kg dough / 1.5 L liquid per batch) this dough goes to **~2.5 kg
+  flour — about 2.5× the base, ~60 buns — in a single mix**, which is a whole
+  50-ish person break in one go. That's the Ankarsrum's whole point: the open
+  bowl and roller handle heavy dough a tilt-head/planetary mixer can't (those
+  cap around 1–1.5 kg flour and need batching). Once you're past one Ankarsrum
+  load — say feeding 100 — the binding limit becomes **oven and tray space, and
+  somewhere big enough to roll out**, not the mixer. Buns bake in ~15–20 min, so
+  one oven turns over several trays inside the break.
 - **Per head:** one bun each covers a break; allow ~1.5 if it's the only thing
   on the table. So 1 base batch ≈ 16–24 people.
 - **The cheap win:** flour, sugar, butter, yeast — all inexpensive. The cost
@@ -42,8 +46,10 @@ forgiving. A warmer spot speeds both rises; see the warm-spot note in the method
 
 ## Equipment
 
-- Stand mixer with dough hook — strongly preferred at this scale; hand-kneading
-  1 kg of enriched dough is hard work (doable, just tiring)
+- Stand mixer — strongly preferred at this scale; hand-kneading 1 kg of enriched
+  dough is hard work (doable, just tiring). The kitchen's **Ankarsrum** is ideal
+  here: its roller/scraper takes far bigger dough loads than a planetary mixer
+  (see scaling)
 - Rolling pin
 - A length of unflavoured **dental floss** or thin string — the Danish trick for
   cutting the log without squashing it (see method)
