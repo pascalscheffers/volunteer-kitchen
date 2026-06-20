@@ -58,6 +58,12 @@ it:
 - **One linear thread.** Method steps run in order with minimal context-
   switching, like a kids' recipe: do this, then this. Anything that must start
   early (overnight soak, defrost) is step 1, not sprung halfway through.
+- **Proof against the kit we actually have.** A recipe is only useful if it can
+  be cooked with the equipment on hand. Check every recipe's required gear
+  against the event's equipment list (for this year:
+  [`2026/equipment.md`](2026/equipment.md) — what's on site plus what members
+  bring). If a method needs kit we don't have, either flag it or give an
+  alternative using what we do — don't assume a tool that isn't on the list.
 - **Start from** [`recipes/TEMPLATE.md`](recipes/TEMPLATE.md).
 
 ## Standing note
