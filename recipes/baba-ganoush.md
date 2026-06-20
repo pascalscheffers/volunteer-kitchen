@@ -1,6 +1,6 @@
 # Baba ganoush
 
-<!-- <img src="images/baba-ganoush.jpg" alt="Bowl of baba ganoush, swooshed and topped with olive oil and parsley" width="250" align="right"> -->
+<img src="images/baba-ganoush.jpg" alt="Platter of baba ganoush topped with olive oil, parsley, sumac and walnuts" width="250" align="right">
 
 Smoky charred-eggplant-and-tahini spread — baba ganoush's chickpea-free cousin.
 A lunch-table staple: scoop onto bread, spoon beside salads, or set it out next
@@ -131,5 +131,8 @@ then pick a few:
 - **Cross-day reuse:** leftover baba ganoush is next day's sandwich spread,
   stirred through pasta or grains, or thinned with lemon and oil into a dressing.
 
-<!-- Photo: add a web-sized image to images/baba-ganoush.jpg and uncomment the
-     <img> at the top. Respect the licence and credit it (see hummus.md). -->
+---
+
+<sub>Sample photo: *Baba Ghanoush* by
+[Basel15](https://commons.wikimedia.org/wiki/File:Baba_Ghanoush.jpg) at English
+Wikipedia, released into the **public domain**. Resized for the web.</sub>
