@@ -34,8 +34,7 @@ in the planning notes, not here.
 ## Things we'd like to have (rent or borrow)
 
 Not confirmed — gear we'd source if we can borrow free or rent cheap. Listed by
-how much it unlocks. Full cost/ROI reasoning lives in the kryten planning notes;
-this is the short version of *what* and *why*.
+how much it unlocks: what each one is and why it earns its place.
 
 **Worth chasing:**
 
