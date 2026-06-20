@@ -3,6 +3,10 @@
 Planning and a reusable recipe archive for the volunteer kitchen (read on
 GitHub; plain Markdown, no build). Structure is in the [README](README.md).
 
+**This repo is standalone.** It's public and self-contained — never reference
+external workspaces, private planning tools, or their files by name. Content
+brought in from elsewhere must be rewritten to stand on its own here.
+
 ## Sourcing recipes — critical
 
 **Never write a recipe from memory alone.** A model's recollection of a recipe
