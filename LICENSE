@@ -1,0 +1,17 @@
+# Licensing
+
+This repository is dual-licensed by content type:
+
+- **Textual content** — recipes, planning notes, meal plans, documentation, and
+  all other prose and Markdown — is released under the **Creative Commons CC0
+  1.0 Universal** public-domain dedication. No rights reserved, no attribution
+  required. See [`LICENSE-CC0.txt`](LICENSE-CC0.txt).
+
+- **Code** — scripts and any other software in this repository (e.g. everything
+  under [`scripts/`](scripts/)) — is licensed under the **MIT License**. See
+  [`LICENSE-MIT.txt`](LICENSE-MIT.txt).
+
+Committed images are textual-content-adjacent assets and fall under CC0 to the
+extent the contributors hold rights in them. Recipes validated against external
+sources reflect facts and techniques (not copyrightable) rewritten in our own
+words; the original sources retain their own rights to their own expression.

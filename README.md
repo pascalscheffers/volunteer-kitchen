@@ -35,6 +35,14 @@ straight off GitHub. There's no build step, nothing to install, no dependencies.
   (`../recipes/foo.md`, not absolute paths or URLs).
 - **Images are committed as files** and kept web-sized.
 
+## License
+
+Dual-licensed by content type (see [`LICENSE`](LICENSE) for the details):
+
+- **Text** (recipes, planning, docs, images) — **CC0 1.0**, public domain, no
+  attribution required.
+- **Code** (anything under [`scripts/`](scripts/)) — **MIT**.
+
 ## How GitHub renders this
 
 - GitHub-flavoured Markdown **renders images inline**: `![alt text](path)`
