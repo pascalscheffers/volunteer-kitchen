@@ -16,6 +16,54 @@ The golden rule: **never make anyone feel stupid for not knowing.** Drop
 "obviously", "simply", "just", "everyone knows". State the thing plainly and
 move on.
 
+## Drafting with AI — and checking its work
+
+Drafting a recipe with an AI tool is fine, and most contributors will. But an
+AI draft is a **starting point, never the final word.** The hard rule is in
+[`../CLAUDE.md`](../CLAUDE.md): never let a from-memory draft into the archive
+unchecked. Here's why, and how.
+
+### How AI gets recipes wrong
+
+AI recipes are confidently plausible and quietly off. The characteristic
+failure modes — scrutinise these first:
+
+- **Timid ratios.** It averages toward a bland median, softening the bold ratios
+  good cooks actually use. Our first hummus draft had roughly *half* the tahini
+  the benchmark recipes use.
+- **Dropped technique.** The step that makes the dish — and that isn't in every
+  copy online — goes missing. We left out mellowing the garlic in lemon, a
+  near-universal professional move.
+- **Generic seasoning.** Spices drift to a safe, often wrong, default. We
+  over-cumin'd; traditional hummus uses a pinch or none.
+- **Confident round numbers.** "1 tsp", "30 minutes", "serves 4" sound
+  authoritative but are frequently just plausible guesses. Distrust round,
+  unsourced numbers.
+- **Invented specifics.** Brand names, regional claims, and exact temperatures
+  stated with total confidence may be fabricated.
+- **Reads right, cooks wrong.** A method can flow nicely on the page yet have an
+  order a real cook would never follow. Check the logic, not just the prose.
+
+The three things to check hardest, because they fail most and matter most: the
+**load-bearing ratio**, the **signature technique**, and the **seasoning level**.
+
+### Validating a draft
+
+1. **Draft** — from AI or memory. Fine as a starting point.
+2. **Pick sources** — find the gold-standard references for the dish (see
+   [`trusted-sources.md`](trusted-sources.md)) and choose **2+ independent**
+   ones.
+3. **Read them.** If a site blocks you, use
+   [`../scripts/fetch-page.sh`](../scripts/) — human session only, never crawl.
+   Never substitute memory for a source.
+4. **Compare on the axes that matter** — key ratio(s), technique, seasoning,
+   times/temps. Where the trusted sources agree and your draft differs, the
+   draft is probably wrong.
+5. **Adjust, and record what changed** and why — a short note so the reasoning
+   stays visible (see the hummus history).
+6. **Cite the sources.** And respect image licences (the hummus photo is CC BY
+   and carries its credit).
+
 ## Keep it lean
 
 If it's clear from context or doesn't change the result, cut it. A recipe is a

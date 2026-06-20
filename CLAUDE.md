@@ -14,7 +14,10 @@ Eats, ATK).
 
 - **Cross-check against 2+ independent trusted sources** wherever possible —
   agreement between separate cooks is the signal. Prefer recognised cooks, test
-  kitchens, and established food sites over content farms.
+  kitchens, and established food sites over content farms; see
+  [`recipes/trusted-sources.md`](recipes/trusted-sources.md). The full workflow
+  and AI failure modes are in
+  [`recipes/writing-guide.md`](recipes/writing-guide.md).
 - **Note what changed** versus the from-memory draft, so the reasoning stays
   visible (see the hummus history).
 - **Some sites block crawlers.** Use [`scripts/fetch-page.sh`](scripts/), which
