@@ -16,6 +16,11 @@
 # Limits: it will NOT beat a full JavaScript bot-wall (e.g. Cloudflare
 # "checking your browser"). For those, open the page in a real browser and save
 # the HTML — do not fall back to writing from memory.
+#
+# HARD RULE — don't crawl: use this only in connection with a real human
+# session (a person present, looking up a page or two at human pace). Never in a
+# loop, bulk, scheduled, automated, or background. One page, on demand, as a
+# person would. No human in the loop -> don't fetch.
 
 set -euo pipefail
 

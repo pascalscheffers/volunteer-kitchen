@@ -21,6 +21,11 @@ walls), follows redirects, and decompresses gzip. It will **not** defeat a full
 JavaScript bot-wall (Cloudflare "checking your browser"); for those, open the
 page in a real browser and save the HTML.
 
+> **Hard rule: don't crawl.** Use this only in connection with a real human
+> session — a person present, looking up a page or two at human pace. Never in a
+> loop, bulk, scheduled, automated, or background. One page, on demand, as a
+> person would. No human in the loop → don't fetch.
+
 Needs only `curl` and `bash` — both already on macOS and Linux.
 
 ## Planned
