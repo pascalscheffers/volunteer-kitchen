@@ -10,6 +10,7 @@ again next year.
 | Recipe | Cuisine | Course | Notes |
 |---|---|---|---|
 | [Hummus](hummus.md) | Levantine | Lunch / spread | Vegan base, GF; make-ahead |
+| [Baba ganoush](baba-ganoush.md) | Levantine | Lunch / spread | Vegan, GF; make-ahead |
 
 ## Adding a recipe
 
