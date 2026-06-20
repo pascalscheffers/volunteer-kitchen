@@ -1,3 +1,8 @@
+<!-- House style: ../CLAUDE.md (short) and writing-guide.md (full).
+     In brief: smart reader but assume zero cooking knowledge; keep it lean;
+     one linear method; explain the "why" in a clause where it changes the
+     outcome; never condescend. Delete these comments when you're done. -->
+
 # <Recipe name>
 
 One-line description — what it is, when you'd serve it.
@@ -8,33 +13,41 @@ dietary: (vegan-base / protein add-on / GF / …) · make-ahead: (yes/no)
 ## Yields & scaling
 
 - **Base batch:** serves ~N.
-- **Scaling:** how it behaves at big headcounts (linear? bottleneck on oven
-  trays / pot count? prep that doesn't scale?).
+- **Scaling:** linear? where does it stop — pot size, oven trays, prep that
+  doesn't scale?
 
 ## Equipment
 
+<!-- only the non-obvious kit -->
 - …
 
 ## Ingredients
 
-_Per base batch (serves ~N). Multiply for the day's headcount._
+_Per base batch (serves ~N)._
 
-- …
+| Ingredient | Amount | On the shelf as (DA · DE · FR · NL) |
+|---|---|---|
+| <!-- name --> | <!-- qty --> | <!-- local name only if English won't find it, else blank --> |
 
 ## Method
 
+<!-- One linear thread: do this, then this. Anything that starts early (soak,
+     proof, defrost) goes first. Spell out craft a beginner won't know — e.g.
+     don't crowd the pan when browning. Add a one-clause "why" where it matters. -->
+
 1. …
+
+## Garnishes / variations
+
+<!-- e.g. vegan base + layered protein: base stays vegan, meat/dairy on top -->
+- …
 
 ## Make-ahead / cross-day notes
 
-- Freezes? Preps at home? What the leftovers become tomorrow.
-- Vegan base + layered protein: note which components are the base and which
-  are the add-ons, so a single pot serves many diners.
+- Freezes? Preps at home? What tonight's leftovers become tomorrow.
 
 ## Photo
 
-<!-- Use an HTML <img> tag, not ![](): Markdown can't set a display size, so a
-     plain ![]() renders full column-width. width="250" keeps it thumbnail-sized.
-     Add align="right" (or "left") to float it so text wraps beside it — put the
-     tag just under the # heading and the description flows down its side. -->
+<!-- Use an HTML <img>, not ![](): Markdown can't set a size, so ![]() renders
+     full column-width. align="right" floats it so text wraps beside it. -->
 <!-- <img src="images/<slug>.jpg" alt="<dish>" width="250" align="right"> -->

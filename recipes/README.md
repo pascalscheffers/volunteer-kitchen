@@ -13,6 +13,8 @@ again next year.
 
 ## Adding a recipe
 
+Read the house style first: [`writing-guide.md`](writing-guide.md).
+
 1. Copy [`TEMPLATE.md`](TEMPLATE.md) to `recipes/<slug>.md` (lowercase,
    hyphenated — e.g. `garlic-focaccia.md`).
 2. Fill it in. Drop any photo into [`images/`](images/) and reference it by

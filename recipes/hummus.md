@@ -34,11 +34,6 @@ dietary: vegan-base, GF · make-ahead: yes
 
 _Per base batch (~1.3 kg, ~20 side servings)._
 
-The last column gives the local supermarket name **only where it differs enough
-from the English that you'd struggle to find it on the shelf** (DA = Danish,
-DE = German, FR = French, NL = Dutch). Blank means the English name is close
-enough everywhere.
-
 | Ingredient | Amount | On the shelf as (DA · DE · FR · NL) |
 |---|---|---|
 | Dried chickpeas | 350 g (yields ~850 g cooked) | kikærter · Kichererbsen · pois chiches · kikkererwten |
