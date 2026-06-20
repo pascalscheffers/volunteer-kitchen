@@ -13,3 +13,8 @@ A common shape:
 
 Dishes link out to the reusable cards in [`../recipes/`](../recipes/) rather
 than restating the recipe here.
+
+## Planning files
+
+- [`equipment.md`](equipment.md) — confirmed kitchen kit: what's on site, and
+  what members bring.
