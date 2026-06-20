@@ -61,8 +61,11 @@ The three things to check hardest, because they fail most and matter most: the
    draft is probably wrong.
 5. **Adjust, and record what changed** and why — a short note so the reasoning
    stays visible (see the hummus history).
-6. **Cite the sources.** And respect image licences (the hummus photo is CC BY
-   and carries its credit).
+6. **Cite the sources** in a **References** section at the foot of the recipe —
+   link every trusted source you cross-checked, so a reader can re-verify. Link
+   what you actually read; if a site blocks automated access (Serious Eats does),
+   name it rather than linking a guessed URL. And respect image licences (the
+   hummus photo is CC BY and carries its credit).
 
 ## Keep it lean
 
@@ -135,6 +138,9 @@ Start from [`TEMPLATE.md`](TEMPLATE.md). The shape:
   everyone.
 - **Make-ahead / cross-day notes** — what freezes, what keeps, what tonight's
   leftovers become tomorrow.
+- **References** — links to the trusted sources you cross-checked against, so the
+  recipe can be re-verified. One source per line; name (don't link) any that
+  block automated access.
 - **Photo** — a thumbnail (see the template for the `<img>` trick).
 
 ## Bornhack realities to keep in mind

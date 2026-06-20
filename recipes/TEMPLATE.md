@@ -46,6 +46,13 @@ _Per base batch (serves ~N)._
 
 - Freezes? Preps at home? What tonight's leftovers become tomorrow.
 
+## References
+
+<!-- The trusted sources you cross-checked against (2+ independent). Link each
+     one you actually read; if a site blocks automated access, name it rather
+     than linking a guessed URL. See ../CLAUDE.md and writing-guide.md. -->
+- [<author / kitchen> — <recipe title>](<url>)
+
 ## Photo
 
 <!-- Use an HTML <img>, not ![](): Markdown can't set a size, so ![]() renders

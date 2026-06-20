@@ -135,6 +135,16 @@ pick a few:
 - **Batch the chickpeas:** cook extra and reserve some whole for salads, soups,
   or roasting — the cooking liquid (aquafaba) is itself useful.
 
+## References
+
+Cross-checked against these trusted sources (see the [sourcing rule](../CLAUDE.md)
+and [`trusted-sources.md`](trusted-sources.md)):
+
+- [Michael Solomonov — Zahav's Hummus Tehina (Food52)](https://food52.com/recipes/42695-zahav-s-hummus-tehina) — the benchmark for the tahini-rich, long-cooked style.
+- [Yotam Ottolenghi & Sami Tamimi — Hummus](https://ottolenghi.co.uk/pages/recipes/hummus-recipe) — baking-soda cook and ice-water blend.
+- [America's Test Kitchen — Ultracreamy Hummus](https://www.americastestkitchen.com/recipes/12228-ultracreamy-hummus) — skin-removal and ratio testing.
+- Serious Eats — J. Kenji López-Alt's smooth hummus (their site blocks automated access, so it's named rather than linked).
+
 ---
 
 <sub>Sample photo: *Lebanese style hummus* by

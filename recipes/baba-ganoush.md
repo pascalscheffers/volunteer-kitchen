@@ -131,6 +131,16 @@ then pick a few:
 - **Cross-day reuse:** leftover baba ganoush is next day's sandwich spread,
   stirred through pasta or grains, or thinned with lemon and oil into a dressing.
 
+## References
+
+Cross-checked against these trusted sources (see the [sourcing rule](../CLAUDE.md)
+and [`trusted-sources.md`](trusted-sources.md)):
+
+- [Yotam Ottolenghi — Mutabal (burnt aubergine with tahini)](https://ottolenghi.co.uk/pages/recipes/baba-ganoush-burnt-aubergine-tahini) — the creamy tahini version this card is based on.
+- [Yotam Ottolenghi — Baba Ganoush (the lighter, herb-and-veg version)](https://ottolenghi.co.uk/pages/recipes/baba-ganoush) — source for the no-tahini variation.
+- [America's Test Kitchen — Baba Ghanoush](https://www.americastestkitchen.com/recipes/14009-baba-ghanoush) — the char-and-drain technique and the light-tahini end of the dial.
+- [Michael Solomonov — Baba Ghanoush (Food Network)](https://www.foodnetwork.com/fnk/recipes/baba-ghanoush-7151767) — eggplant-forward ratio.
+
 ---
 
 <sub>Sample photo: *Baba Ghanoush* by

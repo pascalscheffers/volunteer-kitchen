@@ -20,6 +20,10 @@ Eats, ATK).
   [`recipes/writing-guide.md`](recipes/writing-guide.md).
 - **Note what changed** versus the from-memory draft, so the reasoning stays
   visible (see the hummus history).
+- **List the sources.** Every recipe ends with a **References** section linking
+  the trusted sources it was cross-checked against, so a reader can re-verify.
+  Link each source you actually read; if a site blocks automated access, name it
+  anyway rather than linking a guessed URL.
 - **Some sites block crawlers.** Use [`scripts/fetch-page.sh`](scripts/), which
   fetches like a real browser (platform-correct User-Agent, accepts cookies,
   follows redirects). If a JavaScript bot-wall still defeats it, open the page in
