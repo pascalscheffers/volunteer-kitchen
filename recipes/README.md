@@ -11,6 +11,7 @@ again next year.
 |---|---|---|---|
 | [Hummus](hummus.md) | Levantine | Lunch / spread | Vegan base, GF; make-ahead |
 | [Baba ganoush](baba-ganoush.md) | Levantine | Lunch / spread | Vegan, GF; make-ahead |
+| [Kanelsnegle](kanelsnegle.md) | Danish / Nordic | 4 o'clock / baking | Quick yeast dough; multiple fillings; make-ahead |
 
 ## Adding a recipe
 
