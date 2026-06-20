@@ -1,12 +1,12 @@
 # Hummus
 
+<img src="images/hummus.jpg" alt="Bowl of hummus, swooshed and topped with olive oil, paprika and whole chickpeas" width="250" align="right">
+
 Classic chickpea-and-tahini spread. A lunch-table staple: scoop onto bread,
 spoon beside salads, or use as the vegan base under a spiced-meat topping.
 
 **Tags:** cuisine: Levantine · course: lunch / spread / grazing ·
 dietary: vegan-base, GF · make-ahead: yes
-
-<img src="images/hummus.jpg" alt="Bowl of hummus, swooshed and topped with olive oil, paprika and whole chickpeas" width="250">
 
 ## Yields & scaling
 

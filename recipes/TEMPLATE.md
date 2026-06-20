@@ -34,5 +34,7 @@ _Per base batch (serves ~N). Multiply for the day's headcount._
 ## Photo
 
 <!-- Use an HTML <img> tag, not ![](): Markdown can't set a display size, so a
-     plain ![]() renders full column-width. width="250" keeps it thumbnail-sized. -->
-<!-- <img src="images/<slug>.jpg" alt="<dish>" width="250"> -->
+     plain ![]() renders full column-width. width="250" keeps it thumbnail-sized.
+     Add align="right" (or "left") to float it so text wraps beside it — put the
+     tag just under the # heading and the description flows down its side. -->
+<!-- <img src="images/<slug>.jpg" alt="<dish>" width="250" align="right"> -->
