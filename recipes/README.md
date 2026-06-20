@@ -9,7 +9,7 @@ again next year.
 
 | Recipe | Cuisine | Course | Notes |
 |---|---|---|---|
-| _(none yet — add your first below)_ | | | |
+| [Hummus](hummus.md) | Levantine | Lunch / spread | Vegan base, GF; make-ahead |
 
 ## Adding a recipe
 
