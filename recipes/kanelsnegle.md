@@ -37,8 +37,8 @@ forgiving. A warmer spot speeds both rises; see the warm-spot note in the method
   50-ish person break. At event scale the binding limit is usually **oven and
   tray space, and a surface big enough to roll out**, not the dough itself —
   buns bake in ~15–20 min, so one oven turns over several trays inside the break.
-  If the big mixer lives in someone's home kitchen, mix and shape there and use
-  the **cold overnight rise** (below) to carry the dough to the event.
+  Either way the **cold overnight rise** (below) lets you mix and shape ahead and
+  bake fresh at break time, which spreads the load off the afternoon.
 - **Per head:** one bun each covers a break; allow ~1.5 if it's the only thing
   on the table. So 1 base batch ≈ 16–24 people.
 - **The cheap win:** flour, sugar, butter, yeast — all inexpensive. The cost
