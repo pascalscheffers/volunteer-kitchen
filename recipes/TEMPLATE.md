@@ -33,4 +33,6 @@ _Per base batch (serves ~N). Multiply for the day's headcount._
 
 ## Photo
 
-<!-- ![<dish>](images/<slug>.jpg) -->
+<!-- Use an HTML <img> tag, not ![](): Markdown can't set a display size, so a
+     plain ![]() renders full column-width. width="250" keeps it thumbnail-sized. -->
+<!-- <img src="images/<slug>.jpg" alt="<dish>" width="250"> -->

@@ -6,7 +6,7 @@ spoon beside salads, or use as the vegan base under a spiced-meat topping.
 **Tags:** cuisine: Levantine · course: lunch / spread / grazing ·
 dietary: vegan-base, GF · make-ahead: yes
 
-![Bowl of hummus, swooshed and topped with olive oil, paprika and whole chickpeas](images/hummus.jpg)
+<img src="images/hummus.jpg" alt="Bowl of hummus, swooshed and topped with olive oil, paprika and whole chickpeas" width="250">
 
 ## Yields & scaling
 
