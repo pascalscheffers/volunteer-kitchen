@@ -1,6 +1,6 @@
 # Kanelsnegle (Danish cinnamon rolls)
 
-<!-- <img src="images/kanelsnegle.jpg" alt="Tray of glazed Danish cinnamon rolls" width="250" align="right"> -->
+<img src="images/kanelsnegle.jpg" alt="Danish kanelsnegle in paper cases, topped with pearl sugar" width="250" align="right">
 
 Soft, cardamom-scented yeast buns rolled around a gooey butter-sugar filling —
 the Danish *kanelsnegl* ("cinnamon snail"). Built for the afternoon break: a
@@ -202,8 +202,10 @@ soft/tacky. Quantities are normalised to a clean 1 kg-flour batch.
 - [King Arthur — Soft Cinnamon Rolls](https://www.kingarthurbaking.com/recipes/soft-cinnamon-rolls-recipe) — gram-precise enriched dough, single-rise timing, doneness temp.
 - [Sally's Baking Addiction — Easy Cinnamon Rolls (1 rise)](https://sallysbakingaddiction.com/easy-cinnamon-rolls-from-scratch/) — quick single-rise method and cream-cheese icing ratio (cross-checked, not sole-sourced).
 
-## Photo
+---
 
-<!-- Use an HTML <img>, not ![](): Markdown can't set a size, so ![]() renders
-     full column-width. align="right" floats it so text wraps beside it. -->
-<!-- <img src="images/kanelsnegle.jpg" alt="Glazed Danish cinnamon rolls" width="250" align="right"> -->
+<sub>Photo: *Kanelsnegle* by
+[cyclonebill](https://commons.wikimedia.org/wiki/File:Kanelsnegle_(7628529140).jpg)
+(Bill Ebbesen), Copenhagen, via Wikimedia Commons,
+[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/). Resized for the
+web; shared under the same licence.</sub>
