@@ -14,13 +14,13 @@ dietary: vegan-base, GF · make-ahead: yes
 - **Sized for this batch:** a **40-person lunch** where it's a side / spread and
   **about half take some** → ~20 servings at ~60 g each. Generous; if it's one
   of several spreads, the same batch stretches further.
-- **Scaling:** scales linearly — just multiply. The real ceiling is your food
+- **Scaling:** scales linearly — multiply up. The real ceiling is your food
   processor bowl, not the recipe; blend in batches rather than overfilling.
   Quantities below are easy to double/halve.
 - **Tahini = richness dial:** this batch uses a fairly generous **300 g tahini**
   for a creamy, nutty result. Push toward **400 g** for full Zahav-style luxury,
   or down to **200 g** to stretch a tight budget (tahini is the pricey
-  ingredient) — it'll just taste more chickpea-forward and lean.
+  ingredient) — it'll taste more chickpea-forward and lean.
 
 ## Equipment
 
@@ -43,7 +43,7 @@ _Per base batch (~1.3 kg, ~20 side servings)._
 | Garlic | 3 cloves | hvidløg · Knoblauch · ail · knoflook |
 | Fine salt | 1.5–2 tsp, to taste | — |
 | Ground cumin (optional) | a pinch | spidskommen · Kreuzkümmel · cumin · komijn |
-| Ice water / aquafaba | 60–120 ml, to loosen | — |
+| Ice water / aquafaba (the chickpea cooking or canning liquid) | 60–120 ml, to loosen | — |
 | Olive oil | to blend + finish | — |
 
 > **Two supermarket traps worth the warning:**
@@ -68,9 +68,10 @@ _Per base batch (~1.3 kg, ~20 side servings)._
    Drain and rinse.
 2. **Cook:** cover generously with fresh water, add 1 tsp baking soda, bring to
    a boil, then simmer **45–60 min** until *very* soft — they should crush to
-   paste between two fingers with no resistance. Skim the foam and loose skins.
-   Slightly overcooked is exactly right here. Drain, **reserving the cooking
-   liquid**.
+   paste between two fingers with no resistance. The baking soda raises the
+   pH so the skins soften and break down, which is what lets the hummus go
+   creamy. Skim the foam and loose skins. Slightly overcooked is exactly right
+   here. Drain, **reserving the cooking liquid**.
 3. **Optional, for the smoothest result:** rub the warm chickpeas in a towel /
    swish in a bowl of water to slip off the skins. Worth it for a showpiece
    bowl; skippable for a working lunch spread.
