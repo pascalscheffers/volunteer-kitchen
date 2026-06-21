@@ -10,16 +10,22 @@ dietary: vegan-base, GF · make-ahead: yes
 
 ## Yields & scaling
 
-- **Base batch:** ~1.3 kg finished hummus.
-- **Sized for this batch:** a **40-person lunch** where it's a side / spread and
-  **about half take some** → ~20 servings at ~60 g each. Generous; if it's one
+- **Base batch:** 400 g dried chickpeas → ~1.5 kg finished hummus.
+- **Sized for this batch:** a **~48-person lunch** where it's a side / spread and
+  **about half take some** → ~24 servings at ~60 g each. Generous; if it's one
   of several spreads, the same batch stretches further.
-- **Scaling:** scales linearly — multiply up. The real ceiling is your food
-  processor bowl, not the recipe; blend in batches rather than overfilling.
-  Quantities below are easy to double/halve.
-- **Tahini = richness dial:** this batch uses a fairly generous **300 g tahini**
-  for a creamy, nutty result. Push toward **400 g** for full Zahav-style luxury,
-  or down to **200 g** to stretch a tight budget (tahini is the pricey
+- **Scaling is linear — and the base is built to divide cleanly by 4.** Drop every
+  number by ¼ for a **100 g test batch** (the ÷4 column in the table below), or
+  multiply up for a crowd. The real ceiling is your food processor bowl, not the
+  recipe; blend in batches rather than overfilling.
+- **Weigh the critical components.** Baking soda and salt are dosed by **weight**,
+  not spoons. At small batch sizes a heaped-vs-level teaspoon is the difference
+  between creamy and a soapy, mushy failure — too much soda breaks the chickpeas
+  down past paste and leaves a metallic, soapy taste. Seasoning (cumin) can stay
+  spoon-measured; precision there doesn't change the result.
+- **Tahini = richness dial:** this batch uses a fairly generous **340 g tahini**
+  for a creamy, nutty result. Push toward **440 g** for full Zahav-style luxury,
+  or down to **240 g** to stretch a tight budget (tahini is the pricey
   ingredient) — it'll taste more chickpea-forward and lean.
 
 ## Equipment
@@ -29,22 +35,32 @@ dietary: vegan-base, GF · make-ahead: yes
 - Sieve / colander (also to strain the garlic-lemon)
 - Citrus juicer
 - Whisk
+- Kitchen scale (the soda and salt are weighed; a 0.1 g scale helps at test size)
 
 ## Ingredients
 
-_Per base batch (~1.3 kg, ~20 side servings)._
+_Per base batch (400 g dried chickpeas → ~1.5 kg finished, ~24 side servings).
+The **÷4** column is a 100 g test batch — same recipe, quarter the numbers._
 
-| Ingredient | Amount | On the shelf as (DA · DE · FR · NL) |
-|---|---|---|
-| Dried chickpeas | 350 g (yields ~850 g cooked) | kikærter · Kichererbsen · pois chiches · kikkererwten |
-| Baking soda | 1 tsp soak + 1 tsp cook | natron · Natron · bicarbonate de soude · zuiveringszout (baksoda) |
-| Tahini, well stirred | 300 g | — |
-| Lemons (for juice) | ~75 ml juice (~2 lemons) | citron · Zitrone · citron · citroen |
-| Garlic | 3 cloves | hvidløg · Knoblauch · ail · knoflook |
-| Fine salt | 1.5–2 tsp, to taste | — |
-| Ground cumin (optional) | a pinch | spidskommen · Kreuzkümmel · cumin · komijn |
-| Ice water / aquafaba (the chickpea cooking or canning liquid) | 60–120 ml, to loosen | — |
-| Olive oil | to blend + finish | — |
+| Ingredient | Base (400 g) | ÷4 test (100 g) | On the shelf as (DA · DE · FR · NL) |
+|---|---|---|---|
+| Dried chickpeas | 400 g (yields ~960 g cooked) | 100 g | kikærter · Kichererbsen · pois chiches · kikkererwten |
+| **Baking soda — weigh** | **4 g** soak + **4 g** cook | **1 g** soak + **1 g** cook | natron · Natron · bicarbonate de soude · zuiveringszout (baksoda) |
+| Tahini, well stirred | 340 g | 85 g | — |
+| Lemon juice | ~80 ml (~2–3 lemons) | ~20 ml | citron · Zitrone · citron · citroen |
+| Garlic | 4 cloves | 1 clove | hvidløg · Knoblauch · ail · knoflook |
+| **Fine salt — weigh** | **~12 g**, to taste | **~3 g** | — |
+| Ground cumin (optional) | ¼ tsp | a pinch | spidskommen · Kreuzkümmel · cumin · komijn |
+| Ice water / aquafaba (the chickpea cooking or canning liquid) | 80–160 ml, to loosen | 20–40 ml | — |
+| Olive oil | to blend + finish | to blend + finish | — |
+
+> **Why the soda is weighed, not spooned:** it's the one ingredient that ruins
+> the batch if you overshoot. The dose is **~1 g per 100 g dried chickpeas per
+> phase** — a flat "1 tsp" (≈4.6 g) is right for the full batch but ~4× too much
+> at test size, which is exactly how you get grey mush. At the 100 g test scale
+> 1 g sits below many kitchen scales' resolution: use a 0.1 g scale, or a
+> **scant ¼ tsp** (≈1 g) as a close-enough stand-in. At 400 g, 4 g weighs fine
+> on any scale.
 
 > **Two supermarket traps worth the warning:**
 > - **Baking soda ≠ baking powder.** In Danish it's **natron**, *not* "bagepulver"
@@ -57,26 +73,29 @@ _Per base batch (~1.3 kg, ~20 side servings)._
 > (DA/DE/NL) or **purée de sésame** (FR) — same thing.
 
 > **Shortcut with canned:** skip the soak/cook and use **~3 × 400 g cans**
-> (~700–750 g drained). Simmer the drained chickpeas 15–20 min with 1 tsp
-> baking soda to soften and loosen the skins before blending — it's the single
+> (~700–750 g drained). Simmer the drained chickpeas 15–20 min with **~3 g
+> baking soda** to soften and loosen the skins before blending — it's the single
 > biggest step toward smooth hummus from a can.
 
 ## Method
 
 1. **Soak (night before):** cover the dried chickpeas with plenty of cold
-   water, stir in 1 tsp baking soda, leave 8–12 h. They'll roughly double.
-   Drain and rinse.
-2. **Cook:** cover generously with fresh water, add 1 tsp baking soda, bring to
-   a boil, then simmer **45–60 min** until *very* soft — they should crush to
-   paste between two fingers with no resistance. The baking soda raises the
-   pH so the skins soften and break down, which is what lets the hummus go
-   creamy. Skim the foam and loose skins. Slightly overcooked is exactly right
-   here. Drain, **reserving the cooking liquid**.
+   water, stir in the **soak-phase baking soda** (4 g at base; 1 g for a test
+   batch), leave 8–12 h. They'll roughly double. Drain and rinse.
+2. **Cook:** cover generously with fresh water, add the **cook-phase baking
+   soda** (4 g at base; 1 g for a test batch), bring to a boil, then simmer
+   until *very* soft — they should crush to paste between two fingers with no
+   resistance. The baking soda raises the pH so the skins soften and break down,
+   which is what lets the hummus go creamy. **Timing scales with batch size:**
+   ~45–60 min for the full 400 g, but check a small test batch from ~30 min — it
+   softens faster and tips into mush if you walk away. Skim the foam and loose
+   skins. Slightly overcooked is exactly right here. Drain, **reserving the
+   cooking liquid**.
 3. **Optional, for the smoothest result:** rub the warm chickpeas in a towel /
    swish in a bowl of water to slip off the skins. Worth it for a showpiece
    bowl; skippable for a working lunch spread.
 4. **Mellow the garlic (don't skip):** blend the garlic with the lemon juice and
-   ½ tsp of the salt to a coarse purée, then **let it stand 10 min**. The acid
+   **about a quarter of the salt** to a coarse purée, then **let it stand 10 min**. The acid
    tames the raw garlic's harsh, hot bite so you get flavour without the
    lingering aftertaste. Strain it, pressing the solids, and keep the
    garlic-lemon liquid; discard the solids.
