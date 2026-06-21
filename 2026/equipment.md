@@ -30,6 +30,9 @@ in the planning notes, not here.
   freeze-ahead vac-packing needs.
 - **Breville Smart Grinder Pro** — coffee grinder; ~2.4 kg/day capacity, ~1 h of
   grinding per morning for ~75 person-days.
+- **Precision scale** — 0.1 g accuracy over a ~500 g range (coffee/pocket
+  scale). For small, ratio-critical weights — yeast, salt, spices, leaveners —
+  where the kitchen's bulk scales are too coarse.
 
 ## Things we'd like to have (rent or borrow)
 
