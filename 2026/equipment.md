@@ -41,6 +41,14 @@ how much it unlocks: what each one is and why it earns its place.
 
 **Worth chasing:**
 
+- **Sharp knives + a steel/sharpener** — the on-site knives are **dull and
+  unsafe**, so we don't rely on them. This one's bring-from-home, not rental:
+  3–4 chef's knives (20–25 cm) across the prep crew, a couple of paring knives,
+  and a **serrated bread knife** (the daily bread programme needs a real one),
+  plus a honing steel and a whetstone or pull-through to keep an edge all week.
+  Personal knives first; if short, cheap reliable backups are **Victorinox
+  Fibrox** chef's knives (the pro-kitchen workhorse). Cut-glove pairs with the
+  mandoline below.
 - **Pressure cookers (2× ~12 L)** — cook dried chickpeas/beans/lentils from
   scratch (roughly half the price of canned) and pull restaurant-grade stock
   from yesterday's carcasses in ~1.5 h. Buys back burner time and forgives a
