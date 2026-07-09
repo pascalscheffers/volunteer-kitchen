@@ -1,46 +1,52 @@
 # Taco-seasoned wraps
 
-Build-your-own wrap bar: warm 30 cm durum wraps stuffed from a line of
-taco-spiced fillings — rice, beans, roasted chickpeas, minced pork, slaw and a
-fresh salad. A big, forgiving Saturday main that scales well and lets everyone
-build to their own appetite. The base is vegan; the meat sits on the side.
+Oven-baked stuffed wraps: 30 cm durum wraps rolled around taco-spiced fillings —
+rice, beans, roasted chickpeas and minced pork — then lined up on trays,
+blanketed with cheese and baked until hot and melty. Fresh salad and sauces go
+on the side. A big, make-ahead Saturday main.
 
-**Tags:** cuisine: Tex-Mex · course: dinner (main) · dietary: vegan-base +
-protein side, easily GF (skip wraps, serve as a bowl) · make-ahead: yes
+**We build them in the kitchen, not at a serve-yourself bar** — prebuilding lets
+us fix how much meat goes in each wrap so it can't vanish in the first ten
+people, and it means no assembly scramble at service: build, tray up, bake, out.
+
+**Tags:** cuisine: Tex-Mex · course: dinner (main) · dietary: mixed batch (vegan
+/ vegetarian / meat, built as separate trays) · make-ahead: yes
 
 ## Yields & scaling
 
-- **This batch: 50 adults, planned as big eaters** — the brief is ~80% larger
-  men working hard, so portions are set generous and it's the main meal of the
-  day, not a side.
-- **Plan ~1.3 wraps per head** (some take one, the hungry take two) → ~65 wraps
-  eaten; **buy ~75** for breakage and seconds.
-- **Scaling is linear** on ingredients. The real ceilings on site are the
-  **4 burners (15 L pots each)** and the **6-tray oven** — rice and beans each
-  want a burner, so cook them ahead at home and only *reheat* on site (see
-  make-ahead). Per head, halve or double everything cleanly.
-- **Two legumes plus pork plus rice is a lot of filling on purpose** — it's a
-  bar, people pick. To simplify or cut cost, drop the roasted chickpeas (the
-  beans already cover the legume); to stretch a tight budget, lean harder on
-  rice and beans and buy less pork.
+- **This batch: 50 adults, planned as big eaters** — ~80% larger men working
+  hard, so it's the main meal and portions run generous.
+- **Plan ~1.3 wraps per head → build ~70 wraps**, split by diet:
+  - **~5 fully vegan** — veg fillings only, **no cheese, no sour cream** (vegan
+    cheese optional).
+  - **~5 vegetarian** — veg fillings **+ cheese**.
+  - **~60 with meat** — veg base + pork + cheese.
+
+  Adjust the vegan/vegetarian counts to your actual dietary headcount; the
+  meat wraps are just the remainder.
+- **Bake in three clearly-labelled tray sets** (vegan / veg / meat) so nothing
+  cross-contaminates — build and tray them in that order (vegan first, meat last)
+  and the same hands never carry meat back to the vegan tray.
+- **Scaling is linear.** The ceilings on site are the **4 burners (15 L pots)**
+  and the **6-tray oven** — rice, beans and pork cook ahead at home; on site the
+  oven is doing wrap trays in rotation, so stagger the bakes to the service
+  window.
 
 ## Equipment
 
-- **Big pots** for rice and beans (15 L on-site burners, or done at home).
-- **Oven trays** — for roasting the chickpeas and warming wraps (convection oven
-  on site, 6 trays).
+- **Big pots** for rice and beans (15 L burners, or done at home).
+- **Oven trays + baking parchment** — for roasting chickpeas and for the wrap
+  bakes. Foil to tent trays so wraps heat through without over-browning.
 - **Large frying pan / wide pot** for the pork.
-- **Food processor or mandoline** — shredding 3–4 cabbages and slicing peppers by
-  hand is slow; the on-site food processor or a mandoline (bring a cut glove)
-  turns it from an hour into minutes. The on-site knives are dull — bring sharp
-  ones.
-- **Cambros / insulated boxes** if you have them, to hold rice, beans and pork
-  hot from home to the service window.
+- **Food processor / mandoline / box grater** — shredding cabbage, slicing
+  peppers and grating ~2 kg of cheese by hand is slow. Bring sharp knives; the
+  on-site ones are dull.
+- **Cambros / insulated boxes** to hold hot fillings and finished trays to the
+  service window.
 
 ## Ingredients
 
-_For 50 big-eater servings. Quantities include a ~10–15% buffer for a self-serve
-line._
+_For 50 big-eater servings (~70 wraps). Includes a ~10–15% buffer._
 
 ### The fillings
 
@@ -51,37 +57,34 @@ line._
 | Dried beans — black or pinto (pick nice ones) | 2 kg dried | bønner · Bohnen · haricots · bonen |
 | Chickpeas — dried, or canned | 1.5 kg dried **or** 6 × 400 g cans | kikærter · Kichererbsen · pois chiches · kikkererwten |
 | Minced pork | 5–6 kg | hakket svinekød · Schweinehackfleisch · porc haché · varkensgehakt |
+| Grated cheese (melting — e.g. mild cheddar / gouda) | ~2 kg | revet ost · geriebener Käse · fromage râpé · geraspte kaas |
+| Sweet corn | ~1 kg frozen, or 6–8 cans | majs · Mais · maïs · maïs |
+| Bell peppers | 12–15 (for the filling) | peberfrugt · Paprika · poivron · paprika |
+| Red onion | 6–8 | rødløg · rote Zwiebel · oignon rouge · rode ui |
 | Limes | 10–12 | lime · Limette · citron vert · limoen |
 | Fresh coriander (cilantro) | 3–4 bunches | koriander · Koriander · coriandre · koriander |
 | Neutral oil, salt | — | — |
 
-### Slaw & salad line
+### Side salad & sauces (served alongside, **not** baked in)
+
+Fresh leaves and cold sauces wilt and split if you bake them inside a wrap, so
+they go on the plate next to the wrap.
 
 | Ingredient | Amount to buy | On the shelf as (DA · DE · FR · NL) |
 |---|---|---|
-| Pointed cabbage (spitskool) | 3–4 heads (~3 kg) | spidskål · Spitzkohl · chou pointu · spitskool |
-| Red onion | 6–8 | rødløg · rote Zwiebel · oignon rouge · rode ui |
+| Pointed cabbage (spitskool), for slaw | 3–4 heads (~3 kg) | spidskål · Spitzkohl · chou pointu · spitskool |
 | Iceberg lettuce | 5–6 heads | isbergsalat · Eisbergsalat · laitue iceberg · ijsbergsla |
-| Sweet corn | ~1.5 kg frozen, or 8–10 cans | majs · Mais · maïs · maïs |
-| Bell peppers | 20–25 (~4 kg) | peberfrugt · Paprika · poivron · paprika |
 | Cucumber | 12–15 | agurk · Gurke · concombre · komkommer |
-| Taco chips (crunch on top / side) | ~2 kg (bulk) or ~12 bags | nachos / tortilla chips · Tortillachips · chips tortilla · tortillachips |
-
-### Sauces — don't skip
-
-A dry wrap is a sad wrap; the sauces are what pull it together.
-
-| Ingredient | Amount to buy | On the shelf as (DA · DE · FR · NL) |
-|---|---|---|
+| Bell peppers (extra, for salad) | ~10 | peberfrugt · Paprika · poivron · paprika |
+| Taco chips | ~2 kg (bulk) or ~12 bags | nachos / tortilla chips · Tortillachips · chips tortilla · tortillachips |
 | Sour cream / crème fraîche | ~2 L | cremefraiche / A38 · saure Sahne · crème fraîche · zure room |
 | Tomato salsa (jarred is fine) | ~2 L | salsa · Salsa · salsa · salsa |
 | Guacamole or ripe avocados (optional) | ~10 avocados if making | avocado · Avocado · avocat · avocado |
 
 ### Taco seasoning (make it from single spices)
 
-House blend below. One "unit" seasons roughly **500 g** of meat or beans. For
-this meal make about **8–10 units** and season each component to taste — that's
-the amounts in the right column.
+One "unit" seasons roughly **500 g** of meat or beans. For this meal make about
+**8–10 units** and season each component to taste — that's the right-hand column.
 
 | Spice | Per unit (~500 g) | This meal (~9 units) | On the shelf as (DA · DE · FR · NL) |
 |---|---|---|---|
@@ -99,7 +102,7 @@ the amounts in the right column.
 > **"chilipulver" / "Chilipulver" is pure ground hot chile** — a spoon of it
 > where a US recipe wants "chili powder" will blow the dish out. That's why the
 > blend above is built from **paprika for colour/body + a little cayenne for
-> heat** instead. Add cayenne cautiously and taste.
+> heat**. Add cayenne cautiously and taste.
 >
 > **Cumin ≠ caraway.** Danish **spidskommen** and German **Kreuzkümmel** are
 > cumin; plain *kommen* / *Kümmel* is caraway — a different, aniseedy spice that
@@ -107,73 +110,70 @@ the amounts in the right column.
 
 ## Method
 
-Most of this is done **at home the week before / the morning of**, chilled, and
-driven in. On site you only reheat and assemble — you have ~2 hours. Steps 1–2
-start earliest.
+The fillings cook **ahead at home**, chilled and driven in; on site you assemble,
+bake and plate. Steps 1–2 start earliest.
 
-1. **Soak the beans (night before).** Cover the 2 kg dried beans with plenty of
-   cold water and leave 8–12 h. They roughly double. Drain. (Skip if you scored
-   a pressure cooker — it cooks them unsoaked in ~40 min.)
-2. **Cook the rice** in big pots (or at home). Salt the water. Cook in batches if
-   your pots won't take 4 kg at once — don't fill a pot past two-thirds. Cool it
-   spread out (rice steams itself to mush in a deep covered mass). **Finish with
-   lime juice and chopped coriander** just before serving for a lime-rice lift.
-3. **Cook the beans.** Cover the soaked beans generously with fresh water, bring
-   to a boil, then simmer until **fully soft — creamy, not chalky** (~45–75 min;
-   older beans take longer). Salt only near the end (early salt keeps them
-   tough). Drain, keeping a mugful of the liquid. Stir in **~3 units of taco
-   seasoning** and a splash of the liquid so they're saucy, not dry. Taste, add
-   salt.
-4. **Cook & roast the chickpeas.** If dried: soak overnight with the beans and
-   simmer until soft, then drain. If canned: drain and rinse. **Dry them well** —
-   wet chickpeas steam instead of crisping. Toss with oil and **~2 units of taco
-   seasoning**, spread in a **single loose layer** on trays (crowded = soggy),
-   and roast at ~200 °C, shaking once or twice, until deep golden and crisp at
-   the edges, ~25–35 min. They soften as they sit — best roasted close to
-   service, or re-crisp on site.
-5. **Brown the pork.** Heat a wide pan hot before the meat goes in. Add the pork
-   in **batches, in a thin layer** — a heaped panful steams grey instead of
-   browning. Break it up, let it colour, then combine batches, stir in **~4 units
-   of taco seasoning** and a splash of water, and simmer a few minutes until
-   glossy and saucy. Salt to taste.
-6. **Slaw.** Shred the cabbage fine (food processor / mandoline). Thinly slice
-   the red onion. Dress with **lime juice, a little oil, salt** and some
-   coriander; scrunch it with your hands so it softens slightly. Keeps a few
-   hours; don't dress days ahead or it goes limp.
-7. **Salad line.** Shred the iceberg, dice the peppers and cucumber, drain the
-   corn. Keep each in its own bowl — a build-your-own bar looks and works better
-   as separate components than pre-mixed.
-8. **On site — reheat & warm wraps.** Reheat rice, beans and pork gently (add a
-   splash of water so nothing dries out); get them properly hot. **Warm the wraps
-   in a stack wrapped in foil** in the oven for a few minutes, or on a dry hot
-   pan a few seconds a side — warm wraps fold without cracking; cold ones split.
-9. **Set the line in order:** wraps → rice → beans → chickpeas → pork → slaw →
-   salad bits → chips → sauces. Tell people **not to overfill** a 30 cm wrap or
-   it won't roll — a line of filling down the middle, fold the bottom up, then
-   the sides.
+1. **Soak the beans (night before).** Cover the 2 kg dried beans with cold water,
+   leave 8–12 h; they roughly double. Drain. (Skip with a pressure cooker.)
+2. **Cook the rice.** Salt the water; cook in batches if a pot won't take it all
+   (don't fill past two-thirds). Cool spread out so it doesn't steam to mush.
+   Finish with **lime juice and chopped coriander**.
+3. **Cook the beans.** Cover the soaked beans with fresh water, boil, then simmer
+   until **fully soft and creamy** (~45–75 min). Salt near the end (early salt
+   keeps them tough). Drain, keep a mugful of liquid. Stir in **~3 units of taco
+   seasoning** + a splash of liquid so they're saucy, not dry. Taste, salt.
+4. **Cook & roast the chickpeas.** Dried: soak with the beans and simmer soft,
+   then drain. Canned: drain and rinse. **Dry them well** (wet = no crisp), toss
+   with oil + **~2 units seasoning**, spread in a **single loose layer** on trays
+   and roast at ~200 °C, shaking once or twice, until deep golden, ~25–35 min.
+5. **Brown the pork.** Pan hot before meat goes in. Cook in **batches, thin
+   layer** — a heaped pan steams grey instead of browning. Break it up, colour
+   it, combine, stir in **~4 units seasoning** + a splash of water, simmer a few
+   minutes until glossy. Salt to taste. **Keep it a bit dry** — a wet filling
+   makes a soggy, un-rollable wrap.
+6. **Prep the filling veg.** Finely dice the peppers and red onion, drain the
+   corn. Fold these through the seasoned beans and rice, or keep separate to
+   sprinkle as you build — either works.
+7. **Set up the build line (on site), vegan → meat.** Have ready: warm-ish
+   fillings (cold fillings never heat through in the bake), grated cheese,
+   trays lined with parchment, and **three labelled tray sets**.
+   - **Build each wrap:** lay a wrap flat, spoon a line of rice + beans +
+     chickpeas + veg down the middle (and pork for the meat ones). Don't
+     overfill — a fistful, not a mountain, or it won't roll. Fold the bottom
+     edge up over the filling, fold both sides in, and roll into a parcel. Place
+     it **seam-side down** on the tray so it can't unroll.
+   - **Do the vegan tray first** (no cheese on top — or vegan cheese), then the
+     vegetarian tray (**cheese on top**), then the meat trays (**cheese on
+     top**). Pack them snug so they hold their shape.
+8. **Bake.** ~200 °C until hot through and the cheese is melted and just golden,
+   ~12–18 min. If the tops brown before the middle is hot, tent with foil. Bake
+   in rotation to match the service window — they're best straight from the oven,
+   not held long (they keep drying as they sit).
+9. **Meanwhile, the cold sides.** Shred the iceberg; slice cucumber; make a quick
+   slaw of finely-shredded cabbage with lime, a little oil, salt and coriander,
+   scrunched by hand. Put out the slaw, salad, taco chips, sour cream, salsa and
+   guacamole for people to add on the plate beside the hot wrap.
 
 ## Garnishes / variations
 
-- **Vegan / veggie build:** rice + beans + roasted chickpeas + slaw + salad +
-  salsa + guacamole is a complete vegan wrap on its own — the pork is only a side
-  layer, so one line feeds meat-eaters and vegans from the same bar.
-- **Bowl (gluten-free):** skip the wrap, pile everything on rice.
-- **Extra heat:** a bowl of sliced jalapeños or a hot sauce at the end of the
-  line, so the base stays mild for everyone.
-- **Cheese** (shredded) and **fresh lime wedges** are cheap, popular additions if
-  budget allows.
+- **The three trays are the built-in variation** — same veg base, cheese and pork
+  layered (or not) by diet, so one build feeds everyone.
+- **Gluten-free:** the wraps aren't; serve those guests the fillings as a
+  **bowl** over rice with the cold sides.
+- **Extra heat:** hot sauce or sliced jalapeños on the side, base stays mild.
+- **Fresh lime wedges** on every plate — a squeeze lifts the whole thing.
 
 ## Make-ahead / cross-day notes
 
-- **Rice, beans and pork all cook ahead and reheat well** — this is the whole
-  plan. Cook at home, chill fast and deep-cold, transport in the cooler /
-  cambros, reheat on site. Add a splash of water when reheating.
-- **Roast chickpeas late** — they lose crunch in the fridge; best done near
-  service, or re-crisped in the oven on site.
-- **Chop salad and slaw the same day**; dress the slaw only a few hours ahead.
-- **Cross-day reuse:** leftover taco beans + rice become a soup or a breakfast
-  hash; spiced pork goes into next day's toasties or over nachos; roasted
-  chickpeas are a snack-station handful.
+- **Rice, beans and pork cook ahead and chill** — the whole point. Cook at home,
+  chill deep-cold, transport in cooler / cambros, and let them come up toward
+  room temp before building so the bake heats them through.
+- **Wraps can be fully built a few hours ahead** and held cold on trays, then
+  baked to order — but don't build days ahead or they go soggy. Roast the
+  chickpeas late; they lose crunch in the fridge.
+- **Cold sides same day**; dress the slaw only a few hours ahead.
+- **Cross-day reuse:** leftover baked wraps reheat for lunch; spare taco beans +
+  rice become a soup or breakfast hash; spiced pork tops next day's nachos.
 
 ## References
 
@@ -183,8 +183,8 @@ Cross-checked against these sources (see the [sourcing rule](../CLAUDE.md) and
 - [My Baking Addiction — Homemade Taco Seasoning](https://www.mybakingaddiction.com/homemade-chili-and-taco-seasoning/) — larger-batch blend ratios.
 - [The Recipe Critic — Homemade Taco Seasoning](https://therecipecritic.com/the-best-homemade-taco-seasoning/) — single-batch ratio and per-500 g dosing.
 - [Chili Pepper Madness — Homemade Taco Seasoning](https://www.chilipeppermadness.com/chili-pepper-recipes/spice-blends/homemade-taco-seasoning/) — spice balance and heat control.
-- [The Subversive Table — DIY Burrito Bowl Party](https://thesubversivetable.com/diy-burrito-bowl-party/) — real-world per-head rice/bean portions for a build-your-own crowd.
+- [The Subversive Table — DIY Burrito Bowl Party](https://thesubversivetable.com/diy-burrito-bowl-party/) — real-world per-head rice/bean portions for a crowd.
 
 ## Photo
 
-<!-- <img src="images/taco-seasoned-wraps.jpg" alt="Build-your-own taco wrap bar" width="250" align="right"> -->
+<!-- <img src="images/taco-seasoned-wraps.jpg" alt="Trays of baked taco wraps" width="250" align="right"> -->
