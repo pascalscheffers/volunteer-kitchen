@@ -4,6 +4,11 @@ Planning and a reusable recipe archive for the volunteer kitchen. This is a
 knowledge repo, not a program — everything is human-readable Markdown, read
 straight off GitHub. There's no build step, nothing to install, no dependencies.
 
+## 2026 menu
+
+- [Saturday](2026/menu/2026-07-11-saturday.md)
+- [Sunday](2026/menu/2026-07-12-sunday.md)
+
 ## Layout
 
 ```
