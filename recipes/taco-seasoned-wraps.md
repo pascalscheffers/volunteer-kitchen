@@ -108,6 +108,55 @@ One "unit" seasons roughly **500 g** of meat or beans. For this meal make about
 > cumin; plain *kommen* / *Kümmel* is caraway — a different, aniseedy spice that
 > will wreck it.
 
+## What's on the plate (rough weights)
+
+A sanity-check on portions: dry rice, beans and chickpeas swell a lot in the
+pot, and minced meat *loses* weight as its water cooks off — so the bag weight
+isn't the plate weight. Below, the amounts from the ingredient table are
+converted to **cooked/ready weight** (using the midpoint where a range is
+given), then tallied into four plate roles and divided over **50 eaters**.
+
+Conversion factors are standard kitchen ratios: dry rice roughly triples, dried
+beans and chickpeas swell ~2.4–2.5×, and minced pork drops ~25% as it browns.
+Treat every number as a planning estimate, not a lab measurement.
+
+| Component | Bought (dry / raw) | Factor | Cooked / ready | Role |
+|---|---|---|---|---|
+| Long-grain rice | 3.75 kg dry | ×3.0 | ~11.3 kg | Carbs |
+| Durum wraps | 75 × ~80 g | — | ~6.0 kg | Carbs |
+| Sweet corn | ~1 kg | ×1 | ~1.0 kg | Carbs |
+| Beans | 2.0 kg dry | ×2.5 | ~5.0 kg | Protein\* |
+| Chickpeas | 1.5 kg dry | ×2.4 | ~3.6 kg | Protein\* |
+| Minced pork | 5.5 kg raw | ×0.75 | ~4.1 kg | Protein |
+| Grated cheese | ~2 kg | ×1 | ~2.0 kg | Protein |
+| Bell peppers (filling) | ~13 (~2 kg) | ×1 | ~2.0 kg | Greens |
+| Red onion | ~7 (~0.7 kg) | ×1 | ~0.7 kg | Greens |
+| Cabbage (slaw) | ~3 kg | ×1 | ~3.0 kg | Greens |
+| Iceberg | ~5–6 heads (~2.2 kg) | ×1 | ~2.2 kg | Greens |
+| Cucumber | ~13 (~4 kg) | ×1 | ~4.0 kg | Greens |
+| Bell peppers (salad) | ~10 (~1.5 kg) | ×1 | ~1.5 kg | Greens |
+| Taco chips | ~2 kg | ×1 | ~2.0 kg | Sides |
+| Sour cream / crème fraîche | ~2 L | ×1 | ~2.0 kg | Sides |
+| Tomato salsa | ~2 L | ×1 | ~2.0 kg | Sides |
+| Guacamole / avocado | ~10 avo (~1.5 kg) | ×1 | ~1.5 kg | Sides |
+
+\* Beans and chickpeas are both starch *and* protein; here they're counted as
+the plant protein, since that's the job they do next to (or instead of) the pork.
+
+**Category totals, and per head over 50:**
+
+| Role | Total cooked | Per head | Made of |
+|---|---|---|---|
+| **Protein** | ~14.7 kg | ~295 g | pork + beans + chickpeas + cheese |
+| **Carbs** | ~18.3 kg | ~365 g | rice + wraps + corn |
+| **Greens** | ~13.4 kg | ~270 g | slaw, iceberg, cucumber, peppers, onion |
+| **Sides** | ~7.5 kg | ~150 g | chips, sour cream, salsa, guac |
+| **Total** | ~53.9 kg | **~1.08 kg** | — |
+
+~1.1 kg of food per person before drinks — generous, which matches the plan
+(50 big eaters, main meal). If your crowd is lighter, scale the whole ingredient
+table down and these per-head numbers move with it.
+
 ## Method
 
 The fillings cook **ahead at home**, chilled and driven in; on site you assemble,
