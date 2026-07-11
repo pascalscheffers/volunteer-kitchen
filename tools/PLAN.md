@@ -50,6 +50,31 @@ Key invariants:
 Newest first. One tight entry per completed phase: what got done, key decisions,
 current state, what's next.
 
+### Run — 2nd receipt `20260711-111844` — DONE (2026-07-11)
+- Second Dagrofa Food Service receipt (`I alt 2298.85`, 35 line items) run
+  end-to-end through the existing pipeline: OCR → parse (PARTIAL, 2 flagged
+  cells) → rename (EXIF stamp `20260711-111844`) → enrichment → report.
+- **Enrichment resolved 5 cells against the photo:** line 5 `Tilbuds Rabat
+  22,70%` is a **discount** (−32.00, 22.70% off the cheddar); line 19 `Blandet
+  Saft C Rød 1L` = 3×26.95; lines 22/23 gels = 15.95/16.95. Line 5 modelled as
+  `non-food/other` with a negative `line_total` so the report reconciles;
+  flagged `confidence=low` pending a decision on how discounts should surface.
+- **Parser silent-wrong read caught by the checksum, not the flag:** line 11
+  `Koriander 15g` parsed as a self-consistent 4×7,95=31,80, but the receipt
+  prints 4×**17,95**=71,80 (OCR dropped the leading 1 in both Pris and Total, so
+  the row looked internally clean and was *not* flagged). Only the `I alt`
+  reconciliation exposed it — the read-rows sum landed exactly 40.00 short, and
+  71,80 is the unique fix that ties all 35 lines to 2298.85 to the øre.
+  Corrected in the CSV; the parser has a real blind spot when a paired
+  Pris/Total corruption stays arithmetically consistent. (No parser change this
+  run — noted for a future hardening pass.)
+- **Verified:** 35 rows; `line_total` sums to **2298.85 = I alt**; every
+  `category`/`type` in the closed taxonomy; every qty×unit_price = line_total;
+  report regenerated (2 receipts, 76 items, grand total 4711.15).
+- **Next:** if a third receipt is a new shop, add its `vendors/<id>.py`. Consider
+  hardening the parser against paired-cell OCR corruption (line-11 class), and
+  decide the canonical treatment of discount lines in reports.
+
 ### Phase 5 — Reporting (`report/stats.py`) — DONE (2026-07-11)
 - Built `tools/report/stats.py` (stdlib only — `csv`, `glob`, `decimal`,
   `collections`, `pathlib`): globs `2026/finance/csv/*.csv`, aggregates across
