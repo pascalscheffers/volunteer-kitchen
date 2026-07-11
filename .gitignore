@@ -9,3 +9,4 @@ Thumbs.db
 
 # Build artifacts
 tools/ocr/.build/
+__pycache__/

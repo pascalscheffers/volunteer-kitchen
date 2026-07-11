@@ -6,7 +6,11 @@
 //   { "image": {"width": W, "height": H}, "observations": [ {..}, ... ] }
 //
 // Each observation is:
-//   { "text": String, "confidence": Float, "bbox": {"x":.., "y":.., "w":.., "h":..} }
+//   { "text": String, "confidence": Float, "bbox": {"x":.., "y":.., "w":.., "h":..},
+//     "source": "accurate" | "fast" }
+// `source` records which of the two Vision passes produced the observation
+// (see the dual-pass merge below); it's provenance for auditing only and the
+// parser does not depend on it.
 //
 // COORDINATE SYSTEM (matters for Phase 2's parser):
 //   `bbox` is Vision's raw normalized `boundingBox`: x/y/w/h are all in the
@@ -78,21 +82,57 @@ default:
 let uprightWidth = swapsDimensions ? rawHeight : rawWidth
 let uprightHeight = swapsDimensions ? rawWidth : rawHeight
 
-let requestHandler = VNImageRequestHandler(cgImage: cgImage, orientation: cgOrientation, options: [:])
+// Dual-pass OCR. We run Vision twice over the same image and merge:
+//
+//   .accurate — cleaner text, especially on the Danish item NAMES (its
+//     language model fixes up characters .fast garbles, e.g. "Heidelberg"
+//     instead of "H&idelberg"), BUT on this dense multi-column table its
+//     line-merging heuristics drop whole numeric cells outright — several
+//     Pris/Total values produce no observation at all (verified by cropping
+//     the source photo: the print is crisp, .accurate just returns nothing
+//     there).
+//   .fast — splits each column fragment into its own observation and so
+//     recovers nearly all of those dropped numeric cells, at the cost of
+//     noisier text.
+//
+// Merge strategy — three cases for each .fast observation, decided by how it
+// overlaps the .accurate observations (overlap = either box covering at least
+// OVERLAP_THRESHOLD of the other; a whole-name .fast box and .accurate's
+// sub-fragments of the same name overlap under this either-direction test,
+// which the one-directional test missed):
+//
+//   1. No overlap with any .accurate box → the .fast obs sits where .accurate
+//      saw nothing. KEEP it — this is how .fast fills numeric cells .accurate
+//      dropped.
+//   2. Overlaps .accurate, and the .fast text is a clean amount (Danish
+//      2-decimal, e.g. "15,95") while every overlapping .accurate obs is NOT
+//      a clean amount → the region is a numeric cell .accurate garbled
+//      ("15,", "95") but .fast read cleanly. REPLACE: drop those .accurate
+//      fragments, keep the clean .fast number.
+//   3. Otherwise (overlaps .accurate and doesn't beat it on cleanliness) →
+//      DROP the .fast obs and keep .accurate's text. This is the common case
+//      for NAMES: .accurate's language model gives the cleaner reading
+//      ("Heidelberg", not "H&idelberg"), so we prefer it and don't duplicate.
+//
+// Net effect: .accurate text for names, .fast's clean numbers where .accurate
+// garbled them, and .fast gap-fills where .accurate saw nothing. Each
+// observation is tagged with the pass it came from ("source") purely for
+// audit; the parser ignores it.
 
-let request = VNRecognizeTextRequest()
-request.recognitionLevel = .accurate
-request.recognitionLanguages = ["da-DK", "en-US"]
-request.usesLanguageCorrection = true
-
-do {
-    try requestHandler.perform([request])
-} catch {
-    fail("Error: Vision request failed: \(error.localizedDescription)")
-}
-
-guard let observations = request.results else {
-    fail("Error: no OCR results")
+func recognize(level: VNRequestTextRecognitionLevel) -> [VNRecognizedTextObservation] {
+    // Fresh handler per pass — a VNImageRequestHandler is intended for a
+    // single perform, so we don't reuse one across the two recognition levels.
+    let handler = VNImageRequestHandler(cgImage: cgImage, orientation: cgOrientation, options: [:])
+    let request = VNRecognizeTextRequest()
+    request.recognitionLevel = level
+    request.recognitionLanguages = ["da-DK", "en-US"]
+    request.usesLanguageCorrection = true
+    do {
+        try handler.perform([request])
+    } catch {
+        fail("Error: Vision request failed: \(error.localizedDescription)")
+    }
+    return request.results ?? []
 }
 
 struct BBox: Encodable {
@@ -106,6 +146,7 @@ struct Observation: Encodable {
     let text: String
     let confidence: Float
     let bbox: BBox
+    let source: String
 }
 
 struct ImageInfo: Encodable {
@@ -118,17 +159,79 @@ struct Output: Encodable {
     let observations: [Observation]
 }
 
-var results: [Observation] = []
-for observation in observations {
-    guard let candidate = observation.topCandidates(1).first else { continue }
-    let box = observation.boundingBox
-    results.append(
-        Observation(
-            text: candidate.string,
-            confidence: candidate.confidence,
-            bbox: BBox(x: box.origin.x, y: box.origin.y, w: box.width, h: box.height)
-        )
+func toObservation(_ o: VNRecognizedTextObservation, source: String) -> Observation? {
+    guard let candidate = o.topCandidates(1).first else { return nil }
+    let box = o.boundingBox
+    return Observation(
+        text: candidate.string,
+        confidence: candidate.confidence,
+        bbox: BBox(x: box.origin.x, y: box.origin.y, w: box.width, h: box.height),
+        source: source
     )
+}
+
+// Fraction of box `a`'s area that lies inside box `b` (normalized coords).
+func coverage(_ a: BBox, by b: BBox) -> Double {
+    let ix0 = max(a.x, b.x)
+    let iy0 = max(a.y, b.y)
+    let ix1 = min(a.x + a.w, b.x + b.w)
+    let iy1 = min(a.y + a.h, b.y + b.h)
+    let iw = ix1 - ix0
+    let ih = iy1 - iy0
+    if iw <= 0 || ih <= 0 { return 0 }
+    let areaA = a.w * a.h
+    if areaA <= 0 { return 0 }
+    return (iw * ih) / areaA
+}
+
+// Two boxes "overlap" if either covers at least this fraction of the other.
+// Either-direction so a wide .fast whole-name box and .accurate's narrower
+// sub-fragments of the same name still count as overlapping.
+let OVERLAP_THRESHOLD = 0.4
+
+func overlaps(_ a: BBox, _ b: BBox) -> Bool {
+    return coverage(a, by: b) >= OVERLAP_THRESHOLD || coverage(b, by: a) >= OVERLAP_THRESHOLD
+}
+
+// A Dagrofa amount prints as Danish 2-decimal (e.g. "15,95", "1.234,00").
+// Used only to decide, at merge time, when a clean .fast number should
+// displace a garbled .accurate fragment of the same cell.
+let cleanAmount = try! NSRegularExpression(pattern: "^\\d{1,3}(\\.\\d{3})*,\\d{2}$")
+func isCleanAmount(_ text: String) -> Bool {
+    let t = text.trimmingCharacters(in: .whitespaces)
+    let range = NSRange(t.startIndex..<t.endIndex, in: t)
+    return cleanAmount.firstMatch(in: t, range: range) != nil
+}
+
+let accurateObs = recognize(level: .accurate).compactMap { toObservation($0, source: "accurate") }
+let fastObs = recognize(level: .fast).compactMap { toObservation($0, source: "fast") }
+
+// keepAccurate[i] flips to false if a clean .fast number displaces that
+// garbled .accurate fragment (case 2 in the merge comment above).
+var keepAccurate = [Bool](repeating: true, count: accurateObs.count)
+var extras: [Observation] = []
+for f in fastObs {
+    let overlapping = accurateObs.indices.filter { overlaps(f.bbox, accurateObs[$0].bbox) }
+    if overlapping.isEmpty {
+        extras.append(f)  // case 1: fills a region .accurate never saw
+    } else if isCleanAmount(f.text) && overlapping.allSatisfy({ !isCleanAmount(accurateObs[$0].text) }) {
+        for i in overlapping { keepAccurate[i] = false }  // case 2: clean number wins
+        extras.append(f)
+    }
+    // else case 3: .accurate keeps the region (names), drop the .fast obs
+}
+
+var results: [Observation] = accurateObs.indices.filter { keepAccurate[$0] }.map { accurateObs[$0] }
+results.append(contentsOf: extras)
+
+// Emit in a stable reading order (top to bottom, then left to right in the
+// bottom-left-origin frame) so the merged output is deterministic and easy
+// to diff, rather than accurate-then-fast append order.
+results.sort { lhs, rhs in
+    let ly = lhs.bbox.y + lhs.bbox.h / 2
+    let ry = rhs.bbox.y + rhs.bbox.h / 2
+    if abs(ly - ry) > 0.002 { return ly > ry }
+    return (lhs.bbox.x + lhs.bbox.w / 2) < (rhs.bbox.x + rhs.bbox.w / 2)
 }
 
 let output = Output(image: ImageInfo(width: uprightWidth, height: uprightHeight), observations: results)

@@ -49,6 +49,87 @@ Key invariants:
 Newest first. One tight entry per completed phase: what got done, key decisions,
 current state, what's next.
 
+### Phase 2 — Parser + vendor registry (`parse/`) — DONE (2026-07-11)
+- Built `tools/parse/parse_receipt.py` (CLI driver, stdlib only), `detect_vendor.py`
+  (data-driven marker table, "unknown vendor → stop"), `vendors/__init__.py`
+  (registry), `vendors/_util.py` (shared `parse_danish_number` — comma decimal,
+  dot thousands separator), and `vendors/dagrofa.py` (the Dagrofa Food Service
+  layout). Run: `python3 tools/parse/parse_receipt.py 2026/finance/ocr/IMG_6575.json`.
+- **Guiding principle: read what OCR can, flag what it can't, never fabricate a
+  value.** A receipt with a genuinely unreadable cell is a valid *partial*
+  result for a later human/enrichment pass to complete — not a reason to invent
+  a number. The checksum gate now proves "no fabricated reads," not "sum forced
+  to match."
+- **Output:** TSV `line\tname\tqty\tunit_price\ttotal\tneeds_review\tderived`,
+  always printed to stdout (even PARTIAL). `total` is empty for any cell OCR
+  couldn't read; that row carries `needs_review=1`. `derived=1` marks the one
+  allowed inference (see gate).
+- **Gate:**
+  - **PASS** (exit 0): every numeric cell was read and the totals reconcile to
+    `I alt` (±0.02), OR exactly one cell was `derived` and the rest reconcile.
+  - **PARTIAL** (exit 2): one or more `needs_review` cells remain, or the read
+    cells don't reconcile. Full TSV still goes to stdout; stderr names the
+    flagged rows and the residual `I alt − sum(read)` they must account for.
+  - exit 1 for usage / unreadable input / unknown vendor.
+- **Result on sample: PARTIAL, 41 rows, 2 cells genuinely unreadable by Vision
+  and flagged** — line 4 (Heidelberg, Total `6,95`) and line 24 (Special blend,
+  Total `168,00`). The 39 read rows sum to `2237.35`; residual `174.95` =
+  `6.95 + 168.00` **exactly**, which independently confirms every read row is
+  correct. (41 rows, not the ~40 estimated going in.) This is the honest,
+  expected outcome — those two cells are Vision misses, not parser errors (see
+  quirks).
+- **Row reconstruction:** cluster Varenavn-column observations by y-proximity
+  into rows (joining same-row name fragments left to right), bounded below by
+  the Antal column's lowest valid value (footer/legal text shares the name
+  column's x-band but never has a valid Antal, so this cleanly excludes it
+  without needing footer-text detection). Every cluster is a real line item —
+  a row whose numeric cells are all unreadable is emitted and flagged, never
+  folded into its neighbour.
+- **Column reconstruction:** the receipt photo is slightly rotated and curled,
+  so a numeric cell sits at a consistent skew offset from its row's name
+  centroid (~0.0045 *above*, for Total) — comparable to the row-to-row gap, so
+  naive nearest-y matching pulls every value one row too far and resolves
+  near-ties wrongly, and one missing cell cascades down every row below.
+  Solved with `_assign_column_dp`: a Needleman-Wunsch-style monotonic sequence
+  alignment (rows and observations are both top-to-bottom and never reorder)
+  where either side can be left unmatched at a fixed cost — a genuine gap stays
+  a gap instead of shifting everything. The per-column skew offset is found by a
+  small **grid search**: run the DP over a range of offsets and keep the
+  lowest-cost alignment (the correct offset makes real matches line up tightly
+  while still leaving gaps as skips). A residual near-exact geometric tie
+  between two adjacent rows is broken by `_fix_adjacent_total_swap` using the
+  numbers' own arithmetic (qty × price) — legitimate, since it only moves a
+  *read* value to the row it belongs to.
+- **OCR-corruption filter:** every genuine Antal/Pris/Total value on this
+  receipt prints with exactly two decimal digits; `_looks_like_clean_amount`
+  treats a garbled read like `"0,9"` or `"Iti8, 00"` as *unread* rather than
+  letting a wrong number silently enter the checksum.
+- **The one allowed inference:** `_derive_single_gap` fills a value ONLY when
+  exactly one row is unread and the read rows + that one value reconcile to
+  `I alt`; it marks the row `derived=1` so it can never masquerade as a read
+  value. Two or more unread cells (as on this sample) are all left flagged and
+  the gate reports PARTIAL — no guessing. (No receipt-specific data lives in
+  the parser; an earlier draft that baked in a hand-verified cell value was
+  removed as a matter of principle.)
+- **Quirks:**
+  - The two unreadable cells were confirmed genuine by cropping the source
+    photo directly (`magick` + read): the print is crisp, Vision drops or
+    garbles them — both are cases of two adjacent rows printing the identical
+    amount (`6,95` twice, `168,00` twice across Pris/Total), which appears to
+    confuse Vision's line detection. Not recoverable via config.
+  - Dual-pass OCR (see Phase 1 note) recovered every *other* previously-missing
+    numeric cell and restored clean item names, so the flag count dropped from
+    ~4 down to these 2 truly-unreadable ones.
+  - `detect_vendor.py`'s CVR marker is `27626904`, not `26626904` as
+    originally assumed — corrected to the value actually printed on the
+    receipt.
+  - Saved the merged-OCR JSON to `2026/finance/ocr/IMG_6575.json` as the audit
+    artifact backing this phase's result (each observation tagged with its
+    source pass).
+- **Next:** Phase 3 — image rename to timestamp (`20260710-<hhmmss>.jpeg`),
+  migrating `receipts/`/`ocr/` keys together. Phase 4 (enrichment) should also
+  complete the 2 `needs_review` cells from the receipt photo.
+
 ### Phase 1 — Swift Vision OCR CLI — DONE (2026-07-11)
 - Built `tools/ocr` as a SwiftPM package (`.macOS(.v13)`, no third-party deps):
   `Package.swift` + `Sources/receipt-ocr/main.swift`, executable product
@@ -71,7 +152,14 @@ current state, what's next.
   item-line floor — includes header/footer/legal text too), all three footer
   totals (`2.412,30` / `603,08` / `3.015,38`) and sample item lines (`Majsmel
   2,5kg`, `Hvedemel`, etc.) recognized correctly. Output is valid JSON
-  (parsed with `json.loads`).
+  (parsed with `json.loads`). **Amended in Phase 2:** OCR is now **dual-pass**
+  — Vision runs at both `.accurate` and `.fast`, and the results are merged
+  (`.accurate` for names, since its language model reads them more cleanly;
+  `.fast`'s clean numbers where `.accurate` garbled a numeric cell; `.fast`
+  gap-fills where `.accurate` saw nothing). `.accurate` alone silently dropped
+  numeric cells on the dense item table; `.fast` alone garbled the names.
+  Merging gets both. Each observation now also carries a `source` field
+  (`"accurate"`/`"fast"`) for audit. See the Phase 2 entry above for rationale.
 - **Next:** Phase 2 — parser + vendor registry (`parse/`). Consumes this JSON,
   denormalizes `bbox` against `image.width/height` (remember: bottom-left
   origin), groups observations into line items, and must reconcile parsed
