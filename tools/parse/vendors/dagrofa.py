@@ -75,6 +75,35 @@ def _looks_like_clean_amount(text):
     return bool(_CLEAN_AMOUNT_RE.match(text.strip()))
 
 
+_DATE_RE = re.compile(r"Dato[.:]*\s*(\d{2})-(\d{2})-(\d{4})")
+_TIME_RE = re.compile(r"Tid[.:]*\s*(\d{2}):(\d{2})(?::(\d{2}))?")
+
+
+def header_datetime(observations):
+    """Extract the receipt's printed transaction date/time from the header.
+
+    Returns a dict {"date": "YYYY-MM-DD" or None, "time": "HH:MM:SS" or None}.
+    Either field may be None when OCR didn't capture it cleanly (on the sample
+    the `Dato:` line reads perfectly but the `Tid:` value is dropped) — callers
+    fall back to EXIF/mtime for whatever's missing. `date` is authoritative when
+    present; it's the value used for the CSV `date` column downstream.
+    """
+    date = time = None
+    for o in observations:
+        t = o.get("text", "")
+        if date is None:
+            m = _DATE_RE.search(t)
+            if m:
+                dd, mm, yyyy = m.groups()
+                date = f"{yyyy}-{mm}-{dd}"
+        if time is None:
+            m = _TIME_RE.search(t)
+            if m:
+                hh, mi, ss = m.groups()
+                time = f"{hh}:{mi}:{ss or '00'}"
+    return {"date": date, "time": time}
+
+
 def _center(bbox):
     return bbox["x"] + bbox["w"] / 2, bbox["y"] + bbox["h"] / 2
 

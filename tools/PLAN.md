@@ -49,6 +49,30 @@ Key invariants:
 Newest first. One tight entry per completed phase: what got done, key decisions,
 current state, what's next.
 
+### Phase 3 — Rename receipts to sortable timestamps — DONE (2026-07-11)
+- Added `tools/rename_receipts.py`: renames each `2026/finance/receipts/*` image
+  to a sortable `YYYYMMDD-HHMMSS` stem and migrates its sibling `ocr/<stem>.json`
+  / `csv/<stem>.csv` (via `git mv` for tracked files, `os.rename` for untracked)
+  so the stem stays the shared key. `--dry-run` supported; idempotent (skips
+  already-stamped names); collisions get a `-N` suffix.
+- **Timestamp source, priority:** (1) receipt's printed date/time via the vendor
+  parser; (2) EXIF `DateTimeOriginal` (read with `sips -g creation`, which is
+  local time — `mdls` reports UTC, so avoided); (3) file mtime. The receipt
+  **date** is authoritative when present.
+- Added `header_datetime(observations)` to `vendors/dagrofa.py` (regex on `Dato:`
+  / `Tid:`), returning `{date, time}` with either possibly `None`. Also feeds the
+  CSV `date` column downstream.
+- **Sample outcome:** `Dato: 10-07-2026` reads cleanly but `Tid:` value is
+  dropped by OCR, so the date comes from the receipt and the time from EXIF
+  (`15:58:35`, the checkout photo — within a minute of the printed 15:57). The
+  sample is now `20260710-155835.{jpeg,json}`. Parse still gives 41 rows / 2
+  flagged / residual 174.95 (unchanged — only the filename moved). The source
+  image is committed for the first time here.
+- **Next:** Phase 4 — enrichment (Sonnet, human session): raw rows TSV + image →
+  enriched CSV (name_en, category, type from `taxonomy.md`, normalized weights,
+  typo fixes, confidence). The 2 `needs_review` cells (`6.95` Heidelberg,
+  `168.00` Special blend — both visible on the photo) get filled here.
+
 ### Phase 2 — Parser + vendor registry (`parse/`) — DONE (2026-07-11)
 - Built `tools/parse/parse_receipt.py` (CLI driver, stdlib only), `detect_vendor.py`
   (data-driven marker table, "unknown vendor → stop"), `vendors/__init__.py`
