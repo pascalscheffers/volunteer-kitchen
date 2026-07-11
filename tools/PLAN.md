@@ -49,6 +49,50 @@ Key invariants:
 Newest first. One tight entry per completed phase: what got done, key decisions,
 current state, what's next.
 
+### Phase 4 — Enrichment (Sonnet, human session) — DONE (2026-07-11)
+- Wrote `2026/finance/csv/20260710-155835.csv`: header + 41 data rows, columns
+  `receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,
+  total_kg,total_l,pieces,unit_price,line_total,confidence`. Built by reading the
+  raw parser TSV alongside the receipt photo (cropped with `magick -auto-orient`
+  for a clean upright read of the full item table).
+- **Filled the 2 `needs_review` cells** straight off the photo: line 4
+  (`Heidelberg eddike u/farve 1L`) total `6.95`; line 24 (`Special blend no.2
+  hele bønner 1kg`) total `168.00`. Both marked `confidence=low`. `line_total`
+  column sums to exactly **2412.30**, matching `I alt`.
+- **Name fixes from the photo** (parser's OCR names → corrected `name_da`):
+  `Lager eddike farvet IL`→`...1L`; `Eblecidereddike`→`Æblecidereddike`;
+  `Flydende margarine 70g 500ml`→`...70% 500ml`; `Olivenolie ekstra jomfru
+  ll`→`...1L`; `skålfilter`→`Skålfilter` (kept — genuine product, see below);
+  `Earl`→`Earl grey te 20 breve`; `Kamt Le Ye 20 br Breve 20 breve`→`Kamille te
+  20 breve`; `Pålægschokolade malk`→`...mælk`; `Special blend no.2 hele
+  banner`→`...hele bønner`.
+- **Weight/piece normalization:** mass and volume packs converted to
+  `total_kg`/`total_l` = qty × pack size (e.g. `Hvedemel 2kg` ×6 → 12 kg;
+  `Basmati ris 5kg` → 5 kg). Gross/drained packs (`Mix oliven ... 1700g/1000g`,
+  `Kikærter forkogte 2,5/1,5kg`) use the **drained** figure per the spec. Piece
+  counts recovered from the photo where the parser's name dropped them:
+  `Tortilla hvede 30cm 18stk` ×4 → 72 pieces; `Pålægschokolade` (mørk/mælk)
+  216g **54stk** ×2 each → 108 pieces each, with `total_kg` *also* filled
+  (0.432 each) since these items carry both a mass and a count; tea items
+  `20 breve` → `pieces=20` each with `pack_unit=sachet`.
+- **Low-confidence calls beyond the 2 filled cells** (flagged for review):
+  `Mix oliven uden sten` → `type=vegetable` (vs. `fat-oil`, genuine coin-flip);
+  `Græskarkerner varmebehandlet` (pumpkin seeds) → `type=fat-oil` (vs.
+  `protein`/`other` — taxonomy has no nuts/seeds bucket); `Skålfilter 250/110
+  hvid` → read as catering coffee-filter papers, `category=non-food,
+  type=other` (product identity inferred, not printed on receipt in plainer
+  terms); `Squeeze plast flaske 0,7L` → `category=non-food, type=other`, and
+  `total_l` deliberately left **blank** (it's an empty serving bottle sized in
+  litres, not a consumed liquid — filling `total_l` would pollute a "litres of
+  liquid food" stat).
+- **Verified:** 41 data rows; every `category`/`type` value checked against
+  `taxonomy.md`'s closed lists (grep — no stray values); `line_total` sums to
+  2412.30; spot-checks (`Basmati ris 5kg`→`total_kg=5`, `Hvedemel 2kg`×6→`12`,
+  `Mix oliven`→`total_kg=1` drained) all pass.
+- **Next:** Phase 5 — reporting (`report/stats.py`): aggregate `name_en` across
+  receipts into kg/L/piece totals per type, reconcile report totals back to
+  receipt `line_total` sums.
+
 ### Phase 3 — Rename receipts to sortable timestamps — DONE (2026-07-11)
 - Added `tools/rename_receipts.py`: renames each `2026/finance/receipts/*` image
   to a sortable `YYYYMMDD-HHMMSS` stem and migrates its sibling `ocr/<stem>.json`
