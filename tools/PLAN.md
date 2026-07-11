@@ -49,6 +49,32 @@ Key invariants:
 Newest first. One tight entry per completed phase: what got done, key decisions,
 current state, what's next.
 
+### Phase 5 — Reporting (`report/stats.py`) — DONE (2026-07-11)
+- Built `tools/report/stats.py` (stdlib only — `csv`, `glob`, `decimal`,
+  `collections`, `pathlib`): globs `2026/finance/csv/*.csv`, aggregates across
+  all of them, and (re)writes a single `2026/finance/reports/summary.md`.
+  Run: `python3 tools/report/stats.py`.
+- **Sections**, each a Markdown table: (1) spend by category with % of total
+  and a grand-total row; (2) by nutrition type — spend, total kg, total L,
+  pieces, sorted by spend descending; (3) top ingredients by spend (top 20,
+  or all if fewer); (4) ingredients by weight (kg), for the "how many kg of
+  cheese" question; (5) reconciliation — one row per source receipt with line
+  count, spend, and count of `confidence=low` rows.
+- **Money/quantities use `Decimal`** (not float) throughout so sums reconcile
+  exactly to the source CSV — no floating-point drift. Blank numeric cells
+  (`total_kg`/`total_l`/`pieces`) are treated as "not applicable" and skipped
+  in sums; a group with no applicable values renders `—`, never `0`.
+- **Verified on the sample:** spend-by-category grand total and the
+  by-nutrition-type spend column both sum to exactly **2412.30**, matching the
+  receipt's `I alt`; reconciliation row shows 41 line items, 6
+  `confidence=low` rows (matches the CSV). Regenerating a second time
+  produces a byte-identical file (deterministic grouping + sort keys).
+- **The core pipeline is now complete end-to-end**: photo → OCR → parse →
+  enrich → report, all gated and reconciled at each stage. Phase 6
+  (ingredient→dish mapping) is the only future work, out of current scope.
+- **Next:** Phase 6 (later) — map enriched ingredients to `2026/menu` dishes
+  and `recipes/`, when that's prioritized.
+
 ### Phase 4 — Enrichment (Sonnet, human session) — DONE (2026-07-11)
 - Wrote `2026/finance/csv/20260710-155835.csv`: header + 41 data rows, columns
   `receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,
