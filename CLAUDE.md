@@ -66,6 +66,40 @@ it:
   alternative using what we do — don't assume a tool that isn't on the list.
 - **Start from** [`recipes/TEMPLATE.md`](recipes/TEMPLATE.md).
 
+## How we build software here
+
+Most of this repo is Markdown, but some work is real software (see
+[`tools/`](tools/)). When it is, we build it a particular way — tuned to keep an
+AI session effective over long, interrupted work rather than fast-then-slow:
+
+- **Opus orchestrates; fresh-context workers do the work.** Opus (this session)
+  plans, decides, and evaluates. The actual coding of a bounded job is handed to
+  a **fresh-context worker** (a Sonnet subagent) that starts empty, does one
+  closed job, verifies it, commits, and returns a short **summary**. Opus reads
+  the summary — not the diff, not the build logs — and dispatches the next job.
+  This keeps file-dumps and logs out of the orchestrating context, which is what
+  goes wrong when a session starts sharp and slowly bogs down.
+- **The altitude call.** Trivial edits, docs, exploration, or anything ambiguous
+  or needing tight human steering: do it inline. Anything that can be written as
+  a **closed work-order** — a self-contained, specifiable, verifiable job — gets
+  dispatched to a worker. If you can't specify it yet, investigate first (inline
+  or via a read-only Explore subagent so dumps stay out of context), *then*
+  specify, *then* dispatch.
+- **Memory lives in the repo, not the chat.** A software effort keeps a plan +
+  running progress log as a committed file (e.g. [`tools/PLAN.md`](tools/PLAN.md)):
+  what's done, current state, what's next. It's the first thing a resuming
+  session reads. Progress travels across machines and cleared contexts because
+  it's in git, not in a conversation.
+- **Expect interrupted sessions and context clearing between phases.** Every
+  phase ends **green + committed + logged** so the next session can resume cold
+  from the repo alone. No phase depends on remembering the previous chat.
+- **The per-phase loop:** Specify → Implement (reuse first, minimum code) →
+  Verify against an explicit gate → Commit (one atomic change) → append a Log
+  entry. Don't move to the next phase until the current one's gate is green.
+- **Licensing.** Code in this repo is **MIT**; prefer permissive/public-domain
+  dependencies and keep tools dependency-light. Record any third-party component
+  and its license.
+
 ## Standing note
 
 These rules are young. **Keep refining them as we go** — when writing a recipe

@@ -5,3 +5,7 @@ Thumbs.db
 
 # Editor
 .idea/
+.tokensave
+
+# Build artifacts
+tools/ocr/.build/
