@@ -171,10 +171,12 @@ bake and plate. Steps 1–2 start earliest.
    until **fully soft and creamy** (~45–75 min). Salt near the end (early salt
    keeps them tough). Drain, keep a mugful of liquid. Stir in **~3 units of taco
    seasoning** + a splash of liquid so they're saucy, not dry. Taste, salt.
-4. **Cook & roast the chickpeas.** Dried: soak with the beans and simmer soft,
-   then drain. Canned: drain and rinse. **Dry them well** (wet = no crisp), toss
-   with oil + **~2 units seasoning**, spread in a **single loose layer** on trays
-   and roast at ~200 °C, shaking once or twice, until deep golden, ~25–35 min.
+4. **Roast the chickpeas** per [`roasted-chickpeas.md`](roasted-chickpeas.md),
+   using the **taco** spice set (~2 units of the [seasoning](#taco-seasoning-make-it-from-single-spices)).
+   The one thing
+   to get right: **season them late, not before roasting** — the garlic and
+   onion powder in the blend scorch bitter over a long, hot roast. Dried: cook
+   them soft alongside the beans first; canned: just drain and rinse.
 5. **Brown the pork.** Pan hot before meat goes in. Cook in **batches, thin
    layer** — a heaped pan steams grey instead of browning. Break it up, colour
    it, combine, stir in **~4 units seasoning** + a splash of water, simmer a few
@@ -219,7 +221,9 @@ bake and plate. Steps 1–2 start earliest.
   room temp before building so the bake heats them through.
 - **Wraps can be fully built a few hours ahead** and held cold on trays, then
   baked to order — but don't build days ahead or they go soggy. Roast the
-  chickpeas late; they lose crunch in the fridge.
+  chickpeas late — [they lose their crunch](roasted-chickpeas.md#make-ahead--cross-day-notes)
+  on cooling and in the fridge (inside the wrap you're after roasted flavour and
+  firm texture anyway, not shatter-crisp).
 - **Cold sides same day**; dress the slaw only a few hours ahead.
 - **Cross-day reuse:** leftover baked wraps reheat for lunch; spare taco beans +
   rice become a soup or breakfast hash; spiced pork tops next day's nachos.
