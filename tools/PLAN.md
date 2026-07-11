@@ -13,8 +13,9 @@ each, verify against a gate, commit, and append a progress entry. See
 
 Photos of kitchen receipts → per-receipt enriched CSV (item, category, nutrition
 type, deduced weight/pieces, price) → stats reports. Receipts are Danish, from
-various shops. First sample: `2026/finance/receipts/IMG_6575.jpeg` — Dagrofa
-Food Service, ~40 line items, footer totals `I alt 2412.30` / `Total 3015.38`.
+various shops. First sample (renamed by Phase 3):
+`2026/finance/receipts/20260710-155835.jpeg` — Dagrofa Food Service, 41 line
+items, footer totals `I alt 2412.30` / `Total 3015.38`.
 
 ## Design
 
