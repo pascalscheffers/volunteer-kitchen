@@ -14,7 +14,7 @@ All prices in DKK. Rough conversions: ÷7.46 for €, ×0.14 for $.
 | Shopping runs | 6 trips, 13 receipts, **330** line items |
 | Meals served | **1,038** |
 | Cakes handed out (Sun/Mon/Tue) | **1,600** — plus taco nights |
-| Food hauled | **~260 kg** solid + **~170 L** liquid |
+| Food hauled | **~360 kg** solid + **~250 L** liquid |
 
 ## Receipt by receipt
 
@@ -60,15 +60,15 @@ here — two from the receipt's own "Total inkl. moms", three (†) at ×1.25.
 
 | Type | kg | Spend |
 |---|---|---|
-| 🍝 Carbs (flour, pasta, rice, bread) | 100 | 3,990 |
-| 🥦 Veg | 54 | 3,493 |
-| 🍗 Meat & protein | 52 | 6,918 |
-| 🫘 Legumes | 11 | 770 |
-| 🍎 Fruit | 10 | 513 |
-| 🧀 Dairy & cheese | 7 | 3,014 |
-| 🫒 Fat & oil | 7 | 1,559 |
-| 🧂 Condiments | 7 | 1,724 |
-| 🍬 Sweets | 5 | 985 |
+| 🍝 Carbs (flour, pasta, rice, bread) | 139 | 3,990 |
+| 🍗 Meat & protein | 79 | 7,173 |
+| 🥦 Veg | 58 | 3,493 |
+| 🫘 Legumes | 27 | 770 |
+| 🧀 Dairy & cheese | 23 | 2,759 |
+| 🍎 Fruit | 12 | 513 |
+| 🫒 Fat & oil | 8 | 1,559 |
+| 🧂 Condiments | 8 | 1,724 |
+| 🍬 Sweets | 6 | 985 |
 | 🌶️ Spices | 4 | 535 |
 
 Protein is a fifth of the plate but nearly a third of the bill. Carbs are the
@@ -83,12 +83,12 @@ the crew wanted.
 
 ## Fun-size facts
 
-- **~20 kg of sugar** dissolved into cakes, sauces and coffee.
-- **~170 litres** of soda, juice and squash drunk — plus coffee by the kilo.
-- **~520 g of raw ingredients per person, per day** — before water, before
+- **~18 kg of sugar** dissolved into cakes, sauces and coffee.
+- **~180 litres** of soda, juice and squash drunk — plus coffee by the kilo.
+- **~720 g of raw ingredients per person, per day** — before water, before
   cooking. Portions ran ~900 g/dinner early, settling to ~650 g as the group
   normalised.
-- Biggest single line item: **chicken fillet, 14 kg** for 1,085 DKK.
+- Biggest single line item: **chicken fillet, 14 kg** for 1,356 DKK.
 
 ## The waste & the leftovers
 
