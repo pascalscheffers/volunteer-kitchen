@@ -19,19 +19,19 @@ All spend figures are **incl. moms** (25% Danish VAT). Wholesale receipts list l
 
 | Type | Spend | Total kg | Total L | Pieces |
 |---|---|---|---|---|
-| protein | 7,173.37 | 52.240 | — | 470 |
-| carbohydrate | 3,990.20 | 100.400 | — | 72 |
-| vegetable | 3,493.21 | 53.770 | — | 210 |
-| beverage | 3,402.89 | 1.900 | 144.750 | 300 |
-| other | 2,213.75 | 3.640 | 0.500 | 4 |
-| condiment | 1,723.60 | 6.730 | 10.300 | — |
-| fat-oil | 1,559.34 | 6.620 | 14.500 | — |
+| protein | 7,173.37 | 79.320 | — | 720 |
+| carbohydrate | 3,990.20 | 138.800 | — | 180 |
+| vegetable | 3,493.21 | 58.120 | — | 304 |
+| beverage | 3,402.89 | 5.900 | 180.750 | 300 |
+| other | 2,213.75 | 15.540 | 0.500 | 4 |
+| condiment | 1,723.60 | 8.030 | 12.600 | — |
+| fat-oil | 1,559.34 | 7.720 | 19.500 | — |
 | cheese | 1,506.30 | 16.150 | — | — |
-| dairy | 1,252.48 | 5.000 | 38.000 | — |
-| sweet | 984.80 | 4.784 | — | 218 |
-| legume | 769.76 | 11.000 | — | — |
+| dairy | 1,252.48 | 6.400 | 39.400 | — |
+| sweet | 984.80 | 5.994 | — | 218 |
+| legume | 769.76 | 26.600 | — | — |
 | spice | 535.33 | 3.642 | — | 3 |
-| fruit | 512.96 | 10.000 | — | 35 |
+| fruit | 512.96 | 11.600 | — | 35 |
 
 ## Top ingredients by spend (top 20 of 268)
 
@@ -64,16 +64,20 @@ All spend figures are **incl. moms** (25% Danish VAT). Wholesale receipts list l
 |---|---|
 | minced pork (8-12% fat) | 18.000 |
 | chicken fillet (140-160g pieces) 2kg pack | 14.000 |
+| Manitoba wheat flour | 13.600 |
 | wheat flour | 12.000 |
+| ice cubes | 10.000 |
 | pizza flour | 10.000 |
 | red onion | 10.000 |
 | sugar | 10.000 |
 | wheat flour (Manitoba, type 0) | 10.000 |
 | chicken sausages 10x34g | 8.160 |
+| pork roast (fresh; by weight) | 8.000 |
 | tomatoes, coarsely chopped | 7.500 |
 | chicken frankfurters (62.5g each) 1kg pack | 7.000 |
 | rice noodles, 3mm | 7.000 |
 | tagliatelle (wide ribbon pasta), 500g | 7.000 |
+| kidney beans (Gestus; net of rebate) | 6.400 |
 | brown sugar (soft) | 6.000 |
 | basmati rice | 5.000 |
 | red bell pepper | 5.000 |
@@ -81,10 +85,18 @@ All spend figures are **incl. moms** (25% Danish VAT). Wholesale receipts list l
 | spaghetti (catering pack) | 5.000 |
 | wheat flour (Tipo 0 Manitoba) | 5.000 |
 | wheat flour (Tipo 00) | 5.000 |
+| bacon (sliced) | 4.800 |
+| kidney beans (Classico; net of rebate) | 4.400 |
+| kidney beans (organic) | 4.400 |
+| coffee (whole beans) | 4.000 |
 | spreadable plant-based fat 2kg | 4.000 |
+| Limpa bread | 3.600 |
+| turkey breast (sliced) | 3.600 |
 | celery (leaf) approx. 500g | 3.500 |
+| Pågen Limpa bread loaf | 3.200 |
 | wheat sandwich bread | 3.200 |
 | Klovborg cheese (sliced) | 3.000 |
+| potato salad | 3.000 |
 | red lentils | 3.000 |
 | red onions (60/80mm) 1kg | 3.000 |
 | stewed apple (apple compote) | 3.000 |
@@ -92,12 +104,16 @@ All spend figures are **incl. moms** (25% Danish VAT). Wholesale receipts list l
 | tortilla chips, chili flavor | 2.850 |
 | Klovborg cheese slices (45%+ fat) | 2.750 |
 | hazelnut-cocoa spread | 2.660 |
+| egg-free noodles (Spicefield) | 2.600 |
 | button mushrooms 2.5kg | 2.500 |
 | cornmeal | 2.500 |
 | chickpeas | 2.400 |
 | mushrooms | 2.400 |
+| cured/smoked pork loin (sliced) | 2.250 |
 | salsa | 2.250 |
 | salsa, chunky, medium heat | 2.250 |
+| Lurpak spreadable butter | 2.200 |
+| egg salad | 2.200 |
 | baby spinach, washed, 500g | 2.000 |
 | brown sugar (farin) | 2.000 |
 | butter (unsalted) | 2.000 |
@@ -106,6 +122,7 @@ All spend figures are **incl. moms** (25% Danish VAT). Wholesale receipts list l
 | crème fraîche 18% | 2.000 |
 | red apples 2kg bag | 2.000 |
 | red lentils, whole | 2.000 |
+| rye flour | 2.000 |
 | wholegrain flour 1kg | 2.000 |
 | yeast 50g | 2.000 |
 | coffee beans | 1.900 |
@@ -113,69 +130,113 @@ All spend figures are **incl. moms** (25% Danish VAT). Wholesale receipts list l
 | kidney beans | 1.800 |
 | sweetcorn kernels (drained) | 1.700 |
 | mushrooms (400g) | 1.600 |
+| orange marmalade | 1.600 |
 | strawberry jam | 1.600 |
 | strawberry jam 800g | 1.600 |
 | Egelykke cheese (aged, sliced) | 1.500 |
 | Egelykke cheese (mild) | 1.500 |
 | garlic (peeled cloves) | 1.500 |
 | portobello mushrooms (large 10-12cm) 1.5kg | 1.500 |
+| Pagen limpa bread | 1.400 |
+| tuna in water | 1.280 |
 | Nutella (hazelnut-chocolate spread) 630g | 1.260 |
 | Egelykke cheese (45%+ fat, mild, sliced) | 1.200 |
 | Samsø cheese sliced (30%+ fat) | 1.200 |
+| family rye bread | 1.200 |
 | grated Tex Mex cheese blend (Karolines; net of rebate) | 1.200 |
 | organic family cheese (mild) | 1.200 |
+| soft grain rye bread | 1.200 |
+| wheat tortillas | 1.200 |
 | sweetcorn | 1.020 |
-| Lurpak spreadable butter | 1.000 |
 | corn flakes (500g) | 1.000 |
 | crunchy muesli (cocoa) | 1.000 |
 | flaked almonds 1kg | 1.000 |
 | fresh yeast | 1.000 |
+| light spread with omega-3 | 1.000 |
 | muesli (strawberry) | 1.000 |
 | olives (mixed, pitted) | 1.000 |
 | pumpkin seeds (roasted) | 1.000 |
 | raisins (jumbo) 1kg | 1.000 |
 | rocket salad, washed, 500g | 1.000 |
+| salami slices | 1.000 |
 | salt | 1.000 |
 | table salt, fine, iodized | 1.000 |
+| tomatoes (on the vine) | 1.000 |
 | coarse grain bread (950g) | 0.950 |
 | Tex-Mex style topping | 0.940 |
 | black-eyed beans | 0.900 |
 | jalapeño (sliced) | 0.900 |
+| organic washed spinach | 0.900 |
 | pinto beans | 0.900 |
+| sandwich rye bread | 0.900 |
 | dijon mustard | 0.865 |
+| Pågen limpa bread | 0.800 |
+| plant-based yoghurt (blueberry) | 0.800 |
+| red cabbage salad | 0.800 |
+| salami (original) | 0.800 |
 | strawberries (frozen; 800g) | 0.800 |
+| chicken tenderloin (net of rebate) | 0.750 |
 | chicken breast (100g) | 0.700 |
 | sun-dried tomato strips | 0.650 |
 | tahini (sesame paste) | 0.620 |
+| Gamle Mølle sandwich bread | 0.600 |
+| curry salad | 0.600 |
+| dark-chocolate spread slices | 0.600 |
+| dense rye bread (cloister bread) | 0.600 |
+| hummus (plain) | 0.600 |
+| milk-chocolate spread slices | 0.600 |
+| salami | 0.600 |
+| sandwich bread (abbreviation uncertain) | 0.600 |
 | sliced cheese (45%+ fat) | 0.600 |
+| sunflower rye bread | 0.600 |
 | taco spice mix | 0.532 |
+| carrots (punnet) | 0.500 |
 | croutons | 0.500 |
+| curry herring | 0.500 |
+| fine peas (organic) | 0.500 |
+| fruit muesli | 0.500 |
 | garlic pâté (250g) | 0.500 |
 | ham salad (250g) | 0.500 |
+| plant-based yoghurt (vanilla) | 0.500 |
 | black pepper (crushed) | 0.450 |
 | curry powder, Madras (shaker tin) | 0.450 |
 | dark chocolate slices | 0.432 |
 | milk chocolate slices | 0.432 |
 | honey | 0.425 |
+| chicken salad | 0.400 |
+| crispbread | 0.400 |
+| cucumber salad | 0.400 |
+| fine rolled oats (organic) | 0.400 |
+| honey (brand name uncertain) | 0.400 |
+| hummus (natural) | 0.400 |
 | chicken breast (sliced) | 0.380 |
+| Maille mustard | 0.300 |
+| liver pâté | 0.300 |
+| marinated herring | 0.300 |
+| spiced herring | 0.300 |
+| grated carrot (organic) | 0.250 |
+| organic spreadable butter block | 0.200 |
 | curly parsley 150g bag | 0.150 |
 | baking powder | 0.140 |
+| sesame seeds (organic) | 0.100 |
 | coriander (fresh) | 0.060 |
+| cake decorating gel (blue) | 0.005 |
+| cake decorating gel (green) | 0.005 |
 
 ## Reconciliation
 
 | Receipt | Line items | Spend | Low-confidence rows |
 |---|---|---|---|
-| 20260710-155835 | 41 | 3,015.38 | 6 |
-| 20260711-111844 | 35 | 2,873.56 | 7 |
-| 20260712-090658 | 47 | 1,961.90 | 39 |
+| 20260710-155835 | 41 | 3,015.38 | 0 |
+| 20260711-111844 | 35 | 2,873.56 | 2 |
+| 20260712-090658 | 47 | 1,961.90 | 12 |
 | 20260712-114854 | 7 | 1,026.00 | 5 |
-| 20260712-123824 | 31 | 1,671.60 | 14 |
-| 20260712-145217 | 31 | 3,293.99 | 22 |
-| 20260713-085500 | 17 | 1,227.30 | 12 |
-| 20260713-125311 | 29 | 2,987.55 | 11 |
-| 20260713-125356 | 3 | 1,132.50 | 3 |
-| 20260713-133843 | 21 | 4,986.73 | 5 |
-| 20260714-081007 | 27 | 2,005.45 | 24 |
-| 20260714-120244 | 20 | 1,679.30 | 15 |
-| 20260715-072033 | 21 | 1,256.72 | 9 |
+| 20260712-123824 | 31 | 1,671.60 | 2 |
+| 20260712-145217 | 31 | 3,293.99 | 1 |
+| 20260713-085500 | 17 | 1,227.30 | 4 |
+| 20260713-125311 | 29 | 2,987.55 | 6 |
+| 20260713-125356 | 3 | 1,132.50 | 1 |
+| 20260713-133843 | 21 | 4,986.73 | 4 |
+| 20260714-081007 | 27 | 2,005.45 | 4 |
+| 20260714-120244 | 20 | 1,679.30 | 3 |
+| 20260715-072033 | 21 | 1,256.72 | 1 |

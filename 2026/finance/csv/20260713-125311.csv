@@ -15,9 +15,9 @@ receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,t
 20260713-125311,2026-07-13,Dagrofa Food Service,14,Tabasco original sauce 350ml,Tabasco hot sauce,food,condiment,1,350,ml,,0.35,,132.00,132.00,high
 20260713-125311,2026-07-13,Dagrofa Food Service,15,Bagepulver 140g,baking powder,food,other,1,140,g,0.14,,,9.95,9.95,low
 20260713-125311,2026-07-13,Dagrofa Food Service,16,Risnudler 3mm 500g,"rice noodles, 3mm",food,carbohydrate,14,500,g,7,,,16.95,237.30,high
-20260713-125311,2026-07-13,Dagrofa Food Service,17,Brødkniv hvid 250/385mm,"bread knife, white (250/385mm)",non-food,other,1,,,,,,51.95,51.95,low
-20260713-125311,2026-07-13,Dagrofa Food Service,18,Brødkniv hvid 300/430mm,"bread knife, white (300/430mm)",non-food,other,1,,,,,,51.95,51.95,low
-20260713-125311,2026-07-13,Dagrofa Food Service,19,Viskestykke hvid 12-pk,"tea towels, white (12-pack)",non-food,other,1,12,pcs,,,,64.95,64.95,low
+20260713-125311,2026-07-13,Dagrofa Food Service,17,Brødkniv hvid 250/385mm,"bread knife, white (250/385mm)",non-food,other,1,,,,,,51.95,51.95,high
+20260713-125311,2026-07-13,Dagrofa Food Service,18,Brødkniv hvid 300/430mm,"bread knife, white (300/430mm)",non-food,other,1,,,,,,51.95,51.95,high
+20260713-125311,2026-07-13,Dagrofa Food Service,19,Viskestykke hvid 12-pk,"tea towels, white (12-pack)",non-food,other,1,12,pcs,,,,64.95,64.95,high
 20260713-125311,2026-07-13,Dagrofa Food Service,20,Ahornsirup 1L,maple syrup,food,condiment,1,1,l,,1,,149.00,149.00,high
 20260713-125311,2026-07-13,Dagrofa Food Service,21,Æblegrød 500g,stewed apple (apple compote),food,fruit,6,500,g,3,,,12.95,77.70,high
 20260713-125311,2026-07-13,Dagrofa Food Service,22,Blandet Saft C Rød 1L,"mixed juice concentrate, red (vitamin C)",beverage,beverage,8,1,l,,8,,26.95,215.60,high
@@ -25,6 +25,6 @@ receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,t
 20260713-125311,2026-07-13,Dagrofa Food Service,24,Sukker 2kg,sugar,food,carbohydrate,4,2,kg,8,,,17.95,71.80,high
 20260713-125311,2026-07-13,Dagrofa Food Service,25,Karry madras 450g strødåse,"curry powder, Madras (shaker tin)",food,spice,1,450,g,0.45,,,66.95,66.95,high
 20260713-125311,2026-07-13,Dagrofa Food Service,26,Solsikkeolie 1L,sunflower oil,food,fat-oil,2,1,l,,2,,17.95,35.90,high
-20260713-125311,2026-07-13,Dagrofa Food Service,27,Affaldspose transparent 70x110cm 10stk,"trash bags, transparent, 70x110cm (10-pack)",non-food,other,2,10,pcs,,,,11.95,23.90,low
+20260713-125311,2026-07-13,Dagrofa Food Service,27,Affaldspose transparent 70x110cm 10stk,"trash bags, transparent, 70x110cm (10-pack)",non-food,other,2,10,pcs,,,,11.95,23.90,high
 20260713-125311,2026-07-13,Dagrofa Food Service,28,Citronsaft 1L,lemon juice,food,condiment,1,1,l,,1,,23.95,23.95,low
-20260713-125311,2026-07-13,Dagrofa Food Service,29,Kortgebyr,card payment fee,non-food,other,1,,,,,,21.59,21.59,low
+20260713-125311,2026-07-13,Dagrofa Food Service,29,Kortgebyr,card payment fee,non-food,other,1,,,,,,21.59,21.59,high

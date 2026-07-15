@@ -3,13 +3,13 @@ receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,t
 20260711-111844,2026-07-11,Dagrofa Food Service,2,Gær 50g,fresh yeast,food,other,20,50,g,1,,,1.50,30.00,high
 20260711-111844,2026-07-11,Dagrofa Food Service,3,Smør usaltet 200g,butter (unsalted),food,dairy,10,200,g,2,,,24.95,249.50,high
 20260711-111844,2026-07-11,Dagrofa Food Service,4,Cheddar ost revet 50+ 2kg,cheddar (grated),food,cheese,1,2,kg,2,,,141.00,141.00,high
-20260711-111844,2026-07-11,Dagrofa Food Service,5,"Tilbuds Rabat 22,70%",promotional discount,non-food,other,,,,,,,-32.00,-32.00,low
+20260711-111844,2026-07-11,Dagrofa Food Service,5,"Tilbuds Rabat 22,70%",promotional discount,non-food,other,,,,,,,-32.00,-32.00,high
 20260711-111844,2026-07-11,Dagrofa Food Service,6,Røde Kidney bønner 900g,kidney beans,food,legume,1,900,g,0.9,,,27.95,27.95,high
 20260711-111844,2026-07-11,Dagrofa Food Service,7,Termokasse sort m/låg,thermo box w/lid (black),non-food,other,1,,,,,,247.00,247.00,high
-20260711-111844,2026-07-11,Dagrofa Food Service,8,Creme fraiche 18% 500g,crème fraîche 18%,food,dairy,4,500,g,2,,,16.95,67.80,low
+20260711-111844,2026-07-11,Dagrofa Food Service,8,Creme fraiche 18% 500g,crème fraîche 18%,food,dairy,4,500,g,2,,,16.95,67.80,high
 20260711-111844,2026-07-11,Dagrofa Food Service,9,Agurker m/film (42),cucumbers (filmed),food,vegetable,15,1,pcs,,,15,7.95,119.25,high
 20260711-111844,2026-07-11,Dagrofa Food Service,10,Iceberg (10),iceberg lettuce,food,vegetable,6,1,pcs,,,6,8.95,53.70,high
-20260711-111844,2026-07-11,Dagrofa Food Service,11,Koriander 15g,coriander (fresh),food,spice,4,15,g,0.06,,,17.95,71.80,low
+20260711-111844,2026-07-11,Dagrofa Food Service,11,Koriander 15g,coriander (fresh),food,spice,4,15,g,0.06,,,17.95,71.80,high
 20260711-111844,2026-07-11,Dagrofa Food Service,12,Øko lime 1stk (54),lime (organic),food,fruit,5,1,pcs,,,5,1.95,9.75,high
 20260711-111844,2026-07-11,Dagrofa Food Service,13,Peber rød 80/100 mm 5 kg,red bell pepper,food,vegetable,1,5,kg,5,,,129.00,129.00,high
 20260711-111844,2026-07-11,Dagrofa Food Service,14,Løg Rødløg 60/80 mm 10kg,red onion,food,vegetable,1,10,kg,10,,,64.95,64.95,high
@@ -20,8 +20,8 @@ receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,t
 20260711-111844,2026-07-11,Dagrofa Food Service,19,Blandet Saft C Rød 1L,fruit cordial (red),beverage,beverage,3,1,l,,3,,26.95,80.85,high
 20260711-111844,2026-07-11,Dagrofa Food Service,20,Kikærter 7mm 900g,chickpeas,food,legume,1,900,g,0.9,,,22.95,22.95,high
 20260711-111844,2026-07-11,Dagrofa Food Service,21,Tahini i sesamsmør/olie 620g,tahini (sesame paste),food,fat-oil,1,620,g,0.62,,,54.95,54.95,low
-20260711-111844,2026-07-11,Dagrofa Food Service,22,Gel grøn kagepynt,cake decorating gel (green),food,sweet,1,,,,,,15.95,15.95,low
-20260711-111844,2026-07-11,Dagrofa Food Service,23,Gel blå kagepynt,cake decorating gel (blue),food,sweet,1,,,,,,16.95,16.95,low
+20260711-111844,2026-07-11,Dagrofa Food Service,22,Gel grøn kagepynt,cake decorating gel (green),food,sweet,1,5,g,0.005,,,15.95,15.95,high
+20260711-111844,2026-07-11,Dagrofa Food Service,23,Gel blå kagepynt,cake decorating gel (blue),food,sweet,1,5,g,0.005,,,16.95,16.95,high
 20260711-111844,2026-07-11,Dagrofa Food Service,24,Crunchy mysli med kakao 500g,crunchy muesli (cocoa),food,carbohydrate,2,500,g,1,,,11.95,23.90,high
 20260711-111844,2026-07-11,Dagrofa Food Service,25,Musli med jordbær 500g,muesli (strawberry),food,carbohydrate,2,500,g,1,,,16.95,33.90,high
 20260711-111844,2026-07-11,Dagrofa Food Service,26,Brun farin 2kg,brown sugar (farin),food,carbohydrate,1,2,kg,2,,,39.95,39.95,high

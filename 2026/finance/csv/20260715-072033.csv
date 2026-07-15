@@ -2,21 +2,21 @@ receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,t
 20260715-072033,2026-07-15,Netto,1,NUTELLA 630G,Nutella (hazelnut-chocolate spread) 630g,food,sweet,2,630,g,1.26,,,89.00,178.00,high
 20260715-072033,2026-07-15,Netto,2,Skrabeæg 10 M/L,"free-range eggs (10-pack, medium/large)",food,protein,8,10,pcs,,,80,31.95,255.60,low
 20260715-072033,2026-07-15,Netto,3,EGELYKKE PEACH MELBA,Egelykke yoghurt (peach melba),food,dairy,1,1,l,,1,,15.95,15.95,high
-20260715-072033,2026-07-15,Netto,4,RABAT,discount,food,other,,,,,,,,-4.00,low
+20260715-072033,2026-07-15,Netto,4,RABAT,discount,food,other,,,,,,,,-4.00,high
 20260715-072033,2026-07-15,Netto,5,EGELYKKE YOG JOR 1L,Egelykke yoghurt (strawberry) 1L,food,dairy,1,1,l,,1,,17.95,17.95,high
-20260715-072033,2026-07-15,Netto,6,RABAT,discount,food,other,,,,,,,,-6.00,low
+20260715-072033,2026-07-15,Netto,6,RABAT,discount,food,other,,,,,,,,-6.00,high
 20260715-072033,2026-07-15,Netto,7,EGELYKKE PÆRE/BANAN,Egelykke yoghurt (pear/banana),food,dairy,2,1,l,,2,,15.95,31.90,high
-20260715-072033,2026-07-15,Netto,8,RABAT,discount,food,other,,,,,,,,-8.00,low
+20260715-072033,2026-07-15,Netto,8,RABAT,discount,food,other,,,,,,,,-8.00,high
 20260715-072033,2026-07-15,Netto,9,"ÆBLENEKTAR 1,5L",apple nectar 1.5L,beverage,beverage,7,1.5,l,,10.5,,11.25,78.75,high
 20260715-072033,2026-07-15,Netto,10,"APPELSINNEKTAR 1,5L",orange nectar 1.5L,beverage,beverage,6,1.5,l,,9,,16.95,101.70,high
 20260715-072033,2026-07-15,Netto,11,SØDMÆLK,whole milk,food,dairy,7,1,l,,7,,13.50,94.50,high
-20260715-072033,2026-07-15,Netto,12,BACON I SKIVER,bacon (sliced),food,protein,16,,,,,,29.90,478.40,high
-20260715-072033,2026-07-15,Netto,13,RABAT,discount,food,other,,,,,,,,-159.20,low
-20260715-072033,2026-07-15,Netto,14,BELLAFONDE HONNING,honey (brand name uncertain),food,condiment,1,,,,,,19.09,19.09,low
+20260715-072033,2026-07-15,Netto,12,BACON I SKIVER,bacon (sliced),food,protein,16,300,g,4.8,,,29.90,478.40,high
+20260715-072033,2026-07-15,Netto,13,RABAT,discount,food,other,,,,,,,,-159.20,high
+20260715-072033,2026-07-15,Netto,14,BELLAFONDE HONNING,honey (brand name uncertain),food,condiment,1,400,g,0.4,,,19.09,19.09,high
 20260715-072033,2026-07-15,Netto,15,BF JORDBÆR 800G,strawberry jam 800g,food,fruit,2,800,g,1.6,,,19.95,39.90,high
-20260715-072033,2026-07-15,Netto,16,STILKTOMATER,tomatoes (on the vine),food,vegetable,1,,,,,,28.00,28.00,high
-20260715-072033,2026-07-15,Netto,17,SANDWICH LB,sandwich bread (abbreviation uncertain),food,carbohydrate,1,,,,,,25.50,25.50,low
-20260715-072033,2026-07-15,Netto,18,PAGEN LIMPAN,Pagen limpa bread,food,carbohydrate,2,,,,,,27.25,54.50,high
-20260715-072033,2026-07-15,Netto,19,RABAT,discount,food,other,,,,,,,,-10.50,low
-20260715-072033,2026-07-15,Netto,20,GAMLE MØLLE SANDWIC,Gamle Mølle sandwich bread,food,carbohydrate,1,,,,,,15.20,15.20,high
-20260715-072033,2026-07-15,Netto,21,CHESTFORDS KETCHUP,ketchup (brand name uncertain),food,condiment,1,,,,,,9.48,9.48,low
+20260715-072033,2026-07-15,Netto,16,STILKTOMATER,tomatoes (on the vine),food,vegetable,1,1,kg,1,,,28.00,28.00,high
+20260715-072033,2026-07-15,Netto,17,SANDWICH LB,sandwich bread (abbreviation uncertain),food,carbohydrate,1,600,g,0.6,,,25.50,25.50,high
+20260715-072033,2026-07-15,Netto,18,PAGEN LIMPAN,Pagen limpa bread,food,carbohydrate,2,700,g,1.4,,,27.25,54.50,high
+20260715-072033,2026-07-15,Netto,19,RABAT,discount,food,other,,,,,,,,-10.50,high
+20260715-072033,2026-07-15,Netto,20,GAMLE MØLLE SANDWIC,Gamle Mølle sandwich bread,food,carbohydrate,1,600,g,0.6,,,15.20,15.20,high
+20260715-072033,2026-07-15,Netto,21,CHESTFORDS KETCHUP,ketchup (brand name uncertain),food,condiment,1,500,ml,,0.5,,9.48,9.48,high

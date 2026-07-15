@@ -2,15 +2,15 @@ receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,t
 20260710-155835,2026-07-10,Dagrofa Food Service,1,"Majsmel 2,5kg",cornmeal,food,carbohydrate,1,2.5,kg,2.5,,,45.95,45.95,high
 20260710-155835,2026-07-10,Dagrofa Food Service,2,Hvedemel 2kg,wheat flour,food,carbohydrate,6,2,kg,12,,,10.95,65.70,high
 20260710-155835,2026-07-10,Dagrofa Food Service,3,Lager eddike farvet 1L,vinegar,food,condiment,1,1,l,,1,,6.95,6.95,high
-20260710-155835,2026-07-10,Dagrofa Food Service,4,Heidelberg eddike u/farve 1L,vinegar,food,condiment,1,1,l,,1,,6.95,6.95,low
+20260710-155835,2026-07-10,Dagrofa Food Service,4,Heidelberg eddike u/farve 1L,vinegar,food,condiment,1,1,l,,1,,6.95,6.95,high
 20260710-155835,2026-07-10,Dagrofa Food Service,5,Æblecidereddike 500ml,apple cider vinegar,food,condiment,1,500,ml,,0.5,,14.95,14.95,high
 20260710-155835,2026-07-10,Dagrofa Food Service,6,Flydende margarine 70% 500ml,margarine (liquid),food,fat-oil,3,500,ml,,1.5,,12.95,38.85,high
 20260710-155835,2026-07-10,Dagrofa Food Service,7,"Hvidløgsfed naturel 1,5kg",garlic (peeled cloves),food,vegetable,1,1.5,kg,1.5,,,92.95,92.95,high
 20260710-155835,2026-07-10,Dagrofa Food Service,8,Sort peber knust 450g,black pepper (crushed),food,spice,1,450,g,0.45,,,99.95,99.95,high
 20260710-155835,2026-07-10,Dagrofa Food Service,9,Olivenolie ekstra jomfru 1L,olive oil,food,fat-oil,1,1,l,,1,,74.95,74.95,high
-20260710-155835,2026-07-10,Dagrofa Food Service,10,Mix oliven uden sten 1700g/1000g,"olives (mixed, pitted)",food,vegetable,1,1000,g,1,,,106.00,106.00,low
+20260710-155835,2026-07-10,Dagrofa Food Service,10,Mix oliven uden sten 1700g/1000g,"olives (mixed, pitted)",food,vegetable,1,1000,g,1,,,106.00,106.00,high
 20260710-155835,2026-07-10,Dagrofa Food Service,11,Basmati ris 5kg,basmati rice,food,carbohydrate,1,5,kg,5,,,119.00,119.00,high
-20260710-155835,2026-07-10,Dagrofa Food Service,12,Græskarkerner varmebehandlet 1kg,pumpkin seeds (roasted),food,fat-oil,1,1,kg,1,,,104.00,104.00,low
+20260710-155835,2026-07-10,Dagrofa Food Service,12,Græskarkerner varmebehandlet 1kg,pumpkin seeds (roasted),food,fat-oil,1,1,kg,1,,,104.00,104.00,high
 20260710-155835,2026-07-10,Dagrofa Food Service,13,Dijon original 865g,dijon mustard,food,condiment,1,865,g,0.865,,,48.95,48.95,high
 20260710-155835,2026-07-10,Dagrofa Food Service,14,Pinto bønner barbunya 900g,pinto beans,food,legume,1,900,g,0.9,,,29.95,29.95,high
 20260710-155835,2026-07-10,Dagrofa Food Service,15,Røde Kidney bønner 900g,kidney beans,food,legume,1,900,g,0.9,,,27.95,27.95,high
@@ -20,9 +20,9 @@ receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,t
 20260710-155835,2026-07-10,Dagrofa Food Service,19,Bordsalt fint med jod 1kg,salt,food,spice,1,1,kg,1,,,9.95,9.95,high
 20260710-155835,2026-07-10,Dagrofa Food Service,20,Mayonnaise real 2L,mayonnaise,food,fat-oil,1,2,l,,2,,91.95,91.95,high
 20260710-155835,2026-07-10,Dagrofa Food Service,21,Honey mustard dressing 1L,honey mustard dressing,food,condiment,1,1,l,,1,,70.95,70.95,high
-20260710-155835,2026-07-10,Dagrofa Food Service,22,Skålfilter 250/110 hvid,coffee filter papers,non-food,other,1,,,,,,35.95,35.95,low
+20260710-155835,2026-07-10,Dagrofa Food Service,22,Skålfilter 250/110 hvid,coffee filter papers,non-food,other,1,,,,,,35.95,35.95,high
 20260710-155835,2026-07-10,Dagrofa Food Service,23,Tortilla hvede 30cm 18stk,wheat tortilla,food,carbohydrate,4,18,pcs,,,72,31.95,127.80,high
-20260710-155835,2026-07-10,Dagrofa Food Service,24,Special blend no.2 hele bønner 1kg,coffee beans,beverage,beverage,1,1,kg,1,,,168.00,168.00,low
+20260710-155835,2026-07-10,Dagrofa Food Service,24,Special blend no.2 hele bønner 1kg,coffee beans,beverage,beverage,1,1,kg,1,,,168.00,168.00,high
 20260710-155835,2026-07-10,Dagrofa Food Service,25,Crema kaffe hele bønner 900g,coffee beans,beverage,beverage,1,900,g,0.9,,,115.00,115.00,high
 20260710-155835,2026-07-10,Dagrofa Food Service,26,Jordbær marmelade 800g,strawberry jam,food,fruit,2,800,g,1.6,,,18.45,36.90,high
 20260710-155835,2026-07-10,Dagrofa Food Service,27,Honning hverdags 425g,honey,food,condiment,1,425,g,0.425,,,34.95,34.95,high
@@ -32,7 +32,7 @@ receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,t
 20260710-155835,2026-07-10,Dagrofa Food Service,31,Taco spice mix 532g,taco spice mix,food,spice,1,532,g,0.532,,,86.95,86.95,high
 20260710-155835,2026-07-10,Dagrofa Food Service,32,Jalapeño skåret grøn hot 900g,jalapeño (sliced),food,vegetable,1,900,g,0.9,,,70.95,70.95,high
 20260710-155835,2026-07-10,Dagrofa Food Service,33,Salsa chunky medium 2250g,salsa,food,condiment,1,2250,g,2.25,,,83.95,83.95,high
-20260710-155835,2026-07-10,Dagrofa Food Service,34,"Squeeze plast flaske 0,7L",squeeze bottle,non-food,other,3,0.7,l,,,,12.95,38.85,low
+20260710-155835,2026-07-10,Dagrofa Food Service,34,"Squeeze plast flaske 0,7L",squeeze bottle,non-food,other,3,0.7,l,,,,12.95,38.85,high
 20260710-155835,2026-07-10,Dagrofa Food Service,35,Tortilla chips nachos rund 475g,tortilla chips,food,carbohydrate,4,475,g,1.9,,,27.95,111.80,high
 20260710-155835,2026-07-10,Dagrofa Food Service,36,Grøn te med mint 20 breve,green tea (mint),beverage,beverage,1,20,sachet,,,20,15.95,15.95,high
 20260710-155835,2026-07-10,Dagrofa Food Service,37,Earl grey te 20 breve,earl grey tea,beverage,beverage,1,20,sachet,,,20,15.95,15.95,high

@@ -1,18 +1,18 @@
 receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,total_kg,total_l,pieces,unit_price,line_total,confidence
 20260713-085500,2026-07-13,365 Discount,1,Nutella 350 g,hazelnut-cocoa spread,food,sweet,4,350,g,1.4,,,47.95,191.80,high
-20260713-085500,2026-07-13,365 Discount,2,Nektar Æble,apple nectar,beverage,beverage,10,,,,,,11.25,112.50,low
-20260713-085500,2026-07-13,365 Discount,3,Nektar Appelsin,orange nectar,beverage,beverage,10,,,,,,16.95,169.50,low
+20260713-085500,2026-07-13,365 Discount,2,Nektar Æble,apple nectar,beverage,beverage,10,1.5,l,,15,,11.25,112.50,high
+20260713-085500,2026-07-13,365 Discount,3,Nektar Appelsin,orange nectar,beverage,beverage,10,1.5,l,,15,,16.95,169.50,high
 20260713-085500,2026-07-13,365 Discount,4,Rynkeby Saft 1 L,fruit squash/cordial,beverage,beverage,10,1,l,,10,,23.95,239.50,high
-20260713-085500,2026-07-13,365 Discount,5,Valsemøllen Manitoba,Manitoba wheat flour,food,carbohydrate,6,,,,,,23.50,141.00,low
+20260713-085500,2026-07-13,365 Discount,5,Valsemøllen Manitoba,Manitoba wheat flour,food,carbohydrate,6,1.7,kg,10.2,,,23.50,141.00,high
 20260713-085500,2026-07-13,365 Discount,6,Kyllingebryst 90 g,chicken breast (sliced),food,protein,2,90,g,0.18,,,16.95,33.90,high
 20260713-085500,2026-07-13,365 Discount,7,Håndsprit gel 250 ml,hand sanitizer gel,non-food,other,2,250,ml,,0.5,,17.25,34.50,high
 20260713-085500,2026-07-13,365 Discount,8,Kyllingebryst 100 g,chicken breast (sliced),food,protein,2,100,g,0.2,,,13.50,27.00,high
-20260713-085500,2026-07-13,365 Discount,9,Hummus Natural,hummus (plain),food,condiment,3,,,,,,14.95,44.85,low
+20260713-085500,2026-07-13,365 Discount,9,Hummus Natural,hummus (plain),food,condiment,3,200,g,0.6,,,14.95,44.85,high
 20260713-085500,2026-07-13,365 Discount,10,G&J Pålæg Mælk 2-PK,milk-chocolate spread (2-pack),food,sweet,1,2,pcs,,,2,49.25,49.25,low
 20260713-085500,2026-07-13,365 Discount,11,Yoghurt Jordbær,strawberry yoghurt,food,dairy,4,1,l,,4,,12.95,51.80,low
 20260713-085500,2026-07-13,365 Discount,12,Yoghurt Pære/Banan,pear-banana yoghurt,food,dairy,4,1,l,,4,,12.95,51.80,low
 20260713-085500,2026-07-13,365 Discount,13,Yoghurt Naturel,plain yoghurt,food,dairy,2,1,l,,2,,9.95,19.90,low
-20260713-085500,2026-07-13,365 Discount,14,Plantegurt Blåbær,plant-based yoghurt (blueberry),food,other,2,,,,,,25.95,51.90,low
-20260713-085500,2026-07-13,365 Discount,15,Rabat (Plantegurt Blåbær),discount,food,other,2,,,,,,-5.95,-11.90,low
-20260713-085500,2026-07-13,365 Discount,16,Plantegurt Vanilje,plant-based yoghurt (vanilla),food,other,1,,,,,,25.95,25.95,low
-20260713-085500,2026-07-13,365 Discount,17,Rabat (Plantegurt Vanilje),discount,food,other,1,,,,,,-5.95,-5.95,low
+20260713-085500,2026-07-13,365 Discount,14,Plantegurt Blåbær,plant-based yoghurt (blueberry),food,other,2,400,g,0.8,,,25.95,51.90,high
+20260713-085500,2026-07-13,365 Discount,15,Rabat (Plantegurt Blåbær),discount,food,other,2,,,,,,-5.95,-11.90,high
+20260713-085500,2026-07-13,365 Discount,16,Plantegurt Vanilje,plant-based yoghurt (vanilla),food,other,1,500,g,0.5,,,25.95,25.95,high
+20260713-085500,2026-07-13,365 Discount,17,Rabat (Plantegurt Vanilje),discount,food,other,1,,,,,,-5.95,-5.95,high
