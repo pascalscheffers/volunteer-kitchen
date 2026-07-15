@@ -50,6 +50,45 @@ Key invariants:
 Newest first. One tight entry per completed phase: what got done, key decisions,
 current state, what's next.
 
+### Run — batch of 11 receipts, 4 vendors — DONE (2026-07-15)
+- 11 new receipts (`2026/finance/receipts/`) processed end-to-end into enriched
+  CSVs. Vendors: **Dagrofa Food Service** ×3 (has a parser), **Coop365 /
+  "365 discount"** ×4, **Netto** ×3, **Meny** ×1 (no parser). Report now covers
+  **13 receipts / 330 line items / grand total 26,118.83** (new-11 = 21,407.68).
+- **Decision: vision transcription for all 11, no new parser code.** Building a
+  Swift/geometric vendor parser for Coop365/Netto/Meny (each rivals the whole
+  Dagrofa parser phase) is not worth a one-off batch. Instead, a fresh-context
+  Sonnet worker per receipt read the photo directly, transcribed line items,
+  reconciled to the receipt's own subtotal, enriched per `taxonomy.md`, and wrote
+  `csv/<stamp>.csv` + a raw-transcription audit `ocr/<stamp>.tsv` (the vision
+  equivalent of the OCR JSON). **The checksum gate is preserved** — every CSV's
+  `line_total` sum reconciles its target subtotal to ±0.02 (all 11 landed 0.00
+  residual, independently re-summed by the orchestrator before each commit).
+  Coop365/Netto/Meny remain **parser-less by design** — reprocessing these needs
+  vision again, not a `vendors/<id>.py`.
+- **Reconciliation targets (per vendor kind):**
+  - *Retail (Coop365, Netto, Meny):* VAT-inclusive line prices; reconcile to the
+    **goods total** = printed total (AT BETALE / Total) **minus pant (deposit)
+    and card fee**. Pant/deposit and card-fee lines are **excluded** from the CSV
+    (user decision). In-store RABAT discounts on goods stay in.
+  - *Dagrofa (wholesale):* ex-VAT line prices; reconcile to **"I alt"** ex-VAT
+    subtotal (not "Total inkl. moms"), matching the two existing Dagrofa CSVs.
+- **RABAT handling is not yet canonical** — some workers kept RABAT as its own
+  negative row, others folded it into the item's net unit price. Both reconcile;
+  worth standardising later (still-open item from the 1st batch).
+- **Content flags for a human glance:** `20260713-125356` (Dagrofa) is 3
+  aprons/workwear, not groceries (non-food, all low-confidence) — decide whether
+  it belongs in kitchen food expenses. Many retail rows are low-confidence
+  because pack sizes / can volumes aren't printed on the receipt (left blank or
+  inferred, flagged accordingly), not because of read errors.
+- **Two audit TSVs are CSV-derived** (`20260712-090658`, `20260714-081007`):
+  those workers stalled on a stream watchdog after writing the CSV but before the
+  raw TSV; the CSVs reconcile exactly, so the audit TSV was reconstructed from
+  the CSV columns (noted in each commit). All others are native transcriptions.
+- **Next:** more receipts run the same way (vision worker per receipt, checksum
+  gate, goods-total reconciliation). Standardise RABAT treatment. Ingredient→dish
+  mapping (`2026/menu` + `recipes`) still out of scope.
+
 ### Run — 2nd receipt `20260711-111844` — DONE (2026-07-11)
 - Second Dagrofa Food Service receipt (`I alt 2298.85`, 35 line items) run
   end-to-end through the existing pipeline: OCR → parse (PARTIAL, 2 flagged
