@@ -1,0 +1,4 @@
+receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,total_kg,total_l,pieces,unit_price,line_total,confidence
+20260713-125356,2026-07-13,Dagrofa Food Service,1,Sort budget forstykke 2stk pr. pk,black budget bib apron (2/pack),non-food,other,2,2,pcs,,,4,151.00,302.00,low
+20260713-125356,2026-07-13,Dagrofa Food Service,2,Forstykke Røc fairtrade 80L,bib apron fairtrade cotton (80°C wash),non-food,other,2,,,,,,151.00,302.00,low
+20260713-125356,2026-07-13,Dagrofa Food Service,3,Sort fairtrace forklæde,black fairtrade apron,non-food,other,2,,,,,,151.00,302.00,low
