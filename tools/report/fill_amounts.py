@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Interactive amount-filler for enriched receipt CSVs.
 
-Walks every line that still needs a human amount — flagged `confidence = low`
-or missing all of `total_kg` / `total_l` / `pieces` — and lets you type the
-pack size fast. The tool converts to total kg / L / pieces (× qty), writes it
-back into the same CSV, and marks the line reviewed so it never reappears.
+Walks every line missing an amount — no `total_kg` / `total_l` / `pieces` at
+all — and lets you type the pack size fast. The tool converts to total kg / L
+/ pieces (× qty), writes it back into the same CSV, and marks the line
+reviewed so it never reappears. Lines that already have a weight are left
+alone, even if flagged low confidence.
 
 Usage:
     python3 tools/report/fill_amounts.py            # walk all receipts
@@ -74,10 +75,9 @@ def save_state(done):
 
 
 def needs_review(r):
-    low = r["confidence"].strip().lower() == "low"
-    no_qty = not (r["total_kg"].strip() or r["total_l"].strip()
-                  or r["pieces"].strip())
-    return low or no_qty
+    # only lines with no weight/volume/pieces at all — the empty ones
+    return not (r["total_kg"].strip() or r["total_l"].strip()
+                or r["pieces"].strip())
 
 
 def dec(s):
