@@ -16,6 +16,27 @@ All prices in DKK. Rough conversions: ÷7.46 for €, ×0.14 for $.
 | Cakes handed out (Sun/Mon/Tue) | **1,600** — plus taco nights |
 | Food hauled | **~260 kg** solid + **~170 L** liquid |
 
+## Receipt by receipt
+
+Every till receipt, summed. Grand total matches the headline.
+
+| Date | Vendor | DKK |
+|---|---|---:|
+| Jul 10 | Dagrofa Food Service | 2,412.30 |
+| Jul 11 | Dagrofa Food Service | 2,298.85 |
+| Jul 12 | 365discount | 1,961.90 |
+| Jul 12 | 365discount Gelsted | 1,026.00 |
+| Jul 12 | 365 discount | 1,671.60 |
+| Jul 12 | Meny Aarup | 3,293.99 |
+| Jul 13 | 365 Discount | 1,227.30 |
+| Jul 13 | Dagrofa Food Service | 2,390.04 |
+| Jul 13 | Dagrofa Food Service | 906.00 |
+| Jul 13 | Dagrofa Food Service | 3,989.38 |
+| Jul 14 | Netto | 2,005.45 |
+| Jul 14 | Netto | 1,679.30 |
+| Jul 15 | Netto | 1,256.72 |
+| **Total** | **13 receipts** | **26,118.83** |
+
 ## Cost per person
 
 | Metric | DKK | ≈ € |
