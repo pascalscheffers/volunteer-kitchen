@@ -12,8 +12,7 @@ All prices in DKK. Rough conversions: ÷7.46 for €, ×0.14 for $.
 |---|---|
 | **Total spend** | **26,119 DKK** (≈ €3,500 / $3,700) |
 | Shopping runs | 6 trips, 13 receipts, **330** line items |
-| Meals served (on the board) | **1,038** |
-| ...and the 10-20% who never sign the board | **real total ≈ 1,200 meals** |
+| Meals served | **1,038** |
 | Cakes handed out (Sun/Mon/Tue) | **1,600** — plus taco nights |
 | Food hauled | **~260 kg** solid + **~170 L** liquid |
 
@@ -22,7 +21,6 @@ All prices in DKK. Rough conversions: ÷7.46 for €, ×0.14 for $.
 | Metric | DKK | ≈ € |
 |---|---|---|
 | **Per person, per day** | **52** | 7 |
-| ...counting the no-shows | **~45** | 6 |
 | Per meal served | **25** | 3.4 |
 
 52 DKK/day to eat like a king. Try that at a café.
@@ -79,5 +77,5 @@ Yes, it is a shit tonne of food. You really do need more than you think.
 ---
 
 *Spend/weight figures from `finance/reports/summary.md` (auto-generated from
-receipts). Headcounts from `attendance.md` (board estimates). Bread, waste and
-leftovers estimated on the day.*
+receipts). Headcounts are the actual rough counts from the whiteboard. Bread,
+waste and leftovers estimated on the day.*
