@@ -10,7 +10,7 @@ All prices in DKK. Rough conversions: ÷7.46 for €, ×0.14 for $.
 
 | | |
 |---|---|
-| **Total spend** | **26,119 DKK** (≈ €3,500 / $3,700) |
+| **Total spend** | **29,118 DKK** (≈ €3,900 / $4,100) — incl. moms |
 | Shopping runs | 6 trips, 13 receipts, **330** line items |
 | Meals served | **1,038** |
 | Cakes handed out (Sun/Mon/Tue) | **1,600** — plus taco nights |
@@ -18,56 +18,58 @@ All prices in DKK. Rough conversions: ÷7.46 for €, ×0.14 for $.
 
 ## Receipt by receipt
 
-Every till receipt, summed. Grand total matches the headline.
+Every till receipt, incl. moms (25% VAT). Retail receipts already
+include moms; Dagrofa wholesale line prices are ex moms, grossed up
+here — two from the receipt's own "Total inkl. moms", three (†) at ×1.25.
 
-| Date | Vendor | DKK |
+| Date | Vendor | DKK incl. moms |
 |---|---|---:|
-| Jul 10 | Dagrofa Food Service | 2,412.30 |
-| Jul 11 | Dagrofa Food Service | 2,298.85 |
+| Jul 10 | Dagrofa Food Service | 3,015.38 |
+| Jul 11 | Dagrofa Food Service | 2,873.57 |
 | Jul 12 | 365discount | 1,961.90 |
 | Jul 12 | 365discount Gelsted | 1,026.00 |
 | Jul 12 | 365 discount | 1,671.60 |
 | Jul 12 | Meny Aarup | 3,293.99 |
 | Jul 13 | 365 Discount | 1,227.30 |
-| Jul 13 | Dagrofa Food Service | 2,390.04 |
-| Jul 13 | Dagrofa Food Service | 906.00 |
-| Jul 13 | Dagrofa Food Service | 3,989.38 |
+| Jul 13 | Dagrofa Food Service † | 2,987.55 |
+| Jul 13 | Dagrofa Food Service † | 1,132.50 |
+| Jul 13 | Dagrofa Food Service † | 4,986.73 |
 | Jul 14 | Netto | 2,005.45 |
 | Jul 14 | Netto | 1,679.30 |
 | Jul 15 | Netto | 1,256.72 |
-| **Total** | **13 receipts** | **26,118.83** |
+| **Total** | **13 receipts** | **29,117.99** |
 
 ## Cost per person
 
 | Metric | DKK | ≈ € |
 |---|---|---|
-| **Per person, per day** | **52** | 7 |
-| Per meal served | **25** | 3.4 |
+| **Per person, per day** | **58** | 8 |
+| Per meal served | **28** | 3.8 |
 
-52 DKK/day to eat like a king. Try that at a café.
+58 DKK/day to eat like a king. Try that at a café.
 
 ## Where the money went
 
 | Category | Spend | Share |
 |---|---|---|
-| Food | 21,129 | 81% |
-| Beverage | 3,238 | 12% |
-| Non-food (cleaning, aprons, disposables) | 1,752 | 7% |
+| Food | 23,586 | 81% |
+| Beverage | 3,403 | 12% |
+| Non-food (cleaning, aprons, disposables) | 2,129 | 7% |
 
 ## Food by type (kg bought)
 
 | Type | kg | Spend |
 |---|---|---|
-| 🍝 Carbs (flour, pasta, rice, bread) | 100 | 3,514 |
-| 🥦 Veg | 54 | 3,109 |
-| 🍗 Meat & protein | 52 | 6,230 |
-| 🫘 Legumes | 11 | 698 |
-| 🍎 Fruit | 10 | 460 |
-| 🧀 Dairy & cheese | 7 | 2,900 |
-| 🫒 Fat & oil | 7 | 1,327 |
-| 🧂 Condiments | 7 | 1,489 |
-| 🍬 Sweets | 5 | 908 |
-| 🌶️ Spices | 4 | 446 |
+| 🍝 Carbs (flour, pasta, rice, bread) | 100 | 3,990 |
+| 🥦 Veg | 54 | 3,493 |
+| 🍗 Meat & protein | 52 | 6,918 |
+| 🫘 Legumes | 11 | 770 |
+| 🍎 Fruit | 10 | 513 |
+| 🧀 Dairy & cheese | 7 | 3,014 |
+| 🫒 Fat & oil | 7 | 1,559 |
+| 🧂 Condiments | 7 | 1,724 |
+| 🍬 Sweets | 5 | 985 |
+| 🌶️ Spices | 4 | 535 |
 
 Protein is a fifth of the plate but nearly a third of the bill. Carbs are the
 cheap superpower — heavy on carbs and fat, protein less critical, exactly like
