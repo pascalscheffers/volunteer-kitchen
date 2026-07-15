@@ -1,0 +1,30 @@
+receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,total_kg,total_l,pieces,unit_price,line_total,confidence
+20260713-125311,2026-07-13,Dagrofa Food Service,1,Hvedemel Tipo 0 Manitoba 5kg,"wheat flour (Manitoba, type 0)",food,carbohydrate,2,5,kg,10,,,67.95,135.90,high
+20260713-125311,2026-07-13,Dagrofa Food Service,2,Kokosmælk 18% tetra 1L,coconut milk (18% fat),food,fat-oil,6,1,l,,6,,20.95,125.70,low
+20260713-125311,2026-07-13,Dagrofa Food Service,3,"Tomater groft hakkede 2,5kg","tomatoes, coarsely chopped",food,vegetable,3,2.5,kg,7.5,,,28.95,86.85,high
+20260713-125311,2026-07-13,Dagrofa Food Service,4,Bordsalt fint med jod 1kg,"table salt, fine, iodized",food,spice,1,1,kg,1,,,9.95,9.95,high
+20260713-125311,2026-07-13,Dagrofa Food Service,5,Røde linser hele 1kg,"red lentils, whole",food,legume,2,1,kg,2,,,18.95,37.90,high
+20260713-125311,2026-07-13,Dagrofa Food Service,6,Pizzamel professional 10kg,pizza flour,food,carbohydrate,1,10,kg,10,,,110.00,110.00,high
+20260713-125311,2026-07-13,Dagrofa Food Service,7,Olivenolie sansa 1L,olive oil (sansa grade),food,fat-oil,1,1,l,,1,,49.95,49.95,high
+20260713-125311,2026-07-13,Dagrofa Food Service,8,Øko Limesaft 1L,organic lime juice,food,condiment,1,1,l,,1,,48.95,48.95,low
+20260713-125311,2026-07-13,Dagrofa Food Service,9,Linser røde 3kg,red lentils,food,legume,1,3,kg,3,,,68.95,68.95,high
+20260713-125311,2026-07-13,Dagrofa Food Service,10,Salsa chunky medium 2250g,"salsa, chunky, medium heat",food,condiment,1,2250,g,2.25,,,83.95,83.95,high
+20260713-125311,2026-07-13,Dagrofa Food Service,11,Tex Mex style topping 940g,Tex-Mex style topping,food,condiment,1,940,g,0.94,,,87.95,87.95,low
+20260713-125311,2026-07-13,Dagrofa Food Service,12,Tortilla chips chili 475g,"tortilla chips, chili flavor",food,carbohydrate,6,475,g,2.85,,,23.95,143.70,high
+20260713-125311,2026-07-13,Dagrofa Food Service,13,"Majs løse super sweet 2,1kg/1,7kg",sweetcorn kernels (drained),food,vegetable,1,1.7,kg,1.7,,,45.95,45.95,low
+20260713-125311,2026-07-13,Dagrofa Food Service,14,Tabasco original sauce 350ml,Tabasco hot sauce,food,condiment,1,350,ml,,0.35,,132.00,132.00,high
+20260713-125311,2026-07-13,Dagrofa Food Service,15,Bagepulver 140g,baking powder,food,other,1,140,g,0.14,,,9.95,9.95,low
+20260713-125311,2026-07-13,Dagrofa Food Service,16,Risnudler 3mm 500g,"rice noodles, 3mm",food,carbohydrate,14,500,g,7,,,16.95,237.30,high
+20260713-125311,2026-07-13,Dagrofa Food Service,17,Brødkniv hvid 250/385mm,"bread knife, white (250/385mm)",non-food,other,1,,,,,,51.95,51.95,low
+20260713-125311,2026-07-13,Dagrofa Food Service,18,Brødkniv hvid 300/430mm,"bread knife, white (300/430mm)",non-food,other,1,,,,,,51.95,51.95,low
+20260713-125311,2026-07-13,Dagrofa Food Service,19,Viskestykke hvid 12-pk,"tea towels, white (12-pack)",non-food,other,1,12,pcs,,,,64.95,64.95,low
+20260713-125311,2026-07-13,Dagrofa Food Service,20,Ahornsirup 1L,maple syrup,food,condiment,1,1,l,,1,,149.00,149.00,high
+20260713-125311,2026-07-13,Dagrofa Food Service,21,Æblegrød 500g,stewed apple (apple compote),food,fruit,6,500,g,3,,,12.95,77.70,high
+20260713-125311,2026-07-13,Dagrofa Food Service,22,Blandet Saft C Rød 1L,"mixed juice concentrate, red (vitamin C)",beverage,beverage,8,1,l,,8,,26.95,215.60,high
+20260713-125311,2026-07-13,Dagrofa Food Service,23,Brun farin 2kg,brown sugar (soft),food,carbohydrate,3,2,kg,6,,,39.95,119.85,high
+20260713-125311,2026-07-13,Dagrofa Food Service,24,Sukker 2kg,sugar,food,carbohydrate,4,2,kg,8,,,17.95,71.80,high
+20260713-125311,2026-07-13,Dagrofa Food Service,25,Karry madras 450g strødåse,"curry powder, Madras (shaker tin)",food,spice,1,450,g,0.45,,,66.95,66.95,high
+20260713-125311,2026-07-13,Dagrofa Food Service,26,Solsikkeolie 1L,sunflower oil,food,fat-oil,2,1,l,,2,,17.95,35.90,high
+20260713-125311,2026-07-13,Dagrofa Food Service,27,Affaldspose transparent 70x110cm 10stk,"trash bags, transparent, 70x110cm (10-pack)",non-food,other,2,10,pcs,,,,11.95,23.90,low
+20260713-125311,2026-07-13,Dagrofa Food Service,28,Citronsaft 1L,lemon juice,food,condiment,1,1,l,,1,,23.95,23.95,low
+20260713-125311,2026-07-13,Dagrofa Food Service,29,Kortgebyr,card payment fee,non-food,other,1,,,,,,21.59,21.59,low
