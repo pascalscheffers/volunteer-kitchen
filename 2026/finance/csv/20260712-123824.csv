@@ -1,0 +1,32 @@
+receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,total_kg,total_l,pieces,unit_price,line_total,confidence
+20260712-123824,2026-07-12,365 discount,1,Isterninger,ice cubes,non-food,other,4,,,,,,19.95,79.80,low
+20260712-123824,2026-07-12,365 discount,2,Fyrfadslighter,tea-light lighter,non-food,other,1,,,,,,15.00,15.00,low
+20260712-123824,2026-07-12,365 discount,3,Kokkeviskestykker,kitchen towels,non-food,other,3,,,,,,20.00,60.00,low
+20260712-123824,2026-07-12,365 discount,4,Salami skiver,salami slices,food,protein,5,,,,,,14.95,74.75,high
+20260712-123824,2026-07-12,365 discount,5,Kartoffelsalat,potato salad,food,carbohydrate,3,,,,,,23.75,71.25,low
+20260712-123824,2026-07-12,365 discount,6,Hvidløg paté 250 g,garlic pâté (250g),food,protein,1,250,g,0.25,,,16.95,16.95,low
+20260712-123824,2026-07-12,365 discount,7,Rynkeby saft 1 L,Rynkeby juice 1L,beverage,beverage,6,1,l,,6,,23.95,143.70,high
+20260712-123824,2026-07-12,365 discount,8,Hvidløg paté 250 g,garlic pâté (250g),food,protein,1,250,g,0.25,,,16.95,16.95,low
+20260712-123824,2026-07-12,365 discount,9,Klovborg skiver 45+,Klovborg cheese slices (45%+ fat),food,dairy,8,,,,,,28.95,231.60,high
+20260712-123824,2026-07-12,365 discount,10,Rabat,discount,food,dairy,,,,,,,,-23.60,low
+20260712-123824,2026-07-12,365 discount,11,Klovborg skive,Klovborg cheese (sliced),food,dairy,8,,,,,,26.00,208.00,high
+20260712-123824,2026-07-12,365 discount,12,K-S Æggesalat,egg salad,food,protein,2,,,,,,20.95,41.90,high
+20260712-123824,2026-07-12,365 discount,13,Rabat,discount,food,protein,,,,,,,,-11.90,low
+20260712-123824,2026-07-12,365 discount,14,Skrabæg 15 stk,free-range eggs (15pk),food,protein,2,15,pcs,,,30,45.50,91.00,high
+20260712-123824,2026-07-12,365 discount,15,Lurpak smørbar,Lurpak spreadable butter,food,dairy,6,,,,,,22.95,137.70,high
+20260712-123824,2026-07-12,365 discount,16,K-S Æggesalat,egg salad,food,protein,1,,,,,,20.95,20.95,high
+20260712-123824,2026-07-12,365 discount,17,Rabat,discount,food,protein,,,,,,,,-5.95,low
+20260712-123824,2026-07-12,365 discount,18,K-S Æggesalat,egg salad,food,protein,1,,,,,,20.95,20.95,high
+20260712-123824,2026-07-12,365 discount,19,Rabat,discount,food,protein,,,,,,,,-5.95,low
+20260712-123824,2026-07-12,365 discount,20,LB Sandwichrugbrød,sandwich rye bread,food,carbohydrate,3,,,,,,25.95,77.85,high
+20260712-123824,2026-07-12,365 discount,21,Rabat,discount,food,carbohydrate,,,,,,,,-17.85,low
+20260712-123824,2026-07-12,365 discount,22,Limpan Brød,Limpa bread,food,carbohydrate,4,,,,,,26.50,106.00,high
+20260712-123824,2026-07-12,365 discount,23,Rabat,discount,food,carbohydrate,,,,,,,,-26.00,low
+20260712-123824,2026-07-12,365 discount,24,Øko Fennikel,organic fennel,food,vegetable,5,,,,,,15.00,75.00,high
+20260712-123824,2026-07-12,365 discount,25,Spidskål,pointed cabbage,food,vegetable,1,,,,,,15.00,15.00,high
+20260712-123824,2026-07-12,365 discount,26,Rabat,discount,food,vegetable,,,,,,,,-3.00,low
+20260712-123824,2026-07-12,365 discount,27,Spidskål,pointed cabbage,food,vegetable,7,,,,,,15.00,105.00,high
+20260712-123824,2026-07-12,365 discount,28,Rabat,discount,food,vegetable,,,,,,,,-21.00,low
+20260712-123824,2026-07-12,365 discount,29,Øko Courgette,organic zucchini,food,vegetable,1,,,,,,8.50,8.50,high
+20260712-123824,2026-07-12,365 discount,30,Øko Courgette,organic zucchini,food,vegetable,10,,,,,,8.50,85.00,high
+20260712-123824,2026-07-12,365 discount,31,Porrer,leeks,food,vegetable,4,,,,,,21.00,84.00,high
