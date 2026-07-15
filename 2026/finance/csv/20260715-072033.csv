@@ -1,6 +1,6 @@
 receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,total_kg,total_l,pieces,unit_price,line_total,confidence
 20260715-072033,2026-07-15,Netto,1,NUTELLA 630G,Nutella (hazelnut-chocolate spread) 630g,food,sweet,2,630,g,1.26,,,89.00,178.00,high
-20260715-072033,2026-07-15,Netto,2,SKRÆBÆRG 10 M/L,unclear dairy item (name illegible on receipt print),food,dairy,8,,,,,,31.95,255.60,low
+20260715-072033,2026-07-15,Netto,2,Skrabeæg 10 M/L,"free-range eggs (10-pack, medium/large)",food,protein,8,10,pcs,,,80,31.95,255.60,low
 20260715-072033,2026-07-15,Netto,3,EGELYKKE PEACH MELBA,Egelykke yoghurt (peach melba),food,dairy,1,1,l,,1,,15.95,15.95,high
 20260715-072033,2026-07-15,Netto,4,RABAT,discount,food,other,,,,,,,,-4.00,low
 20260715-072033,2026-07-15,Netto,5,EGELYKKE YOG JOR 1L,Egelykke yoghurt (strawberry) 1L,food,dairy,1,1,l,,1,,17.95,17.95,high

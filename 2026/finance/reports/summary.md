@@ -19,21 +19,21 @@ All spend figures are **incl. moms** (25% Danish VAT). Wholesale receipts list l
 
 | Type | Spend | Total kg | Total L | Pieces |
 |---|---|---|---|---|
-| protein | 6,917.77 | 52.240 | — | 390 |
+| protein | 7,173.37 | 52.240 | — | 470 |
 | carbohydrate | 3,990.20 | 100.400 | — | 72 |
 | vegetable | 3,493.21 | 53.770 | — | 210 |
 | beverage | 3,402.89 | 1.900 | 144.750 | 300 |
 | other | 2,213.75 | 3.640 | 0.500 | 4 |
 | condiment | 1,723.60 | 6.730 | 10.300 | — |
 | fat-oil | 1,559.34 | 6.620 | 14.500 | — |
-| dairy | 1,508.08 | 5.000 | 38.000 | — |
 | cheese | 1,506.30 | 16.150 | — | — |
+| dairy | 1,252.48 | 5.000 | 38.000 | — |
 | sweet | 984.80 | 4.784 | — | 218 |
 | legume | 769.76 | 11.000 | — | — |
 | spice | 535.33 | 3.642 | — | 3 |
 | fruit | 512.96 | 10.000 | — | 35 |
 
-## Top ingredients by spend (top 20 of 269)
+## Top ingredients by spend (top 20 of 268)
 
 | Ingredient | Spend |
 |---|---|
@@ -42,6 +42,7 @@ All spend figures are **incl. moms** (25% Danish VAT). Wholesale receipts list l
 | chicken tenderloin (net of rebate) | 799.75 |
 | coffee (whole beans) | 516.00 |
 | bacon (sliced) | 478.40 |
+| free-range eggs (10-pack, medium/large) | 447.30 |
 | bib apron fairtrade cotton (80°C wash) | 377.50 |
 | black budget bib apron (2/pack) | 377.50 |
 | black fairtrade apron | 377.50 |
@@ -56,7 +57,6 @@ All spend figures are **incl. moms** (25% Danish VAT). Wholesale receipts list l
 | butter (unsalted) | 311.88 |
 | Klovborg cheese slices (45%+ fat) | 309.60 |
 | thermo box w/lid (black) | 308.75 |
-| Faxe Kondi zero-calorie soda | 297.00 |
 
 ## Ingredients by weight
 
