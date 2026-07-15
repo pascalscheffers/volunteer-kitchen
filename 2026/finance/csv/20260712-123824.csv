@@ -7,9 +7,9 @@ receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,t
 20260712-123824,2026-07-12,365 discount,6,Hvidløg paté 250 g,garlic pâté (250g),food,protein,1,250,g,0.25,,,16.95,16.95,low
 20260712-123824,2026-07-12,365 discount,7,Rynkeby saft 1 L,Rynkeby juice 1L,beverage,beverage,6,1,l,,6,,23.95,143.70,high
 20260712-123824,2026-07-12,365 discount,8,Hvidløg paté 250 g,garlic pâté (250g),food,protein,1,250,g,0.25,,,16.95,16.95,low
-20260712-123824,2026-07-12,365 discount,9,Klovborg skiver 45+,Klovborg cheese slices (45%+ fat),food,dairy,8,,,,,,28.95,231.60,high
-20260712-123824,2026-07-12,365 discount,10,Rabat,discount,food,dairy,,,,,,,,-23.60,low
-20260712-123824,2026-07-12,365 discount,11,Klovborg skive,Klovborg cheese (sliced),food,dairy,8,,,,,,26.00,208.00,high
+20260712-123824,2026-07-12,365 discount,9,Klovborg skiver 45+,Klovborg cheese slices (45%+ fat),food,cheese,8,250,g,2,,,28.95,231.60,high
+20260712-123824,2026-07-12,365 discount,10,Rabat,discount,food,cheese,,,,,,,,-23.60,low
+20260712-123824,2026-07-12,365 discount,11,Klovborg skive,Klovborg cheese (sliced),food,cheese,8,250,g,2,,,26.00,208.00,high
 20260712-123824,2026-07-12,365 discount,12,K-S Æggesalat,egg salad,food,protein,2,,,,,,20.95,41.90,high
 20260712-123824,2026-07-12,365 discount,13,Rabat,discount,food,protein,,,,,,,,-11.90,low
 20260712-123824,2026-07-12,365 discount,14,Skrabæg 15 stk,free-range eggs (15pk),food,protein,2,15,pcs,,,30,45.50,91.00,high

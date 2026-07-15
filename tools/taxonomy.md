@@ -23,7 +23,8 @@ set `confidence = low` so a human can review.
 |---|---|---|
 | `carbohydrate` | starches, grains, flour, sugar-as-staple | flour, rice, pasta, bread, cornmeal |
 | `protein` | meat, fish, eggs, plant protein | chicken, tuna, tofu |
-| `dairy` | milk-derived | milk, cheese, butter, yoghurt, cream |
+| `cheese` | cheese specifically (split out from dairy for its own stats) | sliced cheese, grated cheese, block cheese |
+| `dairy` | milk-derived **excluding cheese** | milk, butter, yoghurt, cream, buttermilk |
 | `fat-oil` | fats and oils | olive oil, margarine, mayonnaise |
 | `vegetable` | vegetables (fresh/tinned/frozen) | onions, tomatoes, jalapeños |
 | `fruit` | fruit incl. dried | apples, raisins, jam-as-fruit |

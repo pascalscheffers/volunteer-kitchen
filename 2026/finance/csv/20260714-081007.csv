@@ -1,8 +1,8 @@
 receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,total_kg,total_l,pieces,unit_price,line_total,confidence
 20260714-081007,2026-07-14,Netto,1,Æggesalat,egg salad,food,protein,4,,,,,,17.50,70.00,low
 20260714-081007,2026-07-14,Netto,2,Rabat (Æggesalat),discount,food,protein,4,,,,,,-5.50,-22.00,low
-20260714-081007,2026-07-14,Netto,3,Egelykke 45+ ML skv.,sliced cheese (45%+ fat),food,dairy,2,,,,,,24.95,49.90,low
-20260714-081007,2026-07-14,Netto,4,Samsø skiveost 30+ M,Samsø cheese sliced (30%+ fat),food,dairy,4,,,,,,30.95,123.80,low
+20260714-081007,2026-07-14,Netto,3,Egelykke 45+ ML skv.,sliced cheese (45%+ fat),food,cheese,2,300,g,0.6,,,24.95,49.90,low
+20260714-081007,2026-07-14,Netto,4,Samsø skiveost 30+ M,Samsø cheese sliced (30%+ fat),food,cheese,4,300,g,1.2,,,30.95,123.80,low
 20260714-081007,2026-07-14,Netto,5,Black Coffee HB,coffee (whole beans),beverage,beverage,4,,,,,,129.00,516.00,low
 20260714-081007,2026-07-14,Netto,6,BFB Frugtmysli,fruit muesli,food,carbohydrate,1,,,,,,18.77,18.77,low
 20260714-081007,2026-07-14,Netto,7,Salami,salami,food,protein,3,,,,,,24.95,74.85,low
@@ -10,7 +10,7 @@ receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,t
 20260714-081007,2026-07-14,Netto,9,BF Jordbær 800g,strawberries (frozen; 800g),food,fruit,1,800,g,0.8,,,19.95,19.95,high
 20260714-081007,2026-07-14,Netto,10,Pålæg mælk,milk-chocolate spread slices,food,sweet,2,,,,,,45.00,90.00,low
 20260714-081007,2026-07-14,Netto,11,Pålæg mørk,dark-chocolate spread slices,food,sweet,2,,,,,,45.00,90.00,low
-20260714-081007,2026-07-14,Netto,12,Sødmælk,whole milk,food,dairy,5,,,,,,13.50,67.50,low
+20260714-081007,2026-07-14,Netto,12,Sødmælk,whole milk,food,dairy,5,1,l,,5,,13.50,67.50,low
 20260714-081007,2026-07-14,Netto,13,Ollineo 1L,unidentified drink (1L),beverage,beverage,1,1,l,,1,,19.09,19.09,low
 20260714-081007,2026-07-14,Netto,14,Bouillon grøntsag,vegetable bouillon,food,condiment,2,,,,,,19.95,39.90,low
 20260714-081007,2026-07-14,Netto,15,Gurkemeje,turmeric,food,spice,1,,,,,,14.95,14.95,low

@@ -9,9 +9,9 @@ receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,t
 20260713-085500,2026-07-13,365 Discount,8,Kyllingebryst 100 g,chicken breast (sliced),food,protein,2,100,g,0.2,,,13.50,27.00,high
 20260713-085500,2026-07-13,365 Discount,9,Hummus Natural,hummus (plain),food,condiment,3,,,,,,14.95,44.85,low
 20260713-085500,2026-07-13,365 Discount,10,G&J Pålæg Mælk 2-PK,milk-chocolate spread (2-pack),food,sweet,1,2,pcs,,,2,49.25,49.25,low
-20260713-085500,2026-07-13,365 Discount,11,Yoghurt Jordbær,strawberry yoghurt,food,dairy,4,,,,,,12.95,51.80,low
-20260713-085500,2026-07-13,365 Discount,12,Yoghurt Pære/Banan,pear-banana yoghurt,food,dairy,4,,,,,,12.95,51.80,low
-20260713-085500,2026-07-13,365 Discount,13,Yoghurt Naturel,plain yoghurt,food,dairy,2,,,,,,9.95,19.90,low
+20260713-085500,2026-07-13,365 Discount,11,Yoghurt Jordbær,strawberry yoghurt,food,dairy,4,1,l,,4,,12.95,51.80,low
+20260713-085500,2026-07-13,365 Discount,12,Yoghurt Pære/Banan,pear-banana yoghurt,food,dairy,4,1,l,,4,,12.95,51.80,low
+20260713-085500,2026-07-13,365 Discount,13,Yoghurt Naturel,plain yoghurt,food,dairy,2,1,l,,2,,9.95,19.90,low
 20260713-085500,2026-07-13,365 Discount,14,Plantegurt Blåbær,plant-based yoghurt (blueberry),food,other,2,,,,,,25.95,51.90,low
 20260713-085500,2026-07-13,365 Discount,15,Rabat (Plantegurt Blåbær),discount,food,other,2,,,,,,-5.95,-11.90,low
 20260713-085500,2026-07-13,365 Discount,16,Plantegurt Vanilje,plant-based yoghurt (vanilla),food,other,1,,,,,,25.95,25.95,low

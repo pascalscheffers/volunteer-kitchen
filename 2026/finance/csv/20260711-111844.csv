@@ -2,7 +2,7 @@ receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,t
 20260711-111844,2026-07-11,Dagrofa Food Service,1,Hakket svinekød 8-12% 3kg,minced pork (8-12% fat),food,protein,6,3,kg,18,,,49.95,299.70,high
 20260711-111844,2026-07-11,Dagrofa Food Service,2,Gær 50g,fresh yeast,food,other,20,50,g,1,,,1.50,30.00,high
 20260711-111844,2026-07-11,Dagrofa Food Service,3,Smør usaltet 200g,butter (unsalted),food,dairy,10,200,g,2,,,24.95,249.50,high
-20260711-111844,2026-07-11,Dagrofa Food Service,4,Cheddar ost revet 50+ 2kg,cheddar (grated),food,dairy,1,2,kg,2,,,141.00,141.00,high
+20260711-111844,2026-07-11,Dagrofa Food Service,4,Cheddar ost revet 50+ 2kg,cheddar (grated),food,cheese,1,2,kg,2,,,141.00,141.00,high
 20260711-111844,2026-07-11,Dagrofa Food Service,5,"Tilbuds Rabat 22,70%",promotional discount,non-food,other,,,,,,,-32.00,-32.00,low
 20260711-111844,2026-07-11,Dagrofa Food Service,6,Røde Kidney bønner 900g,kidney beans,food,legume,1,900,g,0.9,,,27.95,27.95,high
 20260711-111844,2026-07-11,Dagrofa Food Service,7,Termokasse sort m/låg,thermo box w/lid (black),non-food,other,1,,,,,,247.00,247.00,high
@@ -14,7 +14,7 @@ receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,t
 20260711-111844,2026-07-11,Dagrofa Food Service,13,Peber rød 80/100 mm 5 kg,red bell pepper,food,vegetable,1,5,kg,5,,,129.00,129.00,high
 20260711-111844,2026-07-11,Dagrofa Food Service,14,Løg Rødløg 60/80 mm 10kg,red onion,food,vegetable,1,10,kg,10,,,64.95,64.95,high
 20260711-111844,2026-07-11,Dagrofa Food Service,15,Spidskål DK u/film DK Ny høst (8),pointed cabbage,food,vegetable,4,1,pcs,,,4,14.95,59.80,high
-20260711-111844,2026-07-11,Dagrofa Food Service,16,Soltørrede tomater strimler 980g/650g,"sun-dried tomato strips",food,vegetable,1,650,g,0.65,,,59.95,59.95,high
+20260711-111844,2026-07-11,Dagrofa Food Service,16,Soltørrede tomater strimler 980g/650g,sun-dried tomato strips,food,vegetable,1,650,g,0.65,,,59.95,59.95,high
 20260711-111844,2026-07-11,Dagrofa Food Service,17,Flydende håndsæbe 500ml,liquid hand soap,non-food,other,1,500,ml,,,,9.95,9.95,high
 20260711-111844,2026-07-11,Dagrofa Food Service,18,Nutella 630g,hazelnut-cocoa spread,food,sweet,2,630,g,1.26,,,61.95,123.90,low
 20260711-111844,2026-07-11,Dagrofa Food Service,19,Blandet Saft C Rød 1L,fruit cordial (red),beverage,beverage,3,1,l,,3,,26.95,80.85,high

@@ -23,10 +23,11 @@ All spend figures are **incl. moms** (25% Danish VAT). Wholesale receipts list l
 | carbohydrate | 3,990.20 | 100.400 | — | 72 |
 | vegetable | 3,493.21 | 53.770 | — | 210 |
 | beverage | 3,402.89 | 1.900 | 144.750 | 300 |
-| dairy | 3,014.38 | 7.000 | 1.000 | — |
 | other | 2,213.75 | 3.640 | 0.500 | 4 |
 | condiment | 1,723.60 | 6.730 | 10.300 | — |
 | fat-oil | 1,559.34 | 6.620 | 14.500 | — |
+| dairy | 1,508.08 | 5.000 | 38.000 | — |
+| cheese | 1,506.30 | 16.150 | — | — |
 | sweet | 984.80 | 4.784 | — | 218 |
 | legume | 769.76 | 11.000 | — | — |
 | spice | 535.33 | 3.642 | — | 3 |
@@ -83,11 +84,13 @@ All spend figures are **incl. moms** (25% Danish VAT). Wholesale receipts list l
 | spreadable plant-based fat 2kg | 4.000 |
 | celery (leaf) approx. 500g | 3.500 |
 | wheat sandwich bread | 3.200 |
+| Klovborg cheese (sliced) | 3.000 |
 | red lentils | 3.000 |
 | red onions (60/80mm) 1kg | 3.000 |
 | stewed apple (apple compote) | 3.000 |
 | vegan sausages (60g each) 3kg | 3.000 |
 | tortilla chips, chili flavor | 2.850 |
+| Klovborg cheese slices (45%+ fat) | 2.750 |
 | hazelnut-cocoa spread | 2.660 |
 | button mushrooms 2.5kg | 2.500 |
 | cornmeal | 2.500 |
@@ -112,9 +115,15 @@ All spend figures are **incl. moms** (25% Danish VAT). Wholesale receipts list l
 | mushrooms (400g) | 1.600 |
 | strawberry jam | 1.600 |
 | strawberry jam 800g | 1.600 |
+| Egelykke cheese (aged, sliced) | 1.500 |
+| Egelykke cheese (mild) | 1.500 |
 | garlic (peeled cloves) | 1.500 |
 | portobello mushrooms (large 10-12cm) 1.5kg | 1.500 |
 | Nutella (hazelnut-chocolate spread) 630g | 1.260 |
+| Egelykke cheese (45%+ fat, mild, sliced) | 1.200 |
+| Samsø cheese sliced (30%+ fat) | 1.200 |
+| grated Tex Mex cheese blend (Karolines; net of rebate) | 1.200 |
+| organic family cheese (mild) | 1.200 |
 | sweetcorn | 1.020 |
 | Lurpak spreadable butter | 1.000 |
 | corn flakes (500g) | 1.000 |
@@ -138,6 +147,7 @@ All spend figures are **incl. moms** (25% Danish VAT). Wholesale receipts list l
 | chicken breast (100g) | 0.700 |
 | sun-dried tomato strips | 0.650 |
 | tahini (sesame paste) | 0.620 |
+| sliced cheese (45%+ fat) | 0.600 |
 | taco spice mix | 0.532 |
 | croutons | 0.500 |
 | garlic pâté (250g) | 0.500 |

@@ -1,8 +1,8 @@
 receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,total_kg,total_l,pieces,unit_price,line_total,confidence
-20260714-120244,2026-07-14,Netto,1,Egelykke Esther ML,Egelykke cheese (mild),food,dairy,5,,,,,,24.95,124.75,low
-20260714-120244,2026-07-14,Netto,2,Egelykke Lagret sk.,"Egelykke cheese (aged, sliced)",food,dairy,5,,,,,,34.00,170.00,low
+20260714-120244,2026-07-14,Netto,1,Egelykke Esther ML,Egelykke cheese (mild),food,cheese,5,300,g,1.5,,,24.95,124.75,low
+20260714-120244,2026-07-14,Netto,2,Egelykke Lagret sk.,"Egelykke cheese (aged, sliced)",food,cheese,5,300,g,1.5,,,34.00,170.00,low
 20260714-120244,2026-07-14,Netto,3,Rabat,discount,non-food,other,,,,,,,-45.25,-45.25,low
-20260714-120244,2026-07-14,Netto,4,Egelykke 45+ ML skv.,"Egelykke cheese (45%+ fat, mild, sliced)",food,dairy,4,,,,,,24.95,99.80,low
+20260714-120244,2026-07-14,Netto,4,Egelykke 45+ ML skv.,"Egelykke cheese (45%+ fat, mild, sliced)",food,cheese,4,300,g,1.2,,,24.95,99.80,low
 20260714-120244,2026-07-14,Netto,5,Lurpak smørbar 200g,Lurpak spreadable butter,food,dairy,5,200,g,1,,,27.95,139.75,high
 20260714-120244,2026-07-14,Netto,6,Rabat,discount,non-food,other,,,,,,,-40.00,-40.00,low
 20260714-120244,2026-07-14,Netto,7,Kalkunbryst,turkey breast (sliced),food,protein,10,,,,,,15.95,159.50,low
