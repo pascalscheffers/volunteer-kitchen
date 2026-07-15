@@ -4,56 +4,58 @@ Aggregate spend/weight/volume stats across all enriched receipt CSVs in `2026/fi
 
 Covers **13** receipt(s), **330** line item(s).
 
+All spend figures are **incl. moms** (25% Danish VAT). Wholesale receipts list line prices ex moms and are grossed up 25%; retail prices already include moms.
+
 ## Spend by category
 
 | Category | Spend | % of total |
 |---|---|---|
-| food | 21,129.24 | 80.90% |
-| beverage | 3,238.09 | 12.40% |
-| non-food | 1,751.50 | 6.71% |
-| **Total** | **26,118.83** | **100.00%** |
+| food | 23,586.36 | 81.00% |
+| beverage | 3,402.89 | 11.69% |
+| non-food | 2,128.73 | 7.31% |
+| **Total** | **29,117.97** | **100.00%** |
 
 ## By nutrition type
 
 | Type | Spend | Total kg | Total L | Pieces |
 |---|---|---|---|---|
-| protein | 6,230.14 | 52.240 | — | 390 |
-| carbohydrate | 3,513.54 | 100.400 | — | 72 |
-| beverage | 3,238.09 | 1.900 | 144.750 | 300 |
-| vegetable | 3,108.52 | 53.770 | — | 210 |
-| dairy | 2,899.80 | 7.000 | 1.000 | — |
-| other | 1,800.55 | 3.640 | 0.500 | 4 |
-| condiment | 1,489.02 | 6.730 | 10.300 | — |
-| fat-oil | 1,327.30 | 6.620 | 14.500 | — |
-| sweet | 907.65 | 4.784 | — | 218 |
-| legume | 698.37 | 11.000 | — | — |
-| fruit | 459.90 | 10.000 | — | 35 |
-| spice | 445.95 | 3.642 | — | 3 |
+| protein | 6,917.77 | 52.240 | — | 390 |
+| carbohydrate | 3,990.20 | 100.400 | — | 72 |
+| vegetable | 3,493.21 | 53.770 | — | 210 |
+| beverage | 3,402.89 | 1.900 | 144.750 | 300 |
+| dairy | 3,014.38 | 7.000 | 1.000 | — |
+| other | 2,213.75 | 3.640 | 0.500 | 4 |
+| condiment | 1,723.60 | 6.730 | 10.300 | — |
+| fat-oil | 1,559.34 | 6.620 | 14.500 | — |
+| sweet | 984.80 | 4.784 | — | 218 |
+| legume | 769.76 | 11.000 | — | — |
+| spice | 535.33 | 3.642 | — | 3 |
+| fruit | 512.96 | 10.000 | — | 35 |
 
 ## Top ingredients by spend (top 20 of 269)
 
 | Ingredient | Spend |
 |---|---|
-| chicken fillet (140-160g pieces) 2kg pack | 1,085.00 |
-| chicken frankfurters (62.5g each) 1kg pack | 812.00 |
+| chicken fillet (140-160g pieces) 2kg pack | 1,356.25 |
+| chicken frankfurters (62.5g each) 1kg pack | 1,015.00 |
 | chicken tenderloin (net of rebate) | 799.75 |
 | coffee (whole beans) | 516.00 |
 | bacon (sliced) | 478.40 |
+| bib apron fairtrade cotton (80°C wash) | 377.50 |
+| black budget bib apron (2/pack) | 377.50 |
+| black fairtrade apron | 377.50 |
+| minced pork (8-12% fat) | 374.63 |
+| chicken sausages 10x34g | 358.50 |
+| coffee beans | 353.75 |
+| hazelnut-cocoa spread | 346.68 |
+| vegan sausages (60g each) 3kg | 333.75 |
+| tagliatelle (wide ribbon pasta), 500g | 331.63 |
 | burger buns | 330.00 |
-| hazelnut-cocoa spread | 315.70 |
 | Klovborg cheese (sliced) | 312.00 |
+| butter (unsalted) | 311.88 |
 | Klovborg cheese slices (45%+ fat) | 309.60 |
-| bib apron fairtrade cotton (80°C wash) | 302.00 |
-| black budget bib apron (2/pack) | 302.00 |
-| black fairtrade apron | 302.00 |
-| minced pork (8-12% fat) | 299.70 |
+| thermo box w/lid (black) | 308.75 |
 | Faxe Kondi zero-calorie soda | 297.00 |
-| pork roast (fresh; by weight) | 289.39 |
-| turkey breast (sliced) | 287.10 |
-| chicken sausages 10x34g | 286.80 |
-| coffee beans | 283.00 |
-| soy sauce (Kikkoman) | 279.80 |
-| Lurpak spreadable butter | 277.45 |
 
 ## Ingredients by weight
 
@@ -154,16 +156,16 @@ Covers **13** receipt(s), **330** line item(s).
 
 | Receipt | Line items | Spend | Low-confidence rows |
 |---|---|---|---|
-| 20260710-155835 | 41 | 2,412.30 | 6 |
-| 20260711-111844 | 35 | 2,298.85 | 7 |
+| 20260710-155835 | 41 | 3,015.38 | 6 |
+| 20260711-111844 | 35 | 2,873.56 | 7 |
 | 20260712-090658 | 47 | 1,961.90 | 39 |
 | 20260712-114854 | 7 | 1,026.00 | 5 |
 | 20260712-123824 | 31 | 1,671.60 | 14 |
 | 20260712-145217 | 31 | 3,293.99 | 22 |
 | 20260713-085500 | 17 | 1,227.30 | 12 |
-| 20260713-125311 | 29 | 2,390.04 | 11 |
-| 20260713-125356 | 3 | 906.00 | 3 |
-| 20260713-133843 | 21 | 3,989.38 | 5 |
+| 20260713-125311 | 29 | 2,987.55 | 11 |
+| 20260713-125356 | 3 | 1,132.50 | 3 |
+| 20260713-133843 | 21 | 4,986.73 | 5 |
 | 20260714-081007 | 27 | 2,005.45 | 24 |
 | 20260714-120244 | 20 | 1,679.30 | 15 |
 | 20260715-072033 | 21 | 1,256.72 | 9 |

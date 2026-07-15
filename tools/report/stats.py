@@ -17,6 +17,12 @@ then by name).
 Numeric convention: a blank cell (e.g. `total_kg` for a liquid) means "not
 applicable", not zero — it is skipped when summing, and a group with no
 applicable values at all renders as "—" rather than `0.000`.
+
+Moms (Danish 25% VAT): every spend figure in this report is incl. moms so the
+totals are comparable. Retail receipts (Netto, 365discount, Meny) already
+list consumer prices incl. moms. Wholesale receipts (Dagrofa Food Service)
+list line prices *ex* moms with moms added once at the register — those lines
+are grossed up by 25% at load time. See `is_ex_moms`.
 """
 
 import csv
@@ -34,6 +40,17 @@ MONEY_Q = Decimal("0.01")
 QTY_Q = Decimal("0.001")
 
 TOP_INGREDIENTS_LIMIT = 20
+
+# Danish VAT. Wholesale receipts list line prices ex moms; grossed up so every
+# spend figure in the report is on one incl-moms basis. See module docstring.
+MOMS_MULTIPLIER = Decimal("1.25")
+EX_MOMS_VENDORS = ("Dagrofa",)  # case-insensitive substring match on `vendor`
+
+
+def is_ex_moms(vendor):
+    """True if this vendor's line prices are ex moms and need grossing up."""
+    v = (vendor or "").lower()
+    return any(name.lower() in v for name in EX_MOMS_VENDORS)
 
 
 def parse_decimal(cell):
@@ -58,6 +75,9 @@ def load_rows():
     for path in paths:
         with open(path, newline="", encoding="utf-8") as f:
             for raw in csv.DictReader(f):
+                line_total = parse_decimal(raw["line_total"])
+                if line_total is not None and is_ex_moms(raw["vendor"]):
+                    line_total *= MOMS_MULTIPLIER
                 rows.append(
                     {
                         "receipt": raw["receipt"],
@@ -67,7 +87,7 @@ def load_rows():
                         "total_kg": parse_decimal(raw["total_kg"]),
                         "total_l": parse_decimal(raw["total_l"]),
                         "pieces": parse_int(raw["pieces"]),
-                        "line_total": parse_decimal(raw["line_total"]),
+                        "line_total": line_total,
                         "confidence": raw["confidence"],
                     }
                 )
@@ -247,6 +267,10 @@ def build_report(rows, csv_paths):
         "or changing a receipt CSV.",
         "",
         f"Covers **{len(receipts)}** receipt(s), **{len(rows)}** line item(s).",
+        "",
+        "All spend figures are **incl. moms** (25% Danish VAT). Wholesale "
+        "receipts list line prices ex moms and are grossed up 25%; retail "
+        "prices already include moms.",
         "",
     ]
 
