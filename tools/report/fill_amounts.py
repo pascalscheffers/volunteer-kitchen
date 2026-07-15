@@ -7,6 +7,10 @@ all — and lets you type the pack size fast. The tool converts to total kg / L
 reviewed so it never reappears. Lines that already have a weight are left
 alone, even if flagged low confidence.
 
+Enter an item once and every identical line (same Danish name) auto-fills
+with that pack size, recomputed against its own qty — no re-typing. (A
+'=total' entry is line-specific and never reused.)
+
 Usage:
     python3 tools/report/fill_amounts.py            # walk all receipts
     python3 tools/report/fill_amounts.py <receipt>  # one receipt (stamp)
@@ -65,13 +69,19 @@ INPUT_RE = re.compile(r"^(=)?\s*([\d.,]+)\s*([a-z]+)?$", re.I)
 
 
 def load_state():
+    """Return (reviewed set, answers dict). answers maps name_da -> raw input
+    so an identical item entered once is reused for every later copy."""
     if STATE.exists():
-        return set(json.loads(STATE.read_text()))
-    return set()
+        raw = json.loads(STATE.read_text())
+        if isinstance(raw, list):  # legacy: bare reviewed list
+            return set(raw), {}
+        return set(raw.get("reviewed", [])), dict(raw.get("answers", {}))
+    return set(), {}
 
 
-def save_state(done):
-    STATE.write_text(json.dumps(sorted(done), indent=0))
+def save_state(done, answers):
+    STATE.write_text(json.dumps(
+        {"reviewed": sorted(done), "answers": answers}, indent=1))
 
 
 def needs_review(r):
@@ -98,17 +108,19 @@ def fmt(d):
 
 
 def apply_amount(r, raw):
-    """Mutate row from an amount string. Return (ok, message)."""
+    """Mutate row from an amount string. Return (ok, message, is_total).
+    is_total flags '=' inputs — those are line totals, not reusable pack
+    sizes, so they're never cached for identical items."""
     m = INPUT_RE.match(raw)
     if not m:
-        return False, "unparsable — try e.g. 2.5kg, 500g, 1l, 6pcs, =12kg"
+        return False, "unparsable — try e.g. 2.5kg, 500g, 1l, 6pcs, =12kg", False
     is_total, num, unit = m.group(1), m.group(2), (m.group(3) or "").lower()
     value = dec(num)
     if value is None:
-        return False, "bad number"
+        return False, "bad number", False
     unit = unit or "pcs"  # bare number = pieces
     if unit not in UNITS:
-        return False, f"unknown unit '{unit}'"
+        return False, f"unknown unit '{unit}'", False
     col, div, is_int = UNITS[unit]
 
     qty = dec(r["qty"]) or Decimal(1)
@@ -128,7 +140,7 @@ def apply_amount(r, raw):
         r["pack_unit"] = CANON_UNIT.get(unit, unit)
     # a human just supplied the amount → trust the line
     r["confidence"] = "high"
-    return True, f'{col} = {r[col]}'
+    return True, f'{col} = {r[col]}', bool(is_total)
 
 
 def open_image(receipt):
@@ -157,7 +169,7 @@ def show(r):
     print(f'  current: {cur}')
 
 
-def process_file(path, done):
+def process_file(path, done, answers):
     rows = list(csv.DictReader(open(path)))
     targets = [i for i, r in enumerate(rows)
                if needs_review(r) and f'{r["receipt"]}|{r["line"]}' not in done]
@@ -170,6 +182,18 @@ def process_file(path, done):
         idx = targets[i]
         r = rows[idx]
         key = f'{r["receipt"]}|{r["line"]}'
+
+        # identical item already answered → reuse it, no prompt
+        cached = answers.get(r["name_da"].strip())
+        if cached:
+            ok, msg, _ = apply_amount(r, cached)
+            if ok:
+                done.add(key)
+                dirty = True
+                print(f'  auto {r["name_da"]}: {msg}  (from "{cached}")')
+                i += 1
+                continue
+
         show(r)
         try:
             raw = input("  amount> ").strip()
@@ -180,7 +204,7 @@ def process_file(path, done):
         if low == "q":
             if dirty:
                 write_file(path, rows)
-            save_state(done)
+            save_state(done, answers)
             print("saved. bye.")
             sys.exit(0)
         if low == "?":
@@ -212,11 +236,13 @@ def process_file(path, done):
             i += 1
             continue
 
-        ok, msg = apply_amount(r, raw)
+        ok, msg, is_total = apply_amount(r, raw)
         print(f'  {msg}')
         if ok:
             done.add(key)
             dirty = True
+            if not is_total:  # reusable pack size → remember for identical items
+                answers[r["name_da"].strip()] = raw
             i += 1
 
     if dirty:
@@ -235,7 +261,7 @@ def write_file(path, rows):
 def main():
     if not CSV_DIR.exists():
         sys.exit(f"no csv dir: {CSV_DIR}")
-    done = load_state()
+    done, answers = load_state()
 
     if len(sys.argv) > 1:
         files = [CSV_DIR / f"{sys.argv[1]}.csv"]
@@ -254,9 +280,9 @@ def main():
           "Type ? for help, q to save+quit.")
 
     for path in files:
-        process_file(path, done)
+        process_file(path, done, answers)
 
-    save_state(done)
+    save_state(done, answers)
     print("\nAll flagged lines handled. Re-run tools/report/stats.py to refresh.")
 
 
