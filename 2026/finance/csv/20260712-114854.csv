@@ -1,0 +1,8 @@
+receipt,date,vendor,line,name_da,name_en,category,type,qty,pack_size,pack_unit,total_kg,total_l,pieces,unit_price,line_total,confidence
+20260712-114854,2026-07-12,365discount Gelsted,1,Faxe Kondi Eksotisk 24-pak,Faxe Kondi soda (exotic flavor),beverage,beverage,1,7.92,l,,7.92,24,99.00,99.00,low
+20260712-114854,2026-07-12,365discount Gelsted,2,Faxe Kondi 24-pak,Faxe Kondi soda (original),beverage,beverage,1,7.92,l,,7.92,24,99.00,99.00,low
+20260712-114854,2026-07-12,365discount Gelsted,3,Faxe Kondi Lemonade 24-pak,Faxe Kondi soda (lemon-lime flavor),beverage,beverage,1,7.92,l,,7.92,24,99.00,99.00,low
+20260712-114854,2026-07-12,365discount Gelsted,4,Royal Export 18-pak,"Royal Export beer, 18-pack (price net of rebate)",beverage,beverage,2,5.94,l,,11.88,36,99.00,198.00,low
+20260712-114854,2026-07-12,365discount Gelsted,5,Faxe Kondi OKAL 24DS,Faxe Kondi zero-calorie soda,beverage,beverage,3,7.92,l,,23.76,72,99.00,297.00,low
+20260712-114854,2026-07-12,365discount Gelsted,6,Pilsner 20x33 CL,Pilsner beer,beverage,beverage,1,6.6,l,,6.6,20,99.00,99.00,high
+20260712-114854,2026-07-12,365discount Gelsted,7,Vand 50 CL,Water,beverage,beverage,54,0.5,l,,27,,2.50,135.00,high
