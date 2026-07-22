@@ -264,6 +264,8 @@ and [`trusted-sources.md`](trusted-sources.md)):
 - [glebekitchen — Indian restaurant curry base](https://glebekitchen.com/2016/12/24/indian-restaurant-curry-base/) — the make-ahead onion-tomato base gravy and blend-and-reduce technique.
 - [glebekitchen — garlic–ginger paste](https://glebekitchen.com/2016/12/09/garlic-ginger-paste/) — the aromatic base used throughout.
 - [BBC Good Food — Chicken madras](https://www.bbcgoodfood.com/recipes/chicken-madras) — independent confirmation of the madras profile (curry-powder/turmeric/chilli spicing, tomato, ginger–garlic–onion, fresh coriander finish).
+- [The Curry Guy (Dan Toombs) — restaurant-style base curry sauce](https://greatcurryrecipes.net/2013/12/31/make-indian-restaurant-style-curry-sauce-large-batch/) — independent confirmation of the base-gravy ratios and technique (onion-dominant, blend super-smooth, thin to milk at use; ~278 ml oil and ~222 g tinned tomato per kg peeled onion).
+- [Misty Ricardo (Richard Sayce) — BIR base gravy](https://mistyricardo.com/base-gravy-recipe/) — second independent confirmation of the base method (simmer ~1 h until onions collapse, blend smooth, reduce 20–30 min; ~160 ml oil per kg onion). Our oil (~222 ml/kg) sits between these two sources; our water and tomato run to the high end of their range, offset by a longer reduction and madras's tomato-forward profile.
 
 ## Photo
 
