@@ -28,12 +28,12 @@ chicken add-on, GF-friendly · make-ahead: yes (base + proteins)
 - Cook a little over: this plan makes **~26 chicken** and **~18 vegan**
   servings (44 total). Everyone can eat the vegan pot, so the **15 vegan/veg
   guests are covered with margin** and the extra is buffer.
-- **The base gravy is the scaling unit.** One base batch below (~11 L raw →
-  ~5–6 L reduced) finishes **both** curries with a little to spare. Need more
+- **The base gravy is the scaling unit.** One base batch below (~8–9 L raw →
+  ~5–6 L cooked-out) finishes **both** curries with a little to spare. Need more
   people later? Make a second base batch — it scales linearly and freezes.
-- **Where it stops:** pot size. The base is ~4.5 kg onions plus ~11 L water —
-  that will **not** fit one 15 L pot, so it's made across **two burners in
-  parallel** (see method), then combined. Rice for 40 ties up a burner for
+- **Where it stops:** pot size. The base is ~4.5 kg onions plus ~7–8 L water —
+  4.5 kg of raw onion petals is bulky, so it will **not** fit one 15 L pot; it's
+  made across **two burners in parallel** (see method), then combined. Rice for 40 ties up a burner for
   40 min unless you have the rice cooker; plan the burner schedule.
 
 ## Equipment
@@ -91,7 +91,7 @@ _Makes ~5–6 L reduced base — enough to finish both curries below. Made acros
 | Salt | 2 Tbsp (+ to taste) | salt · Salz |
 | Fresh coriander, whole stalks + leaves | 1 big bunch (~60 g) | koriander (frisk) · Koriander |
 | Neutral oil | ~950 ml (1 L) | — |
-| Boiling water | ~11 L | — |
+| Boiling water | ~7–8 L (just to cover the onions) | — |
 | Chopped tomatoes (tinned) | 4 × 400 g | flåede/hakkede tomater · Tomaten |
 
 ### 3 · Chicken madras finish (~26 servings)
@@ -149,16 +149,22 @@ finishing fast on the day.
    - Quarter the onions and pull the quarters apart into loose petals (they'll
      be blended, so rough is fine).
    - Into each pot put half of: onions, garlic–ginger paste, **madras curry
-     powder**, salt, coriander stalks, and oil. Pour in half the **boiling**
-     water (a kettle speeds this up).
+     powder**, salt, coriander stalks, and oil. Pour in **just enough boiling
+     water to cover the onions** (~3.5–4 L per pot; a kettle speeds this up).
+     Don't drown them — extra water is only extra boiling time later, and the
+     onions collapse and release their own liquid as they soften.
    - Bring to a gentle boil and simmer, loosely covered, **1 hour**, until the
      onions are completely soft.
    - Add 2 tins of tomatoes to each pot; simmer **another 20 min**.
    - Let it cool a few minutes, then **blend each pot smooth** with the stick
      blender. Keep the blender head submerged or it will paint the walls.
    - Combine into one pot if it fits, or keep two, and **simmer uncovered until
-     the oil floats up and separates** on top — this can take an hour and is
-     what gives the gravy its depth. Stir the oil back in. This is your base.
+     the oil floats up and separates** on top — the doneness marker: it means
+     the base is cooked-out and the flavour has concentrated. This is a
+     cook-*out*, not a boil-*down* — you're developing depth, not racing to
+     evaporate a set amount of water, which is why we didn't over-water to begin
+     with. It typically takes 30–60 min; go by the oil separating, not the clock
+     or the volume. Stir the oil back in. This is your base.
      Cool and refrigerate. **It keeps 3–4 days and freezes well.**
 
 3. **Pre-cook the chicken.** Restaurants cook the protein separately and drop it
@@ -265,7 +271,7 @@ and [`trusted-sources.md`](trusted-sources.md)):
 - [glebekitchen — garlic–ginger paste](https://glebekitchen.com/2016/12/09/garlic-ginger-paste/) — the aromatic base used throughout.
 - [BBC Good Food — Chicken madras](https://www.bbcgoodfood.com/recipes/chicken-madras) — independent confirmation of the madras profile (curry-powder/turmeric/chilli spicing, tomato, ginger–garlic–onion, fresh coriander finish).
 - [The Curry Guy (Dan Toombs) — restaurant-style base curry sauce](https://greatcurryrecipes.net/2013/12/31/make-indian-restaurant-style-curry-sauce-large-batch/) — independent confirmation of the base-gravy ratios and technique (onion-dominant, blend super-smooth, thin to milk at use; ~278 ml oil and ~222 g tinned tomato per kg peeled onion).
-- [Misty Ricardo (Richard Sayce) — BIR base gravy](https://mistyricardo.com/base-gravy-recipe/) — second independent confirmation of the base method (simmer ~1 h until onions collapse, blend smooth, reduce 20–30 min; ~160 ml oil per kg onion). Our oil (~222 ml/kg) sits between these two sources; our water and tomato run to the high end of their range, offset by a longer reduction and madras's tomato-forward profile.
+- [Misty Ricardo (Richard Sayce) — BIR base gravy](https://mistyricardo.com/base-gravy-recipe/) — second independent confirmation of the base method (simmer ~1 h until onions collapse, blend smooth, reduce 20–30 min; ~160 ml oil per kg onion). Our oil (~222 ml/kg) and water (~1.7 L/kg) both sit within these two sources' range; tomato runs a little high, in keeping with madras's tomato-forward profile.
 
 ## Photo
 
